@@ -7,7 +7,7 @@ Ashenbark Logs
 Whitewood Logs
 Uncommon Pine Logs
 Uncommon Cedar Logs
-Uncommon Bloodoak Logs
+Uncommon Bloodoak Logs  
 Uncommon Ashenbark Logs
 Uncommon Whitewood Logs
 Rare Pine Logs
