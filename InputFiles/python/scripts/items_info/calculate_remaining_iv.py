@@ -43,13 +43,13 @@ def get_iv(recepies,amounts):
         sum +=int(iv)
     return int(sum)
 
-file1 = open("output/items_recepie.txt","r")
-file2 = open("output/items_id.txt","r")
-file3 = open("output/items_iv.txt","r")
-file4 = open("output/items_crafting_amount.txt","r")
-file5 = open("output/items_ign.txt","r")
-file6 = open("output/resources.txt","r")
-out = open("output/items_iv_2.txt","w")
+file1 = open("output/text/items_recepie.txt","r")
+file2 = open("output/text/items_id.txt","r")
+file3 = open("output/text/items_iv.txt","r")
+file4 = open("output/text/items_crafting_amount.txt","r")
+file5 = open("output/text/items_ign.txt","r")
+file6 = open("output/text/resources.txt","r")
+out = open("output/text/items_iv_2.txt","w")
 recepie = []
 items_id = []
 items_iv = []

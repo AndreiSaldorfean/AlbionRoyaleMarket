@@ -14,11 +14,11 @@ def is_resource(item):
         return True
     return False
 
-file1 = open("output/items_tier.txt","r")
-file2 = open("output/items_level.txt","r")
-items_name = open("output/items_id.txt","r")
-resources_wrapper = open("output/resource.txt","r")
-out = open("output/items_iv.txt","w")
+file1 = open("output/text/items_tier.txt","r")
+file2 = open("output/text/items_level.txt","r")
+items_name = open("output/text/items_id.txt","r")
+resources_wrapper = open("output/text/resource.txt","r")
+out = open("output/text/items_iv.txt","w")
 resources = []
 
 for i in resources_wrapper:

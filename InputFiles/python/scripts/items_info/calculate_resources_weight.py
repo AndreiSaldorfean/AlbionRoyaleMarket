@@ -1,7 +1,7 @@
 #All artefacts are 2.0 kg so i mannually written that
-tier = open("output/items_tier.txt","r")
-level = open("output/items_level.txt","r")
-res_weight = open("output/resource_weight.txt","w")
+tier = open("output/text/items_tier.txt","r")
+level = open("output/text/items_level.txt","r")
+res_weight = open("output/text/resource_weight.txt","w")
 
 #           T2  T3  T4  T5  T6  T7  T8
 resource =[0.2,0.3,0.5,0.8,1.1,1.7,2.6]

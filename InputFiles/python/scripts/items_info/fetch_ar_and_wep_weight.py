@@ -15,8 +15,8 @@ def get_item_weight(item):
     if len(out)>100:out="-1"
     return out
 
-file = open("output/proccessed_ign.txt","r")
-out = open("output/items_weight.txt","w")
+file = open("output/text/proccessed_ign.txt","r")
+out = open("output/text/items_weight.txt","w")
 
 for i in file:
     item_weight = get_item_weight(i[:-1])

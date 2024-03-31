@@ -1,4 +1,4 @@
-out = open("output/resources.txt","w")
+out = open("output/text/resources.txt","w")
 
 resource_base = ["ORE","METALBAR","WOOD","PLANKS","FIBER","CLOTH","HIDE","LEATHER"]
 added_level = []

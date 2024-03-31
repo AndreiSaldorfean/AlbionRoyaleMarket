@@ -1,5 +1,5 @@
-file = open("output/items_ign.txt","r")
-out = open("output/proccessed_ign.txt","w")
+file = open("output/text/items_ign.txt","r")
+out = open("output/text/proccessed_ign.txt","w")
 
 for i in file:
    

@@ -3,8 +3,8 @@ def exists(item,container):
     return False
 
 input = open("input.txt","r")
-out_id = open("output/items_id.txt","w")
-out_ign = open("output/items_ign.txt","w")
+out_id = open("output/text/items_id.txt","w")
+out_ign = open("output/text/items_ign.txt","w")
 
 blacklisted_items = ["ROCK", "STONEBLOCK"] 
 must_have=["T2_","T3_","T4_","T5_","T6_","T7_","T8_"]

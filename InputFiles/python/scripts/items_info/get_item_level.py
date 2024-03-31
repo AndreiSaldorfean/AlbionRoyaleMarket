@@ -1,5 +1,5 @@
-file = open("output/items_id.txt","r")
-out = open("output/items_level.txt","w")
+file = open("output/text/items_id.txt","r")
+out = open("output/text/items_level.txt","w")
 
 for line in file:
     if line[-2].isdigit():

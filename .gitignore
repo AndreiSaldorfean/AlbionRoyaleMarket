@@ -1,4 +1,5 @@
 .gitignore
+makefile
 cea.txt
 TODO.txt
 input.txt
