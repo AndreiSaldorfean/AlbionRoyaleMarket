@@ -1,6 +1,7 @@
-.gitignore
 makefile
-cea.txt
 TODO.txt
 input.txt
 itemsCheck
+notes
+backup
+.gitignore

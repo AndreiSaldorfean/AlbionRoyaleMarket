@@ -34,7 +34,7 @@ MEAN_DISTANCE=913.2
 class Mount:
     def __init__(self,delay,move_bonus,gallop_bonus):
         self.mount_delay=delay
-        self.move_bonus=move_bonus
+        self.move_bonus=move_bonus  
         self.gallop_bonus=gallop_bonus
     def travel_time(self):
         #the estimated value shall be only an estimation

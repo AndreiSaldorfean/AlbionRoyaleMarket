@@ -1,0 +1,15 @@
+{
+	"usage_fee":{
+		"tanner":440,
+		"weaver":390,
+		"smelter":390,
+		"lumbermill":440,
+		"ToolMaker":800,
+		"warrior":800,
+		"hunter":800,
+		"mage":800
+    },
+	"mount":"",
+	"current_city":"",
+	"investment": 0
+}
