@@ -4,8 +4,8 @@ The number of traversed tiles was computed by taking into consideration the diff
 Minimum danger was prioritised,not the shortest path
 '''
 import json
-import mount
+import InputFiles.python.scripts.city_travel_cost.class_mount as class_mount
 file_input=open("cities.json")
 map_graph=json.load(file_input)
-cacal=mount.Mount(5,0.85,1.3)
+cacal=class_mount.Mount(5,0.85,1.3)
 print(cacal.city_travel_time(map_graph,"Caerlon","Lymhurst"))

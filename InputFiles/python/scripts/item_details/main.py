@@ -2,7 +2,7 @@
 # {
 # 	ItemName: Bloodletter
 #   CraftingTax: 20s
-#   Recepie{
+#   Recipe{
 # 	  Resource1: 20
 #     Resource2: 20
 #     Artefact: 1000
@@ -21,7 +21,7 @@
 #crafting_tax.push_back(int(((unit.item_value*0.1125)*unit.usage_fee[unit.id])/100));]
 #crafting tax = ((item_value*0.1125)*usage fee)/100
 
-import api_item
+import class_api_item
 import json
 import time
 
@@ -58,27 +58,62 @@ def assign_city(category):
 
     return ""
 
-info_file   = open("InputFiles/python/output/json/items_info_list.json","r")
-api_file    = open("InputFiles/python/output/json/api_prices.json","r")
-cities_file = open("InputFiles/python/output/json/cities.json","r")
-out         = open("InputFiles/python/output/json/api_items_price.json","w")
-info_json   = json.load(info_file)
-api_json    = json.load(api_file)
-cities_json = json.load(cities_file)
-items       = tuple(info_json.items())
+def get_usage_fee(station):
+    if usage_fee_json["usage_fee"].get(station) is not None:
+        return usage_fee_json["usage_fee"][station]
+    return 9999
+        
+info_file       = open("InputFiles/python/output/json/items_info_list.json","r")
+api_file        = open("InputFiles/python/output/json/api_prices.json","r")
+cities_file     = open("InputFiles/python/output/json/cities.json","r")
+site_input_file = open("InputFiles/python/output/json/site_input.json","r")
+out             = open("InputFiles/python/output/json/api_items_price.json","w")
+info_json       = json.load(info_file)
+api_prices_json = json.load(api_file)
+cities_json     = json.load(cities_file)
+usage_fee_json  = json.load(site_input_file)
+items           = tuple(info_json.items())
+quality         = 0
+revision_buy    = 0
+revision_sell   = 0
+price_buy       = 0
+price_sell      = 0
+city_buy        = ""
+city_sell       = ""
 
 out.write("{\n")
 for i in info_json:
-    item_value = 0
-    usage_fee  = 0
-    crafting_tax = ((item_value*0.1125)*usage_fee)/100
+
+    if api_prices_json.get(i) is not None:
+        quality       = api_prices_json[i]["quality"]
+        revision_buy  = api_prices_json[i]["revision_buy"]
+        revision_sell = api_prices_json[i]["revision_sell"]
+        price_buy     = api_prices_json[i]["price_buy"]
+        price_sell    = api_prices_json[i]["price_sell"]
+        city_buy      = api_prices_json[i]["city_buy"]
+        city_sell     = api_prices_json[i]["city_sell"]
+    else:
+        quality         = 0
+        revision_buy    = 0
+        revision_sell   = 0
+        price_buy       = 0
+        price_sell      = 0
+        city_buy        = ""
+        city_sell       = ""
+    item_value = int(info_json[i]["item_value"])
+    usage_fee  = get_usage_fee(info_json[i]["crafting_station"])
+    crafting_tax = int(((item_value*0.1125)*int(usage_fee))/100)
+    if i[1] == "2":
+        crafting_tax = 0
     city_craft = assign_city(info_json[i]["category"])
 
-    api_item_obj = api_item.ApiItem(i,info_json[i]["item_ign"], info_json[i]["item_value"],
-                                    info_json[i]["weight"],info_json[i]["recepie"],
+
+    api_item_obj = class_api_item.ApiItem(i,info_json[i]["item_ign"], item_value,
+                                    float(info_json[i]["weight"]),info_json[i]["recepie"],
                                     info_json[i]["recepie_amounts"],info_json[i]["category"],
-                                    info_json[i]["crafting_station"],crafting_tax, 1, 1,1,100,
-                                    100,"Lymhurst", "Caerleon",city_craft)
+                                    info_json[i]["crafting_station"],crafting_tax, quality,
+                                    revision_sell, revision_buy, price_sell, price_buy,
+                                    city_sell, city_buy,city_craft)
     string =  api_item_obj.toJSON()
     if items[len(items)-1][0] == i:
         out.write(string[2:-2]+"\n")

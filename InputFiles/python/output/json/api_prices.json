@@ -1,10 +1,20 @@
 {
-	"item_id":"T2_LEATHER",  
-	"price_buy":134,
-	"price_sell":1234,
-	"revision_buy": 120,
-	"revision_sell": 90,
-	"quality":1,
-	"city_buy":"Lymhurst",
-	"city_sell":"Caerleon"
+	"T4_LEATHER":{
+		"price_buy":120,
+		"price_sell":191,
+		"revision_buy": 120,
+		"revision_sell": 90,
+		"quality":1,
+		"city_buy":"Martlock",
+		"city_sell":"Caerleon"
+	},
+	"T4_PLANKS":{
+		"price_buy":120,
+		"price_sell":191,
+		"revision_buy": 120,
+		"revision_sell": 90,
+		"quality":1,
+		"city_buy":"Martlock",
+		"city_sell":"Caerleon"
+	}
 }
