@@ -44,7 +44,7 @@ def data_fetching():#used for fetching data via API
             url=url[:-1]#removing "," for the last item
             url=url+URL_END
             data_request=requests.get(url)
-            print(data_request.status_code)
+            print("Status code:",data_request.status_code)
             append_file(data_request)
             url=URL_BEGIN
 generate_items_list()

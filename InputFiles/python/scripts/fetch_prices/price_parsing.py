@@ -45,21 +45,30 @@ indices=len(prices_list)
 while index<indices:
     buy_data=search_min_sell(index)
     sell_data=search_max_buy(index)
-    temp={prices_list[index][ "item_id"]:{
-        "price_buy":buy_data[0],
-        "price_sell":sell_data[0],
-        "revision_buy":str((datetime.now()-buy_data[1]).seconds/60),
-        "revision_sell":str((datetime.now()-sell_data[1]).seconds/60),
-                        #the time difference is converted into minutes,then into a string
-        "quality":1,
-        "city_buy":buy_data[2],
-        "city_sell":sell_data[2]
-    }}
-    temp=json.dumps(temp,indent=4)
-    if index<indices-6:
-        temp=temp[2:-2]+",\n" # the opening and closing "{}" are removed from the list in order to format it properly
-    else:
-        temp=temp[2:-2]+"\n}\n"
-    fout.write(temp)
+    if (buy_data[0] >sell_data[0]*0.3 and buy_data[0]<sell_data[0]) and (sell_data[0] >0):
+        #filtering out items whoose prices are null
+        #or are too big
+        temp={prices_list[index][ "item_id"]:{
+            "price_buy":buy_data[0],
+            "price_sell":sell_data[0],
+            "revision_buy":str(int((datetime.now()-buy_data[1]).seconds/60)),
+            "revision_sell":str(int((datetime.now()-sell_data[1]).seconds/60)),
+                            #the time difference is converted into minutes,then into a string
+            "quality":1,
+            "city_buy":buy_data[2],
+            "city_sell":sell_data[2]
+        }}
+        temp=json.dumps(temp,indent=4)
+        # the opening and closing "{}" are removed from the list in order to format it properly
+        if index <indices-6 :
+            temp=temp[2:-2]+"\n,"    
+        fout.write(temp)
     index=index+NUM_CITIES
+fout.close()
+with open(PARSED_PRICES_FILE, 'rb+') as fin: 
+    fin.seek(-1, 2) 
+    fin.truncate() #removing "," character for the final item
+fin.close()
+fout=open(PARSED_PRICES_FILE,"a")
+fout.write("}") #closing the .json file
 fout.close()
