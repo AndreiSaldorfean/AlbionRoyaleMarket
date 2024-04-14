@@ -12,7 +12,15 @@ out.write("{\n")
 output = ""
 rpe    = []
 
+second_dict = {}
+
 for i in api_prices_json:
+    if recipe.items_recipe.get(i) is not None:
+        second_dict[i] = api_prices_json[i]
+    if recipe.materials_recipe.get(i) is not None:
+        second_dict[i] = api_prices_json[i]
+ 
+for i in second_dict:
     if recipe.items_recipe.get(i) is not None:
         rpe = recipe.items_recipe[i]
     if recipe.materials_recipe.get(i) is not None:

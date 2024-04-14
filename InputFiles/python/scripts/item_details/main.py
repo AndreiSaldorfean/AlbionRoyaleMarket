@@ -65,7 +65,7 @@ def get_usage_fee(station):
         
 info_file       = open("InputFiles/python/output/json/items_info_list.json","r")
 api_file        = open("InputFiles/python/output/json/parsed_prices.json","r")
-cities_file     = open("InputFiles/python/output/json/cities.json","r")
+cities_file     = open("InputFiles/python/json/cities.json","r")
 site_input_file = open("InputFiles/python/output/json/site_input.json","r")
 out             = open("InputFiles/python/output/json/api_items_price.json","w")
 info_json       = json.load(info_file)

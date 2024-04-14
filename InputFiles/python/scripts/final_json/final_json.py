@@ -33,11 +33,11 @@ where "*" denotes any possible value
 '''
 import sys
 import json
-sys.path.append('../city_travel_cost')
-import class_mount 
+sys.path.append('InputFiles/python/scripts/city_travel_cost')
+import class_mount
 import useful_functions
-ITEMS_FILE="../../output/json/api_items_prices.json"
-OUTPUT_FILE="../../output/json/final.json"
+ITEMS_FILE="InputFiles/python/output/json/processed_items.json"
+OUTPUT_FILE="InputFiles/python/output/json/final.json"
 investment=20000#from web application
 mount_load_capacity=1000##from web application
 player_mount=class_mount.Mount(4,0.5,0.85,1000)#from web application

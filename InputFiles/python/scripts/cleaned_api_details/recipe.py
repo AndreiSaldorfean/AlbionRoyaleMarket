@@ -244,6 +244,8 @@ for i in items:
     craft_list = []
     
     #the principle is the same
+    if i == "T4_MAIN_RAPIER_MORGANA@1":
+        pass
     wrapper    = find_item_recipe(items[i],nca)
     buy_list   = wrapper[0]
     craft_list = wrapper[1]

@@ -1,9 +1,9 @@
 import sys
 import random
-sys.path.append('../city_travel_cost')
+sys.path.append('InputFiles/python/scripts/city_travel_cost')
 import class_mount
 import json
-MAP_FILE="../../../json/cities.json"
+MAP_FILE="InputFiles/json/cities.json"
 REFINING_BONUS=1.58
 CRAFTING_BONUS=1.33
 MARKET_PERCENTAGE=0.92 #the market takes 8% per item
