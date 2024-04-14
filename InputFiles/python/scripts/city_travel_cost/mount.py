@@ -32,10 +32,11 @@ The "cities.json" file is structred as follows:
 DEFAULT_SPEED=5.5
 MEAN_DISTANCE=913.2
 class Mount:
-    def __init__(self,delay,move_bonus,gallop_bonus):
+    def __init__(self,delay,move_bonus,gallop_bonus,carry_load):
         self.mount_delay=delay
         self.move_bonus=move_bonus
         self.gallop_bonus=gallop_bonus
+        self.carry_load=carry_load
     def travel_time(self):
         #the estimated value shall be only an estimation
         #speed0*delay+speed1*(time_final-delay)=distance
@@ -57,3 +58,5 @@ class Mount:
                    distance_from_start=map[start_city]["NeighbouringCities"][index]
             min_distance=min_distance+distance_from_start
             return tile_time*min_distance
+    def get_carry_load(self):
+        return self.carry_load

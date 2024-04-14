@@ -3,7 +3,7 @@
 	{
 		"NeighbouringCities":{
 			"Fort Sterling":6,
-			"Caerlon":6,
+			"Caerleon":6,
 			"Bridgewatch":6
 		},
 		"RefiningBonus":{
@@ -22,7 +22,7 @@
 	{
 		"NeighbouringCities":{
 			"Thetford":5,
-			"Caerlon":4,
+			"Caerleon":4,
 			"Lymhurst":6
 		},
 		"RefiningBonus":{
@@ -42,7 +42,7 @@
 	{
 		"NeighbouringCities":{
 			"Fort Sterling":5,
-			"Caerlon":6,
+			"Caerleon":6,
 			"Martlock":5
 		},
 		"RefiningBonus":{
@@ -61,7 +61,7 @@
 	{
 		"NeighbouringCities":{
 			"Bridgewatch":5,
-			"Caerlon":5,
+			"Caerleon":5,
 			"Thetford":6
 		},
 		"RefiningBonus":{
@@ -80,7 +80,7 @@
 	{
 		"NeighbouringCities":{
 			"Lymhurst":6,
-			"Caerlon":4,
+			"Caerleon":4,
 			"Martlock":5
 		},
 		"RefiningBonus":{
@@ -95,7 +95,7 @@
 			"Cloth Shoes":0.15
 		}
 	},
-	"Caerlon":
+	"Caerleon":
 	{
 		"NeighbouringCities":{
 			"Lymhurst":6,

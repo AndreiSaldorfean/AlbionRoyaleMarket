@@ -1,8 +1,9 @@
 import json
 import os
 from datetime import datetime
-PRICES_FILE="../../output//json//fetched_prices.json"
-PARSED_PRICES_FILE="../../output//json//parsed_prices.json"
+PRICE_PERCENTAGE=0.3
+PRICES_FILE="../../output/json/fetched_prices.json"
+PARSED_PRICES_FILE="../../output/json/parsed_prices.json"
 NUM_CITIES=6#number of cities=number of instances when an item appears on the prices file
 fin=open(PRICES_FILE,"r")
 prices_list=json.load(fin)
@@ -14,7 +15,7 @@ def search_min_sell(index):
     sell_date="1989"
     city_buy="Aiud"
     for i in range(NUM_CITIES):
-        if min_sell_price>prices_list[index+i]["sell_price_min"]:
+        if (min_sell_price>prices_list[index+i]["sell_price_min"] )and (prices_list[index+i]["sell_price_min"] >0):
             min_sell_price=prices_list[index+i]["sell_price_min"]
             sell_date=prices_list[index+i]["sell_price_min_date"]
             sell_date=datetime.fromisoformat(sell_date)#converting string to ISO 8601 date
@@ -45,7 +46,7 @@ indices=len(prices_list)
 while index<indices:
     buy_data=search_min_sell(index)
     sell_data=search_max_buy(index)
-    if (buy_data[0] >sell_data[0]*0.3 and buy_data[0]<sell_data[0]) and (sell_data[0] >0):
+    if (buy_data[0]>sell_data[0]*PRICE_PERCENTAGE and buy_data[0]<sell_data[0]) and (sell_data[0] >0):
         #filtering out items whoose prices are null
         #or are too big
         temp={prices_list[index][ "item_id"]:{

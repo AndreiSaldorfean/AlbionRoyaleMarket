@@ -7,5 +7,6 @@ import json
 import mount
 file_input=open("../../../json/cities.json")
 map_graph=json.load(file_input)
-test_mount=mount.Mount(5,0.85,1.3)
+test_mount=mount.Mount(5,0.85,1.3,1111)
+print(test_mount.get_carry_load())
 print(test_mount.city_travel_time(map_graph,"Caerlon","Lymhurst"))
