@@ -8,33 +8,33 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    4651,
-                    11
+                    2247,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    9302,
-                    16
+                    4494,
+                    40
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    7348,
-                    85,
-                    14697
+                    "Thetford",
+                    3550,
+                    86,
+                    7101
                 ]
             ]
         },
-        "city_sell": "Martlock",
-        "city_buy": "Bridgewatch",
-        "price_buy": 85,
-        "price_sell": 95,
-        "city_craft": "",
-        "revision_sell": "247",
-        "revision_buy": "382",
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 86,
+        "price_sell": 142,
+        "city_craft": "Thetford",
+        "revision_sell": "424",
+        "revision_buy": "224",
         "quality": 1,
         "crafting_tax": 2
     },
@@ -47,46 +47,46 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    838,
-                    11
+                    891,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    1676,
-                    16
+                    1782,
+                    40
                 ],
                 [
                     "T4_ORE",
                     "Bridgewatch",
-                    2649,
-                    33
+                    2816,
+                    28
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    1324,
-                    85,
-                    2649
+                    "Thetford",
+                    1408,
+                    86,
+                    2816
                 ],
                 [
                     "T4_METALBAR",
                     "Thetford",
-                    2092,
-                    124,
-                    10463
+                    2225,
+                    111,
+                    11126
                 ]
             ]
         },
         "city_sell": "Thetford",
         "city_buy": "Caerleon",
-        "price_buy": 124,
-        "price_sell": 175,
-        "city_craft": "",
-        "revision_sell": "217",
-        "revision_buy": "222",
+        "price_buy": 111,
+        "price_sell": 166,
+        "city_craft": "Thetford",
+        "revision_sell": "324",
+        "revision_buy": "224",
         "quality": 1,
         "crafting_tax": 5
     },
@@ -99,54 +99,125 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    116,
-                    11
+                    126,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    233,
-                    16
+                    253,
+                    40
                 ],
                 [
                     "T4_METALBAR",
                     "Thetford",
-                    291,
-                    124
+                    315,
+                    111
                 ],
                 [
                     "T5_ORE",
-                    "Bridgewatch",
-                    875,
-                    187
+                    "Caerleon",
+                    947,
+                    174
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    184,
-                    85,
-                    369
+                    "Thetford",
+                    199,
+                    86,
+                    399
                 ],
                 [
                     "T5_METALBAR",
                     "Thetford",
-                    461,
-                    524,
-                    5074
+                    499,
+                    489,
+                    5491
                 ]
             ]
         },
         "city_sell": "Thetford",
         "city_buy": "Caerleon",
-        "price_buy": 524,
+        "price_buy": 489,
         "price_sell": 626,
-        "city_craft": "",
-        "revision_sell": "462",
-        "revision_buy": "232",
+        "city_craft": "Thetford",
+        "revision_sell": "424",
+        "revision_buy": "204",
         "quality": 1,
         "crafting_tax": 11
+    },
+    "T6_METALBAR": {
+        "id": "T6_METALBAR",
+        "ign": "Runite Steel Bar",
+        "weight": 1.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    20,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    40,
+                    40
+                ],
+                [
+                    "T4_METALBAR",
+                    "Thetford",
+                    50,
+                    111
+                ],
+                [
+                    "T5_ORE",
+                    "Caerleon",
+                    151,
+                    174
+                ],
+                [
+                    "T6_ORE",
+                    "Caerleon",
+                    319,
+                    504
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    31,
+                    86,
+                    63
+                ],
+                [
+                    "T5_METALBAR",
+                    "Thetford",
+                    79,
+                    489,
+                    878
+                ],
+                [
+                    "T6_METALBAR",
+                    "Bridgewatch",
+                    126,
+                    2100,
+                    2775
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 2100,
+        "price_sell": 2183,
+        "city_craft": "Thetford",
+        "revision_sell": "424",
+        "revision_buy": "1109",
+        "quality": 1,
+        "crafting_tax": 22
     },
     "T4_METALBAR_LEVEL1@1": {
         "id": "T4_METALBAR_LEVEL1@1",
@@ -157,46 +228,46 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    335,
-                    11
+                    301,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    671,
-                    16
+                    602,
+                    40
                 ],
                 [
                     "T4_ORE_LEVEL1@1",
                     "Caerleon",
-                    1061,
-                    146
+                    952,
+                    167
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    530,
-                    85,
-                    1061
+                    "Thetford",
+                    476,
+                    86,
+                    952
                 ],
                 [
                     "T4_METALBAR_LEVEL1@1",
                     "Fort Sterling",
-                    838,
-                    335,
-                    9220
+                    752,
+                    362,
+                    8276
                 ]
             ]
         },
         "city_sell": "Fort Sterling",
         "city_buy": "Caerleon",
-        "price_buy": 335,
-        "price_sell": 430,
-        "city_craft": "",
-        "revision_sell": "217",
-        "revision_buy": "312",
+        "price_buy": 362,
+        "price_sell": 431,
+        "city_craft": "Thetford",
+        "revision_sell": "324",
+        "revision_buy": "284",
         "quality": 1,
         "crafting_tax": 11
     },
@@ -209,52 +280,52 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    52,
-                    11
+                    57,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    105,
-                    16
+                    114,
+                    40
                 ],
                 [
                     "T4_METALBAR_LEVEL1@1",
                     "Fort Sterling",
-                    132,
-                    335
+                    142,
+                    362
                 ],
                 [
                     "T5_ORE_LEVEL1@1",
                     "Caerleon",
-                    396,
-                    393
+                    428,
+                    346
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    83,
-                    85,
-                    167
+                    "Thetford",
+                    90,
+                    86,
+                    180
                 ],
                 [
                     "T5_METALBAR_LEVEL1@1",
                     "Caerleon",
-                    208,
-                    1391,
-                    4591
+                    225,
+                    1399,
+                    4965
                 ]
             ]
         },
         "city_sell": "Caerleon",
         "city_buy": "Thetford",
-        "price_buy": 1391,
-        "price_sell": 1428,
-        "city_craft": "",
-        "revision_sell": "902",
-        "revision_buy": "462",
+        "price_buy": 1399,
+        "price_sell": 1493,
+        "city_craft": "Thetford",
+        "revision_sell": "424",
+        "revision_buy": "209",
         "quality": 1,
         "crafting_tax": 22
     },
@@ -267,48 +338,177 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    111,
-                    11
+                    108,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    223,
-                    16
+                    217,
+                    40
                 ],
                 [
                     "T4_ORE_LEVEL2@2",
                     "Caerleon",
-                    353,
-                    523
+                    343,
+                    539
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    176,
-                    85,
-                    353
+                    "Thetford",
+                    171,
+                    86,
+                    343
                 ],
                 [
                     "T4_METALBAR_LEVEL2@2",
-                    "Thetford",
-                    279,
-                    1165,
-                    6146
+                    "Caerleon",
+                    271,
+                    999,
+                    5972
                 ]
             ]
         },
-        "city_sell": "Thetford",
-        "city_buy": "Martlock",
-        "price_buy": 1165,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "price_buy": 999,
         "price_sell": 1201,
-        "city_craft": "",
-        "revision_sell": "262",
-        "revision_buy": "702",
+        "city_craft": "Thetford",
+        "revision_sell": "334",
+        "revision_buy": "524",
         "quality": 1,
         "crafting_tax": 22
+    },
+    "T5_METALBAR_LEVEL2@2": {
+        "id": "T5_METALBAR_LEVEL2@2",
+        "ign": "Rare Titanium Steel Bar",
+        "weight": 0.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    15,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    31,
+                    40
+                ],
+                [
+                    "T4_METALBAR_LEVEL2@2",
+                    "Caerleon",
+                    38,
+                    999
+                ],
+                [
+                    "T5_ORE_LEVEL2@2",
+                    "Caerleon",
+                    116,
+                    1385
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    24,
+                    86,
+                    49
+                ],
+                [
+                    "T5_METALBAR_LEVEL2@2",
+                    "Caerleon",
+                    61,
+                    4499,
+                    2697
+                ]
+            ]
+        },
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "price_buy": 4499,
+        "price_sell": 4704,
+        "city_craft": "Thetford",
+        "revision_sell": "424",
+        "revision_buy": "524",
+        "quality": 1,
+        "crafting_tax": 44
+    },
+    "T6_METALBAR_LEVEL2@2": {
+        "id": "T6_METALBAR_LEVEL2@2",
+        "ign": "Rare Runite Steel Bar",
+        "weight": 1.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    2,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    4,
+                    40
+                ],
+                [
+                    "T4_METALBAR_LEVEL2@2",
+                    "Caerleon",
+                    5,
+                    999
+                ],
+                [
+                    "T5_ORE_LEVEL2@2",
+                    "Caerleon",
+                    15,
+                    1385
+                ],
+                [
+                    "T6_ORE_LEVEL2@2",
+                    "Bridgewatch",
+                    31,
+                    5169
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    3,
+                    86,
+                    6
+                ],
+                [
+                    "T5_METALBAR_LEVEL2@2",
+                    "Caerleon",
+                    7,
+                    4499,
+                    349
+                ],
+                [
+                    "T6_METALBAR_LEVEL2@2",
+                    "Fort Sterling",
+                    12,
+                    19488,
+                    1117
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "price_buy": 19488,
+        "price_sell": 20000,
+        "city_craft": "Thetford",
+        "revision_sell": "1274",
+        "revision_buy": "539",
+        "quality": 1,
+        "crafting_tax": 89
     },
     "T3_LEATHER": {
         "id": "T3_LEATHER",
@@ -319,33 +519,33 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    5405,
-                    25
+                    1785,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    10810,
-                    6
+                    "Fort Sterling",
+                    3571,
+                    44
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    8540,
-                    105,
-                    25621
+                    "Thetford",
+                    2821,
+                    113,
+                    8464
                 ]
             ]
         },
-        "city_sell": "Martlock",
-        "city_buy": "Lymhurst",
-        "price_buy": 105,
-        "price_sell": 115,
-        "city_craft": "",
-        "revision_sell": "122",
-        "revision_buy": "457",
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 113,
+        "price_sell": 149,
+        "city_craft": "Martlock",
+        "revision_sell": "994",
+        "revision_buy": "1409",
         "quality": 1,
         "crafting_tax": 3
     },
@@ -359,45 +559,45 @@
                     "T2_LEATHER",
                     "Lymhurst",
                     767,
-                    25
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
+                    "Fort Sterling",
                     1534,
-                    6
+                    44
                 ],
                 [
                     "T4_HIDE",
                     "Caerleon",
                     2424,
-                    30
+                    26
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
+                    "Thetford",
                     1212,
-                    105,
+                    113,
                     3636
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
+                    "Thetford",
                     1915,
-                    137,
+                    140,
                     13406
                 ]
             ]
         },
-        "city_sell": "Martlock",
+        "city_sell": "Thetford",
         "city_buy": "Caerleon",
-        "price_buy": 137,
-        "price_sell": 182,
-        "city_craft": "",
-        "revision_sell": "1247",
-        "revision_buy": "262",
+        "price_buy": 140,
+        "price_sell": 206,
+        "city_craft": "Martlock",
+        "revision_sell": "429",
+        "revision_buy": "424",
         "quality": 1,
         "crafting_tax": 7
     },
@@ -410,54 +610,125 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    89,
-                    25
+                    75,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    178,
-                    6
+                    "Fort Sterling",
+                    150,
+                    44
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    223,
-                    137
+                    "Thetford",
+                    187,
+                    140
                 ],
                 [
                     "T5_HIDE",
                     "Caerleon",
-                    669,
-                    253
+                    563,
+                    308
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    141,
-                    105,
-                    423
+                    "Thetford",
+                    118,
+                    113,
+                    356
                 ],
                 [
                     "T5_LEATHER",
                     "Martlock",
-                    352,
-                    650,
-                    5290
+                    296,
+                    692,
+                    4454
                 ]
             ]
         },
         "city_sell": "Martlock",
         "city_buy": "Caerleon",
-        "price_buy": 650,
-        "price_sell": 901,
-        "city_craft": "",
-        "revision_sell": "902",
-        "revision_buy": "262",
+        "price_buy": 692,
+        "price_sell": 881,
+        "city_craft": "Martlock",
+        "revision_sell": "229",
+        "revision_buy": "564",
         "quality": 1,
         "crafting_tax": 15
+    },
+    "T6_LEATHER": {
+        "id": "T6_LEATHER",
+        "ign": "Hardened Leather",
+        "weight": 1.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    11,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    22,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    28,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    84,
+                    308
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    176,
+                    957
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    17,
+                    113,
+                    53
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    44,
+                    692,
+                    663
+                ],
+                [
+                    "T6_LEATHER",
+                    "Fort Sterling",
+                    69,
+                    3396,
+                    2167
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "price_buy": 3396,
+        "price_sell": 3764,
+        "city_craft": "Martlock",
+        "revision_sell": "429",
+        "revision_buy": "539",
+        "quality": 1,
+        "crafting_tax": 31
     },
     "T4_LEATHER_LEVEL1@1": {
         "id": "T4_LEATHER_LEVEL1@1",
@@ -468,46 +739,46 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    529,
-                    25
+                    272,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    1059,
-                    6
+                    "Fort Sterling",
+                    544,
+                    44
                 ],
                 [
                     "T4_HIDE_LEVEL1@1",
-                    "Bridgewatch",
-                    1673,
-                    67
+                    "Lymhurst",
+                    860,
+                    176
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    836,
-                    105,
-                    2510
+                    "Thetford",
+                    430,
+                    113,
+                    1290
                 ],
                 [
                     "T4_LEATHER_LEVEL1@1",
                     "Martlock",
-                    1322,
-                    312,
-                    19832
+                    679,
+                    333,
+                    10193
                 ]
             ]
         },
         "city_sell": "Martlock",
         "city_buy": "Caerleon",
-        "price_buy": 312,
-        "price_sell": 351,
-        "city_craft": "",
-        "revision_sell": "217",
-        "revision_buy": "262",
+        "price_buy": 333,
+        "price_sell": 354,
+        "city_craft": "Martlock",
+        "revision_sell": "324",
+        "revision_buy": "419",
         "quality": 1,
         "crafting_tax": 15
     },
@@ -520,46 +791,46 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    70,
-                    25
+                    74,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    141,
-                    6
+                    "Fort Sterling",
+                    148,
+                    44
                 ],
                 [
                     "T4_HIDE_LEVEL2@2",
-                    "Lymhurst",
-                    223,
-                    842
+                    "Fort Sterling",
+                    234,
+                    798
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    111,
-                    105,
-                    335
+                    "Thetford",
+                    117,
+                    113,
+                    351
                 ],
                 [
                     "T4_LEATHER_LEVEL2@2",
-                    "Bridgewatch",
-                    176,
-                    1303,
-                    5475
+                    "Martlock",
+                    184,
+                    1284,
+                    5732
                 ]
             ]
         },
-        "city_sell": "Bridgewatch",
+        "city_sell": "Martlock",
         "city_buy": "Lymhurst",
-        "price_buy": 1303,
-        "price_sell": 1400,
-        "city_craft": "",
-        "revision_sell": "957",
-        "revision_buy": "257",
+        "price_buy": 1284,
+        "price_sell": 1420,
+        "city_craft": "Martlock",
+        "revision_sell": "1209",
+        "revision_buy": "904",
         "quality": 1,
         "crafting_tax": 31
     },
@@ -572,52 +843,52 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    12,
-                    25
+                    13,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    24,
-                    6
+                    "Fort Sterling",
+                    26,
+                    44
                 ],
                 [
                     "T4_LEATHER_LEVEL2@2",
-                    "Bridgewatch",
-                    30,
-                    1303
+                    "Martlock",
+                    33,
+                    1284
                 ],
                 [
                     "T5_HIDE_LEVEL2@2",
-                    "Lymhurst",
-                    91,
-                    1740
+                    "Fort Sterling",
+                    99,
+                    1588
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    19,
-                    105,
-                    58
+                    "Thetford",
+                    20,
+                    113,
+                    62
                 ],
                 [
                     "T5_LEATHER_LEVEL2@2",
                     "Martlock",
-                    48,
-                    4937,
-                    3051
+                    52,
+                    4958,
+                    3291
                 ]
             ]
         },
         "city_sell": "Martlock",
-        "city_buy": "Caerleon",
-        "price_buy": 4937,
-        "price_sell": 5005,
-        "city_craft": "",
-        "revision_sell": "987",
-        "revision_buy": "262",
+        "city_buy": "Fort Sterling",
+        "price_buy": 4958,
+        "price_sell": 5200,
+        "city_craft": "Martlock",
+        "revision_sell": "209",
+        "revision_buy": "904",
         "quality": 1,
         "crafting_tax": 63
     },
@@ -631,45 +902,45 @@
                     "T2_LEATHER",
                     "Lymhurst",
                     12,
-                    25
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    24,
-                    6
+                    "Fort Sterling",
+                    25,
+                    44
                 ],
                 [
                     "T4_HIDE_LEVEL3@3",
-                    "Fort Sterling",
-                    38,
-                    5131
+                    "Caerleon",
+                    39,
+                    4982
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
+                    "Thetford",
                     19,
-                    105,
-                    57
+                    113,
+                    59
                 ],
                 [
                     "T4_LEATHER_LEVEL3@3",
-                    "Thetford",
-                    30,
-                    7092,
-                    1920
+                    "Caerleon",
+                    31,
+                    7265,
+                    1975
                 ]
             ]
         },
-        "city_sell": "Thetford",
-        "city_buy": "Lymhurst",
-        "price_buy": 7092,
-        "price_sell": 7500,
-        "city_craft": "",
-        "revision_sell": "122",
-        "revision_buy": "302",
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "price_buy": 7265,
+        "price_sell": 7800,
+        "city_craft": "Martlock",
+        "revision_sell": "209",
+        "revision_buy": "239",
         "quality": 1,
         "crafting_tax": 63
     },
@@ -683,122 +954,823 @@
                     "T2_LEATHER",
                     "Lymhurst",
                     2,
-                    25
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
+                    "Fort Sterling",
                     5,
-                    6
+                    44
                 ],
                 [
                     "T4_LEATHER_LEVEL3@3",
-                    "Thetford",
-                    6,
-                    7092
+                    "Caerleon",
+                    7,
+                    7265
                 ],
                 [
-                    "T5_LEATHER_LEVEL3@3",
-                    "Bridgewatch",
-                    10,
-                    18449
+                    "T5_HIDE_LEVEL3@3",
+                    "Caerleon",
+                    21,
+                    6948
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
+                    "Thetford",
                     4,
-                    105,
-                    12
+                    113,
+                    13
+                ],
+                [
+                    "T5_LEATHER_LEVEL3@3",
+                    "Bridgewatch",
+                    11,
+                    18400,
+                    1416
                 ]
             ]
         },
         "city_sell": "Bridgewatch",
         "city_buy": "Martlock",
-        "price_buy": 18449,
-        "price_sell": 18501,
-        "city_craft": "",
-        "revision_sell": "262",
-        "revision_buy": "257",
+        "price_buy": 18400,
+        "price_sell": 18752,
+        "city_craft": "Martlock",
+        "revision_sell": "199",
+        "revision_buy": "1384",
         "quality": 1,
         "crafting_tax": 126
     },
-    "T4_LEATHER_LEVEL4@4": {
-        "id": "T4_LEATHER_LEVEL4@4",
-        "ign": "Pristine Worked Leather",
-        "weight": 0.5,
+    "T3_CLOTH": {
+        "id": "T3_CLOTH",
+        "ign": "Neat Cloth",
+        "weight": 0.3,
         "recipe": {
             "buy": [
                 [
-                    "T2_LEATHER",
-                    "Lymhurst",
-                    2,
-                    25
-                ],
-                [
-                    "T3_HIDE",
+                    "T2_FIBER",
                     "Bridgewatch",
-                    4,
-                    6
+                    1406,
+                    17
                 ],
                 [
-                    "T4_HIDE_LEVEL4@4",
-                    "Fort Sterling",
-                    6,
-                    30999
+                    "T3_FIBER",
+                    "Thetford",
+                    4444,
+                    39
                 ]
             ],
             "craft": [
                 [
-                    "T3_LEATHER",
-                    "Martlock",
-                    3,
-                    105,
-                    9
-                ],
-                [
-                    "T4_LEATHER_LEVEL4@4",
-                    "Caerleon",
-                    5,
-                    39578,
-                    641
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    3511,
+                    100,
+                    10533
                 ]
             ]
         },
-        "city_sell": "Caerleon",
-        "city_buy": "Bridgewatch",
-        "price_buy": 39578,
-        "price_sell": 40000,
-        "city_craft": "",
-        "revision_sell": "257",
-        "revision_buy": "1247",
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "price_buy": 100,
+        "price_sell": 177,
+        "city_craft": "Lymhurst",
+        "revision_sell": "209",
+        "revision_buy": "599",
         "quality": 1,
-        "crafting_tax": 126
+        "crafting_tax": 3
     },
-    "T2_HEAD_PLATE_SET1": {
-        "id": "T2_HEAD_PLATE_SET1",
-        "ign": "Novice's Soldier Helmet",
+    "T4_CLOTH": {
+        "id": "T4_CLOTH",
+        "ign": "Fine Cloth",
+        "weight": 0.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    465,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    1471,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    2325,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    1162,
+                    100,
+                    3488
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    1837,
+                    152,
+                    12860
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 152,
+        "price_sell": 231,
+        "city_craft": "Lymhurst",
+        "revision_sell": "209",
+        "revision_buy": "309",
+        "quality": 1,
+        "crafting_tax": 7
+    },
+    "T5_CLOTH": {
+        "id": "T5_CLOTH",
+        "ign": "Ornate Cloth",
+        "weight": 0.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    76,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    243,
+                    39
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    303,
+                    152
+                ],
+                [
+                    "T5_FIBER",
+                    "Caerleon",
+                    910,
+                    169
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    192,
+                    100,
+                    576
+                ],
+                [
+                    "T5_CLOTH",
+                    "Thetford",
+                    479,
+                    470,
+                    6713
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 470,
+        "price_sell": 620,
+        "city_craft": "Lymhurst",
+        "revision_sell": "229",
+        "revision_buy": "254",
+        "quality": 1,
+        "crafting_tax": 14
+    },
+    "T6_CLOTH": {
+        "id": "T6_CLOTH",
+        "ign": "Lavish Cloth",
+        "weight": 1.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    12,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    40,
+                    39
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    50,
+                    152
+                ],
+                [
+                    "T5_FIBER",
+                    "Caerleon",
+                    150,
+                    169
+                ],
+                [
+                    "T6_FIBER",
+                    "Caerleon",
+                    317,
+                    513
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    31,
+                    100,
+                    95
+                ],
+                [
+                    "T5_CLOTH",
+                    "Thetford",
+                    79,
+                    470,
+                    1110
+                ],
+                [
+                    "T6_CLOTH",
+                    "Lymhurst",
+                    125,
+                    2004,
+                    3508
+                ]
+            ]
+        },
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "price_buy": 2004,
+        "price_sell": 2211,
+        "city_craft": "Lymhurst",
+        "revision_sell": "429",
+        "revision_buy": "429",
+        "quality": 1,
+        "crafting_tax": 28
+    },
+    "T7_CLOTH": {
+        "id": "T7_CLOTH",
+        "ign": "Opulent Cloth",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    3,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    9,
+                    39
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    11,
+                    152
+                ],
+                [
+                    "T5_CLOTH",
+                    "Thetford",
+                    18,
+                    470
+                ],
+                [
+                    "T6_FIBER",
+                    "Caerleon",
+                    75,
+                    513
+                ],
+                [
+                    "T7_FIBER",
+                    "Caerleon",
+                    149,
+                    935
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    7,
+                    100,
+                    22
+                ],
+                [
+                    "T6_CLOTH",
+                    "Lymhurst",
+                    29,
+                    2004,
+                    838
+                ],
+                [
+                    "T7_CLOTH",
+                    "Thetford",
+                    47,
+                    5049,
+                    2649
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 5049,
+        "price_sell": 5200,
+        "city_craft": "Lymhurst",
+        "revision_sell": "429",
+        "revision_buy": "479",
+        "quality": 1,
+        "crafting_tax": 56
+    },
+    "T4_CLOTH_LEVEL1@1": {
+        "id": "T4_CLOTH_LEVEL1@1",
+        "ign": "Uncommon Fine Cloth",
+        "weight": 0.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    202,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    639,
+                    39
+                ],
+                [
+                    "T4_FIBER_LEVEL1@1",
+                    "Bridgewatch",
+                    1010,
+                    148
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    505,
+                    100,
+                    1515
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Martlock",
+                    797,
+                    302,
+                    11171
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "price_buy": 302,
+        "price_sell": 333,
+        "city_craft": "Lymhurst",
+        "revision_sell": "434",
+        "revision_buy": "434",
+        "quality": 1,
+        "crafting_tax": 14
+    },
+    "T5_CLOTH_LEVEL1@1": {
+        "id": "T5_CLOTH_LEVEL1@1",
+        "ign": "Uncommon Ornate Cloth",
+        "weight": 0.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    37,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    116,
+                    39
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Martlock",
+                    145,
+                    302
+                ],
+                [
+                    "T5_FIBER_LEVEL1@1",
+                    "Caerleon",
+                    437,
+                    356
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    92,
+                    100,
+                    277
+                ],
+                [
+                    "T5_CLOTH_LEVEL1@1",
+                    "Bridgewatch",
+                    230,
+                    1268,
+                    6458
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 1268,
+        "price_sell": 1432,
+        "city_craft": "Lymhurst",
+        "revision_sell": "434",
+        "revision_buy": "309",
+        "quality": 1,
+        "crafting_tax": 28
+    },
+    "T4_CLOTH_LEVEL2@2": {
+        "id": "T4_CLOTH_LEVEL2@2",
+        "ign": "Rare Fine Cloth",
+        "weight": 0.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    44,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    141,
+                    39
+                ],
+                [
+                    "T4_FIBER_LEVEL2@2",
+                    "Martlock",
+                    223,
+                    845
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    111,
+                    100,
+                    335
+                ],
+                [
+                    "T4_CLOTH_LEVEL2@2",
+                    "Lymhurst",
+                    176,
+                    1500,
+                    4943
+                ]
+            ]
+        },
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "price_buy": 1500,
+        "price_sell": 1721,
+        "city_craft": "Lymhurst",
+        "revision_sell": "444",
+        "revision_buy": "504",
+        "quality": 1,
+        "crafting_tax": 28
+    },
+    "T2_CAPE": {
+        "id": "T2_CAPE",
+        "ign": "Novice's Cape",
         "weight": 0.8,
         "recipe": {
             "buy": [],
             "craft": [
                 [
-                    "T2_HEAD_PLATE_SET1",
+                    "T2_CAPE",
+                    "Martlock",
+                    2194,
+                    36,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "price_buy": 36,
+        "price_sell": 51,
+        "city_craft": "",
+        "revision_sell": "944",
+        "revision_buy": "1169",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T4_CAPE": {
+        "id": "T4_CAPE",
+        "ign": "Adept's Cape",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    68,
+                    24
+                ],
+                [
+                    "T3_HIDE",
                     "Fort Sterling",
-                    3590,
-                    30,
+                    137,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    216,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    108,
+                    113,
+                    325
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    171,
+                    140,
+                    1198
+                ],
+                [
+                    "T4_CAPE",
+                    "Lymhurst",
+                    270,
+                    1049,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "price_buy": 1049,
+        "price_sell": 1204,
+        "city_craft": "",
+        "revision_sell": "1049",
+        "revision_buy": "994",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T6_CAPE": {
+        "id": "T6_CAPE",
+        "ign": "Master's Cape",
+        "weight": 3.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    1,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    2,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    3,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    11,
+                    308
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    23,
+                    957
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    2,
+                    113,
+                    7
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    5,
+                    692,
+                    87
+                ],
+                [
+                    "T6_LEATHER",
+                    "Fort Sterling",
+                    9,
+                    3396,
+                    287
+                ],
+                [
+                    "T6_CAPE",
+                    "Bridgewatch",
+                    14,
+                    13999,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 13999,
+        "price_sell": 14900,
+        "city_craft": "",
+        "revision_sell": "789",
+        "revision_buy": "1179",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T2_BAG": {
+        "id": "T2_BAG",
+        "ign": "Novice's Bag",
+        "weight": 1.5,
+        "recipe": {
+            "buy": [],
+            "craft": [
+                [
+                    "T2_BAG",
+                    "Fort Sterling",
+                    731,
+                    380,
                     0
                 ]
             ]
         },
         "city_sell": "Fort Sterling",
+        "city_buy": "Martlock",
+        "price_buy": 380,
+        "price_sell": 400,
+        "city_craft": "",
+        "revision_sell": "284",
+        "revision_buy": "189",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T4_BAG": {
+        "id": "T4_BAG",
+        "ign": "Adept's Bag",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    34,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    68,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    108,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    54,
+                    113,
+                    162
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    85,
+                    140,
+                    599
+                ],
+                [
+                    "T4_BAG",
+                    "Lymhurst",
+                    135,
+                    2312,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Lymhurst",
         "city_buy": "Caerleon",
-        "price_buy": 30,
-        "price_sell": 41,
-        "city_craft": "Fort Sterling",
-        "revision_sell": "1052",
-        "revision_buy": "267",
+        "price_buy": 2312,
+        "price_sell": 3361,
+        "city_craft": "",
+        "revision_sell": "204",
+        "revision_buy": "1084",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T5_BAG": {
+        "id": "T5_BAG",
+        "ign": "Expert's Bag",
+        "weight": 5.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    5,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    10,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    13,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    40,
+                    308
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    8,
+                    113,
+                    25
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    21,
+                    692,
+                    322
+                ],
+                [
+                    "T5_BAG",
+                    "Thetford",
+                    33,
+                    8657,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 8657,
+        "price_sell": 9920,
+        "city_craft": "",
+        "revision_sell": "369",
+        "revision_buy": "929",
         "quality": 1,
         "crafting_tax": 0
     },
@@ -811,229 +1783,118 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    186,
-                    11
+                    183,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    372,
-                    16
+                    367,
+                    40
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    294,
-                    85,
-                    588
+                    "Thetford",
+                    290,
+                    86,
+                    581
                 ],
                 [
                     "T3_HEAD_PLATE_SET1",
+                    "Fort Sterling",
+                    459,
+                    342,
+                    26180
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Lymhurst",
+        "price_buy": 342,
+        "price_sell": 448,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "454",
+        "revision_buy": "234",
+        "quality": 1,
+        "crafting_tax": 57
+    },
+    "T6_ARMOR_PLATE_SET1": {
+        "id": "T6_ARMOR_PLATE_SET1",
+        "ign": "Master's Soldier Armor",
+        "weight": 7.6,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    0,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    1,
+                    40
+                ],
+                [
+                    "T4_METALBAR",
                     "Thetford",
-                    464,
-                    345,
-                    26488
+                    2,
+                    111
+                ],
+                [
+                    "T5_ORE",
+                    "Caerleon",
+                    7,
+                    174
+                ],
+                [
+                    "T6_ORE",
+                    "Caerleon",
+                    15,
+                    504
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    1,
+                    86,
+                    3
+                ],
+                [
+                    "T5_METALBAR",
+                    "Thetford",
+                    3,
+                    489,
+                    41
+                ],
+                [
+                    "T6_METALBAR",
+                    "Bridgewatch",
+                    5,
+                    2100,
+                    130
+                ],
+                [
+                    "T6_ARMOR_PLATE_SET1",
+                    "Thetford",
+                    9,
+                    14892,
+                    8661
                 ]
             ]
         },
         "city_sell": "Thetford",
         "city_buy": "Caerleon",
-        "price_buy": 345,
-        "price_sell": 587,
-        "city_craft": "Fort Sterling",
-        "revision_sell": "237",
-        "revision_buy": "582",
-        "quality": 1,
-        "crafting_tax": 57
-    },
-    "T4_HEAD_PLATE_SET1": {
-        "id": "T4_HEAD_PLATE_SET1",
-        "ign": "Adept's Soldier Helmet",
-        "weight": 1.7,
-        "recipe": {
-            "buy": [
-                [
-                    "T2_METALBAR",
-                    "Martlock",
-                    80,
-                    11
-                ],
-                [
-                    "T3_ORE",
-                    "Bridgewatch",
-                    161,
-                    16
-                ],
-                [
-                    "T4_ORE",
-                    "Bridgewatch",
-                    255,
-                    33
-                ]
-            ],
-            "craft": [
-                [
-                    "T3_METALBAR",
-                    "Martlock",
-                    127,
-                    85,
-                    255
-                ],
-                [
-                    "T4_METALBAR",
-                    "Thetford",
-                    201,
-                    124,
-                    1008
-                ],
-                [
-                    "T4_HEAD_PLATE_SET1",
-                    "Lymhurst",
-                    318,
-                    557,
-                    36633
-                ]
-            ]
-        },
-        "city_sell": "Lymhurst",
-        "city_buy": "Caerleon",
-        "price_buy": 557,
-        "price_sell": 716,
-        "city_craft": "Fort Sterling",
-        "revision_sell": "227",
-        "revision_buy": "967",
-        "quality": 1,
-        "crafting_tax": 115
-    },
-    "T5_HEAD_PLATE_SET1@1": {
-        "id": "T5_HEAD_PLATE_SET1@1",
-        "ign": "Expert's Soldier Helmet",
-        "weight": 2.5,
-        "recipe": {
-            "buy": [
-                [
-                    "T2_METALBAR",
-                    "Martlock",
-                    4,
-                    11
-                ],
-                [
-                    "T3_ORE",
-                    "Bridgewatch",
-                    9,
-                    16
-                ],
-                [
-                    "T4_METALBAR_LEVEL1@1",
-                    "Fort Sterling",
-                    11,
-                    335
-                ],
-                [
-                    "T5_ORE_LEVEL1@1",
-                    "Caerleon",
-                    34,
-                    393
-                ]
-            ],
-            "craft": [
-                [
-                    "T3_METALBAR",
-                    "Martlock",
-                    7,
-                    85,
-                    14
-                ],
-                [
-                    "T5_METALBAR_LEVEL1@1",
-                    "Caerleon",
-                    17,
-                    1391,
-                    395
-                ],
-                [
-                    "T5_HEAD_PLATE_SET1@1",
-                    "Bridgewatch",
-                    28,
-                    7169,
-                    13062
-                ]
-            ]
-        },
-        "city_sell": "Bridgewatch",
-        "city_buy": "Caerleon",
-        "price_buy": 7169,
-        "price_sell": 7322,
-        "city_craft": "Fort Sterling",
-        "revision_sell": "237",
-        "revision_buy": "192",
-        "quality": 1,
-        "crafting_tax": 460
-    },
-    "T5_ARMOR_PLATE_SET1@1": {
-        "id": "T5_ARMOR_PLATE_SET1@1",
-        "ign": "Expert's Soldier Armor",
-        "weight": 5.1,
-        "recipe": {
-            "buy": [
-                [
-                    "T2_METALBAR",
-                    "Martlock",
-                    2,
-                    11
-                ],
-                [
-                    "T3_ORE",
-                    "Bridgewatch",
-                    4,
-                    16
-                ],
-                [
-                    "T4_METALBAR_LEVEL1@1",
-                    "Fort Sterling",
-                    5,
-                    335
-                ],
-                [
-                    "T5_ORE_LEVEL1@1",
-                    "Caerleon",
-                    17,
-                    393
-                ]
-            ],
-            "craft": [
-                [
-                    "T3_METALBAR",
-                    "Martlock",
-                    3,
-                    85,
-                    7
-                ],
-                [
-                    "T5_METALBAR_LEVEL1@1",
-                    "Caerleon",
-                    8,
-                    1391,
-                    197
-                ],
-                [
-                    "T5_ARMOR_PLATE_SET1@1",
-                    "Bridgewatch",
-                    14,
-                    9999,
-                    13076
-                ]
-            ]
-        },
-        "city_sell": "Bridgewatch",
-        "city_buy": "Lymhurst",
-        "price_buy": 9999,
-        "price_sell": 11109,
+        "price_buy": 14892,
+        "price_sell": 16420,
         "city_craft": "Bridgewatch",
-        "revision_sell": "757",
-        "revision_buy": "307",
+        "revision_sell": "9",
+        "revision_buy": "354",
         "quality": 1,
         "crafting_tax": 921
     },
@@ -1046,53 +1907,53 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    80,
-                    11
+                    90,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    161,
-                    16
+                    180,
+                    40
                 ],
                 [
                     "T4_ORE",
                     "Bridgewatch",
-                    255,
-                    33
+                    285,
+                    28
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    127,
-                    85,
-                    255
+                    "Thetford",
+                    142,
+                    86,
+                    285
                 ],
                 [
                     "T4_METALBAR",
                     "Thetford",
-                    201,
-                    124,
-                    1008
+                    225,
+                    111,
+                    1126
                 ],
                 [
                     "T4_SHOES_PLATE_SET1",
-                    "Thetford",
-                    318,
-                    867,
-                    36633
+                    "Martlock",
+                    355,
+                    696,
+                    40923
                 ]
             ]
         },
-        "city_sell": "Thetford",
+        "city_sell": "Martlock",
         "city_buy": "Caerleon",
-        "price_buy": 867,
+        "price_buy": 696,
         "price_sell": 1023,
         "city_craft": "Martlock",
-        "revision_sell": "1052",
-        "revision_buy": "207",
+        "revision_sell": "404",
+        "revision_buy": "974",
         "quality": 1,
         "crafting_tax": 115
     },
@@ -1105,53 +1966,53 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    8,
-                    11
+                    10,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    17,
-                    16
+                    20,
+                    40
                 ],
                 [
                     "T4_ORE_LEVEL2@2",
                     "Caerleon",
-                    27,
-                    523
+                    31,
+                    539
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    13,
-                    85,
-                    27
+                    "Thetford",
+                    15,
+                    86,
+                    31
                 ],
                 [
                     "T4_METALBAR_LEVEL2@2",
-                    "Thetford",
-                    21,
-                    1165,
-                    472
+                    "Caerleon",
+                    25,
+                    999,
+                    550
                 ],
                 [
                     "T4_SHOES_PLATE_SET1@2",
-                    "Thetford",
-                    33,
-                    9982,
-                    15596
+                    "Martlock",
+                    39,
+                    6996,
+                    18188
                 ]
             ]
         },
-        "city_sell": "Thetford",
+        "city_sell": "Martlock",
         "city_buy": "Lymhurst",
-        "price_buy": 9982,
-        "price_sell": 10271,
+        "price_buy": 6996,
+        "price_sell": 10294,
         "city_craft": "Martlock",
-        "revision_sell": "862",
-        "revision_buy": "247",
+        "revision_sell": "1309",
+        "revision_buy": "149",
         "quality": 1,
         "crafting_tax": 460
     },
@@ -1164,53 +2025,53 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    80,
-                    11
+                    90,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    161,
-                    16
+                    180,
+                    40
                 ],
                 [
                     "T4_ORE",
                     "Bridgewatch",
-                    255,
-                    33
+                    285,
+                    28
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    127,
-                    85,
-                    255
+                    "Thetford",
+                    142,
+                    86,
+                    285
                 ],
                 [
                     "T4_METALBAR",
                     "Thetford",
-                    201,
-                    124,
-                    1008
+                    225,
+                    111,
+                    1126
                 ],
                 [
                     "T4_HEAD_PLATE_SET2",
-                    "Fort Sterling",
-                    318,
-                    494,
-                    36633
+                    "Lymhurst",
+                    355,
+                    498,
+                    40923
                 ]
             ]
         },
-        "city_sell": "Fort Sterling",
-        "city_buy": "Caerleon",
-        "price_buy": 494,
-        "price_sell": 709,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "price_buy": 498,
+        "price_sell": 611,
         "city_craft": "Fort Sterling",
-        "revision_sell": "197",
-        "revision_buy": "732",
+        "revision_sell": "659",
+        "revision_buy": "484",
         "quality": 1,
         "crafting_tax": 115
     },
@@ -1223,55 +2084,133 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    40,
-                    11
+                    45,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    80,
-                    16
+                    90,
+                    40
                 ],
                 [
                     "T4_ORE",
                     "Bridgewatch",
-                    127,
-                    33
+                    142,
+                    28
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    63,
-                    85,
-                    127
+                    "Thetford",
+                    71,
+                    86,
+                    142
                 ],
                 [
                     "T4_METALBAR",
                     "Thetford",
-                    100,
-                    124,
-                    504
+                    112,
+                    111,
+                    563
                 ],
                 [
                     "T4_ARMOR_PLATE_SET2",
                     "Thetford",
-                    159,
-                    756,
-                    36633
+                    177,
+                    1105,
+                    40923
                 ]
             ]
         },
         "city_sell": "Thetford",
-        "city_buy": "Lymhurst",
-        "price_buy": 756,
-        "price_sell": 830,
+        "city_buy": "Caerleon",
+        "price_buy": 1105,
+        "price_sell": 1546,
         "city_craft": "Bridgewatch",
-        "revision_sell": "807",
-        "revision_buy": "202",
+        "revision_sell": "244",
+        "revision_buy": "214",
         "quality": 1,
         "crafting_tax": 230
+    },
+    "T6_ARMOR_PLATE_SET2": {
+        "id": "T6_ARMOR_PLATE_SET2",
+        "ign": "Master's Knight Armor",
+        "weight": 7.6,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    0,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    1,
+                    40
+                ],
+                [
+                    "T4_METALBAR",
+                    "Thetford",
+                    2,
+                    111
+                ],
+                [
+                    "T5_ORE",
+                    "Caerleon",
+                    7,
+                    174
+                ],
+                [
+                    "T6_ORE",
+                    "Caerleon",
+                    15,
+                    504
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    1,
+                    86,
+                    3
+                ],
+                [
+                    "T5_METALBAR",
+                    "Thetford",
+                    3,
+                    489,
+                    41
+                ],
+                [
+                    "T6_METALBAR",
+                    "Bridgewatch",
+                    5,
+                    2100,
+                    130
+                ],
+                [
+                    "T6_ARMOR_PLATE_SET2",
+                    "Thetford",
+                    9,
+                    14493,
+                    8661
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Bridgewatch",
+        "price_buy": 14493,
+        "price_sell": 15441,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "1309",
+        "revision_buy": "354",
+        "quality": 1,
+        "crafting_tax": 921
     },
     "T4_SHOES_PLATE_SET2": {
         "id": "T4_SHOES_PLATE_SET2",
@@ -1282,120 +2221,55 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    80,
-                    11
+                    90,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    161,
-                    16
+                    180,
+                    40
                 ],
                 [
                     "T4_ORE",
                     "Bridgewatch",
-                    255,
-                    33
+                    285,
+                    28
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    127,
-                    85,
-                    255
+                    "Thetford",
+                    142,
+                    86,
+                    285
                 ],
                 [
                     "T4_METALBAR",
                     "Thetford",
-                    201,
-                    124,
-                    1008
+                    225,
+                    111,
+                    1126
                 ],
                 [
                     "T4_SHOES_PLATE_SET2",
-                    "Martlock",
-                    318,
-                    660,
-                    36633
-                ]
-            ]
-        },
-        "city_sell": "Martlock",
-        "city_buy": "Caerleon",
-        "price_buy": 660,
-        "price_sell": 975,
-        "city_craft": "Martlock",
-        "revision_sell": "227",
-        "revision_buy": "1192",
-        "quality": 1,
-        "crafting_tax": 115
-    },
-    "T5_SHOES_PLATE_SET2": {
-        "id": "T5_SHOES_PLATE_SET2",
-        "ign": "Expert's Knight Boots",
-        "weight": 2.5,
-        "recipe": {
-            "buy": [
-                [
-                    "T2_METALBAR",
-                    "Martlock",
-                    12,
-                    11
-                ],
-                [
-                    "T3_ORE",
-                    "Bridgewatch",
-                    24,
-                    16
-                ],
-                [
-                    "T4_METALBAR",
-                    "Thetford",
-                    30,
-                    124
-                ],
-                [
-                    "T5_ORE",
-                    "Bridgewatch",
-                    90,
-                    187
-                ]
-            ],
-            "craft": [
-                [
-                    "T3_METALBAR",
-                    "Martlock",
-                    19,
-                    85,
-                    38
-                ],
-                [
-                    "T5_METALBAR",
-                    "Thetford",
-                    47,
-                    524,
-                    524
-                ],
-                [
-                    "T5_SHOES_PLATE_SET2",
                     "Lymhurst",
-                    75,
-                    2686,
-                    17337
+                    355,
+                    569,
+                    40923
                 ]
             ]
         },
         "city_sell": "Lymhurst",
-        "city_buy": "Bridgewatch",
-        "price_buy": 2686,
-        "price_sell": 3001,
+        "city_buy": "Lymhurst",
+        "price_buy": 569,
+        "price_sell": 761,
         "city_craft": "Martlock",
-        "revision_sell": "1052",
-        "revision_buy": "597",
+        "revision_sell": "484",
+        "revision_buy": "484",
         "quality": 1,
-        "crafting_tax": 230
+        "crafting_tax": 115
     },
     "T4_HEAD_PLATE_SET3": {
         "id": "T4_HEAD_PLATE_SET3",
@@ -1406,53 +2280,348 @@
                 [
                     "T2_METALBAR",
                     "Martlock",
-                    80,
-                    11
+                    90,
+                    9
                 ],
                 [
                     "T3_ORE",
                     "Bridgewatch",
-                    161,
-                    16
+                    180,
+                    40
                 ],
                 [
                     "T4_ORE",
                     "Bridgewatch",
-                    255,
-                    33
+                    285,
+                    28
                 ]
             ],
             "craft": [
                 [
                     "T3_METALBAR",
-                    "Martlock",
-                    127,
-                    85,
-                    255
+                    "Thetford",
+                    142,
+                    86,
+                    285
                 ],
                 [
                     "T4_METALBAR",
                     "Thetford",
-                    201,
-                    124,
-                    1008
+                    225,
+                    111,
+                    1126
                 ],
                 [
                     "T4_HEAD_PLATE_SET3",
                     "Fort Sterling",
-                    318,
-                    367,
-                    36633
+                    355,
+                    419,
+                    40923
                 ]
             ]
         },
         "city_sell": "Fort Sterling",
-        "city_buy": "Caerleon",
-        "price_buy": 367,
-        "price_sell": 487,
+        "city_buy": "Martlock",
+        "price_buy": 419,
+        "price_sell": 612,
         "city_craft": "Fort Sterling",
-        "revision_sell": "232",
-        "revision_buy": "267",
+        "revision_sell": "174",
+        "revision_buy": "199",
+        "quality": 1,
+        "crafting_tax": 115
+    },
+    "T4_HEAD_PLATE_SET3@1": {
+        "id": "T4_HEAD_PLATE_SET3@1",
+        "ign": "Adept's Guardian Helmet",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    27,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    55,
+                    40
+                ],
+                [
+                    "T4_ORE_LEVEL1@1",
+                    "Caerleon",
+                    87,
+                    167
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    43,
+                    86,
+                    87
+                ],
+                [
+                    "T4_METALBAR_LEVEL1@1",
+                    "Fort Sterling",
+                    69,
+                    362,
+                    759
+                ],
+                [
+                    "T4_HEAD_PLATE_SET3@1",
+                    "Martlock",
+                    109,
+                    1996,
+                    25096
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "price_buy": 1996,
+        "price_sell": 2662,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "364",
+        "revision_buy": "174",
+        "quality": 1,
+        "crafting_tax": 230
+    },
+    "T4_HEAD_PLATE_SET3@2": {
+        "id": "T4_HEAD_PLATE_SET3@2",
+        "ign": "Adept's Guardian Helmet",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    10,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    20,
+                    40
+                ],
+                [
+                    "T4_ORE_LEVEL2@2",
+                    "Caerleon",
+                    31,
+                    539
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    15,
+                    86,
+                    31
+                ],
+                [
+                    "T4_METALBAR_LEVEL2@2",
+                    "Caerleon",
+                    25,
+                    999,
+                    550
+                ],
+                [
+                    "T4_HEAD_PLATE_SET3@2",
+                    "Fort Sterling",
+                    39,
+                    8963,
+                    18188
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "price_buy": 8963,
+        "price_sell": 10150,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "564",
+        "revision_buy": "34",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T4_ARMOR_PLATE_SET3@2": {
+        "id": "T4_ARMOR_PLATE_SET3@2",
+        "ign": "Adept's Guardian Armor",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    5,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    10,
+                    40
+                ],
+                [
+                    "T4_ORE_LEVEL2@2",
+                    "Caerleon",
+                    15,
+                    539
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    7,
+                    86,
+                    15
+                ],
+                [
+                    "T4_METALBAR_LEVEL2@2",
+                    "Caerleon",
+                    12,
+                    999,
+                    275
+                ],
+                [
+                    "T4_ARMOR_PLATE_SET3@2",
+                    "Bridgewatch",
+                    19,
+                    9992,
+                    18207
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 9992,
+        "price_sell": 12100,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "1309",
+        "revision_buy": "564",
+        "quality": 1,
+        "crafting_tax": 921
+    },
+    "T4_SHOES_PLATE_SET3": {
+        "id": "T4_SHOES_PLATE_SET3",
+        "ign": "Adept's Guardian Boots",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    90,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    180,
+                    40
+                ],
+                [
+                    "T4_ORE",
+                    "Bridgewatch",
+                    285,
+                    28
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    142,
+                    86,
+                    285
+                ],
+                [
+                    "T4_METALBAR",
+                    "Thetford",
+                    225,
+                    111,
+                    1126
+                ],
+                [
+                    "T4_SHOES_PLATE_SET3",
+                    "Thetford",
+                    355,
+                    775,
+                    40923
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 775,
+        "price_sell": 1080,
+        "city_craft": "Martlock",
+        "revision_sell": "244",
+        "revision_buy": "119",
+        "quality": 1,
+        "crafting_tax": 115
+    },
+    "T4_HEAD_LEATHER_SET1": {
+        "id": "T4_HEAD_LEATHER_SET1",
+        "ign": "Adept's Mercenary Hood",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    71,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    143,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    226,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    113,
+                    113,
+                    339
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    178,
+                    140,
+                    1250
+                ],
+                [
+                    "T4_HEAD_LEATHER_SET1",
+                    "Lymhurst",
+                    282,
+                    749,
+                    32446
+                ]
+            ]
+        },
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "price_buy": 749,
+        "price_sell": 854,
+        "city_craft": "Lymhurst",
+        "revision_sell": "1419",
+        "revision_buy": "1119",
         "quality": 1,
         "crafting_tax": 115
     },
@@ -1465,179 +2634,251 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    36,
-                    25
+                    35,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    73,
-                    6
+                    "Fort Sterling",
+                    71,
+                    44
                 ],
                 [
                     "T4_HIDE",
                     "Caerleon",
-                    115,
-                    30
+                    113,
+                    26
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    57,
-                    105,
-                    173
+                    "Thetford",
+                    56,
+                    113,
+                    169
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    91,
-                    137,
-                    638
+                    "Thetford",
+                    89,
+                    140,
+                    625
                 ],
                 [
                     "T4_ARMOR_LEATHER_SET1",
                     "Thetford",
-                    144,
-                    798,
-                    33156
+                    141,
+                    791,
+                    32446
                 ]
             ]
         },
         "city_sell": "Thetford",
         "city_buy": "Caerleon",
-        "price_buy": 798,
-        "price_sell": 1065,
+        "price_buy": 791,
+        "price_sell": 1039,
         "city_craft": "Thetford",
-        "revision_sell": "202",
-        "revision_buy": "257",
+        "revision_sell": "889",
+        "revision_buy": "229",
         "quality": 1,
         "crafting_tax": 230
     },
-    "T4_ARMOR_LEATHER_SET1@1": {
-        "id": "T4_ARMOR_LEATHER_SET1@1",
-        "ign": "Adept's Mercenary Jacket",
+    "T4_SHOES_LEATHER_SET1": {
+        "id": "T4_SHOES_LEATHER_SET1",
+        "ign": "Adept's Mercenary Shoes",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    71,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    143,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    226,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    113,
+                    113,
+                    339
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    178,
+                    140,
+                    1250
+                ],
+                [
+                    "T4_SHOES_LEATHER_SET1",
+                    "Martlock",
+                    282,
+                    858,
+                    32446
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "price_buy": 858,
+        "price_sell": 891,
+        "city_craft": "Lymhurst",
+        "revision_sell": "549",
+        "revision_buy": "1419",
+        "quality": 1,
+        "crafting_tax": 115
+    },
+    "T4_ARMOR_LEATHER_SET2": {
+        "id": "T4_ARMOR_LEATHER_SET2",
+        "ign": "Adept's Hunter Jacket",
         "weight": 3.4,
         "recipe": {
             "buy": [
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    16,
-                    25
+                    35,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    32,
-                    6
+                    "Fort Sterling",
+                    71,
+                    44
                 ],
                 [
-                    "T4_HIDE_LEVEL1@1",
-                    "Bridgewatch",
-                    50,
-                    67
+                    "T4_HIDE",
+                    "Caerleon",
+                    113,
+                    26
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    25,
-                    105,
-                    76
-                ],
-                [
-                    "T4_LEATHER_LEVEL1@1",
-                    "Martlock",
-                    40,
-                    312,
-                    600
-                ],
-                [
-                    "T4_ARMOR_LEATHER_SET1@1",
                     "Thetford",
-                    63,
-                    3983,
-                    29118
+                    56,
+                    113,
+                    169
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    89,
+                    140,
+                    625
+                ],
+                [
+                    "T4_ARMOR_LEATHER_SET2",
+                    "Fort Sterling",
+                    141,
+                    1188,
+                    32446
                 ]
             ]
         },
-        "city_sell": "Thetford",
-        "city_buy": "Lymhurst",
-        "price_buy": 3983,
-        "price_sell": 4456,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "price_buy": 1188,
+        "price_sell": 1513,
         "city_craft": "Thetford",
-        "revision_sell": "207",
-        "revision_buy": "207",
+        "revision_sell": "244",
+        "revision_buy": "999",
         "quality": 1,
-        "crafting_tax": 460
+        "crafting_tax": 230
     },
-    "T5_ARMOR_LEATHER_SET1": {
-        "id": "T5_ARMOR_LEATHER_SET1",
-        "ign": "Expert's Mercenary Jacket",
-        "weight": 5.1,
+    "T6_ARMOR_LEATHER_SET2": {
+        "id": "T6_ARMOR_LEATHER_SET2",
+        "ign": "Master's Hunter Jacket",
+        "weight": 7.6,
         "recipe": {
             "buy": [
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    4,
-                    25
+                    0,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    9,
-                    6
+                    "Fort Sterling",
+                    1,
+                    44
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    12,
-                    137
+                    "Thetford",
+                    1,
+                    140
                 ],
                 [
                     "T5_HIDE",
                     "Caerleon",
-                    36,
-                    253
+                    4,
+                    308
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    9,
+                    957
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    7,
-                    105,
-                    23
+                    "Thetford",
+                    0,
+                    113,
+                    2
                 ],
                 [
                     "T5_LEATHER",
                     "Martlock",
-                    19,
-                    650,
-                    288
+                    2,
+                    692,
+                    34
                 ],
                 [
-                    "T5_ARMOR_LEATHER_SET1",
-                    "Thetford",
-                    30,
-                    7449,
-                    13976
+                    "T6_LEATHER",
+                    "Fort Sterling",
+                    3,
+                    3396,
+                    114
+                ],
+                [
+                    "T6_ARMOR_LEATHER_SET2",
+                    "Martlock",
+                    5,
+                    24160,
+                    5356
                 ]
             ]
         },
-        "city_sell": "Thetford",
-        "city_buy": "Caerleon",
-        "price_buy": 7449,
-        "price_sell": 8037,
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "price_buy": 24160,
+        "price_sell": 27033,
         "city_craft": "Thetford",
-        "revision_sell": "1052",
-        "revision_buy": "1237",
+        "revision_sell": "1309",
+        "revision_buy": "119",
         "quality": 1,
-        "crafting_tax": 460
+        "crafting_tax": 921
     },
     "T4_SHOES_LEATHER_SET2": {
         "id": "T4_SHOES_LEATHER_SET2",
@@ -1648,120 +2889,524 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    73,
-                    25
+                    71,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    146,
-                    6
+                    "Fort Sterling",
+                    143,
+                    44
                 ],
                 [
                     "T4_HIDE",
                     "Caerleon",
-                    230,
-                    30
+                    226,
+                    26
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    115,
-                    105,
-                    346
+                    "Thetford",
+                    113,
+                    113,
+                    339
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    182,
-                    137,
-                    1277
+                    "Thetford",
+                    178,
+                    140,
+                    1250
                 ],
                 [
                     "T4_SHOES_LEATHER_SET2",
                     "Lymhurst",
-                    288,
-                    699,
-                    33156
+                    282,
+                    851,
+                    32446
                 ]
             ]
         },
         "city_sell": "Lymhurst",
-        "city_buy": "Caerleon",
-        "price_buy": 699,
-        "price_sell": 921,
+        "city_buy": "Martlock",
+        "price_buy": 851,
+        "price_sell": 860,
         "city_craft": "Lymhurst",
-        "revision_sell": "142",
-        "revision_buy": "647",
+        "revision_sell": "584",
+        "revision_buy": "564",
         "quality": 1,
         "crafting_tax": 115
     },
-    "T5_ARMOR_LEATHER_SET3": {
-        "id": "T5_ARMOR_LEATHER_SET3",
-        "ign": "Expert's Assassin Jacket",
-        "weight": 5.1,
+    "T5_SHOES_LEATHER_SET2": {
+        "id": "T5_SHOES_LEATHER_SET2",
+        "ign": "Expert's Hunter Shoes",
+        "weight": 2.5,
         "recipe": {
             "buy": [
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    4,
-                    25
+                    9,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    9,
-                    6
+                    "Fort Sterling",
+                    18,
+                    44
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    12,
-                    137
+                    "Thetford",
+                    22,
+                    140
                 ],
                 [
                     "T5_HIDE",
                     "Caerleon",
-                    36,
-                    253
+                    68,
+                    308
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    7,
-                    105,
-                    23
+                    "Thetford",
+                    14,
+                    113,
+                    43
                 ],
                 [
                     "T5_LEATHER",
                     "Martlock",
-                    19,
-                    650,
-                    288
+                    36,
+                    692,
+                    541
                 ],
                 [
-                    "T5_ARMOR_LEATHER_SET3",
+                    "T5_SHOES_LEATHER_SET2",
+                    "Thetford",
+                    57,
+                    3593,
+                    13128
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Fort Sterling",
+        "price_buy": 3593,
+        "price_sell": 4572,
+        "city_craft": "Lymhurst",
+        "revision_sell": "1309",
+        "revision_buy": "194",
+        "quality": 1,
+        "crafting_tax": 230
+    },
+    "T5_SHOES_LEATHER_SET2@2": {
+        "id": "T5_SHOES_LEATHER_SET2@2",
+        "ign": "Expert's Hunter Shoes",
+        "weight": 2.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
                     "Lymhurst",
-                    30,
-                    6196,
-                    13976
+                    1,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    2,
+                    44
+                ],
+                [
+                    "T4_LEATHER_LEVEL2@2",
+                    "Martlock",
+                    3,
+                    1284
+                ],
+                [
+                    "T5_HIDE_LEVEL2@2",
+                    "Fort Sterling",
+                    9,
+                    1588
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    2,
+                    113,
+                    6
+                ],
+                [
+                    "T5_LEATHER_LEVEL2@2",
+                    "Martlock",
+                    5,
+                    4958,
+                    317
+                ],
+                [
+                    "T5_SHOES_LEATHER_SET2@2",
+                    "Martlock",
+                    7,
+                    22000,
+                    7337
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "price_buy": 22000,
+        "price_sell": 29325,
+        "city_craft": "Lymhurst",
+        "revision_sell": "384",
+        "revision_buy": "269",
+        "quality": 1,
+        "crafting_tax": 921
+    },
+    "T6_SHOES_LEATHER_SET2": {
+        "id": "T6_SHOES_LEATHER_SET2",
+        "ign": "Master's Hunter Shoes",
+        "weight": 3.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    1,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    2,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    2,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    8,
+                    308
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    18,
+                    957
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    1,
+                    113,
+                    5
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    4,
+                    692,
+                    69
+                ],
+                [
+                    "T6_LEATHER",
+                    "Fort Sterling",
+                    7,
+                    3396,
+                    228
+                ],
+                [
+                    "T6_SHOES_LEATHER_SET2",
+                    "Thetford",
+                    11,
+                    13999,
+                    5350
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Bridgewatch",
+        "price_buy": 13999,
+        "price_sell": 16006,
+        "city_craft": "Lymhurst",
+        "revision_sell": "1309",
+        "revision_buy": "364",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T4_HEAD_LEATHER_SET3": {
+        "id": "T4_HEAD_LEATHER_SET3",
+        "ign": "Adept's Assassin Hood",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    71,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    143,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    226,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    113,
+                    113,
+                    339
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    178,
+                    140,
+                    1250
+                ],
+                [
+                    "T4_HEAD_LEATHER_SET3",
+                    "Lymhurst",
+                    282,
+                    436,
+                    32446
                 ]
             ]
         },
         "city_sell": "Lymhurst",
-        "city_buy": "Caerleon",
-        "price_buy": 6196,
-        "price_sell": 7624,
-        "city_craft": "Thetford",
-        "revision_sell": "392",
-        "revision_buy": "187",
+        "city_buy": "Martlock",
+        "price_buy": 436,
+        "price_sell": 815,
+        "city_craft": "Lymhurst",
+        "revision_sell": "1309",
+        "revision_buy": "734",
+        "quality": 1,
+        "crafting_tax": 115
+    },
+    "T5_HEAD_LEATHER_SET3": {
+        "id": "T5_HEAD_LEATHER_SET3",
+        "ign": "Expert's Assassin Hood",
+        "weight": 2.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    9,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    18,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    22,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    68,
+                    308
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    14,
+                    113,
+                    43
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    36,
+                    692,
+                    541
+                ],
+                [
+                    "T5_HEAD_LEATHER_SET3",
+                    "Martlock",
+                    57,
+                    3621,
+                    13128
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "price_buy": 3621,
+        "price_sell": 3718,
+        "city_craft": "Lymhurst",
+        "revision_sell": "734",
+        "revision_buy": "824",
+        "quality": 1,
+        "crafting_tax": 230
+    },
+    "T6_HEAD_LEATHER_SET3": {
+        "id": "T6_HEAD_LEATHER_SET3",
+        "ign": "Master's Assassin Hood",
+        "weight": 3.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    1,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    2,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    2,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    8,
+                    308
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    18,
+                    957
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    1,
+                    113,
+                    5
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    4,
+                    692,
+                    69
+                ],
+                [
+                    "T6_LEATHER",
+                    "Fort Sterling",
+                    7,
+                    3396,
+                    228
+                ],
+                [
+                    "T6_HEAD_LEATHER_SET3",
+                    "Fort Sterling",
+                    11,
+                    15982,
+                    5350
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "price_buy": 15982,
+        "price_sell": 16002,
+        "city_craft": "Lymhurst",
+        "revision_sell": "1309",
+        "revision_buy": "469",
         "quality": 1,
         "crafting_tax": 460
+    },
+    "T4_ARMOR_LEATHER_SET3": {
+        "id": "T4_ARMOR_LEATHER_SET3",
+        "ign": "Adept's Assassin Jacket",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    35,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    71,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    113,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    56,
+                    113,
+                    169
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    89,
+                    140,
+                    625
+                ],
+                [
+                    "T4_ARMOR_LEATHER_SET3",
+                    "Martlock",
+                    141,
+                    968,
+                    32446
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "price_buy": 968,
+        "price_sell": 1587,
+        "city_craft": "Thetford",
+        "revision_sell": "244",
+        "revision_buy": "244",
+        "quality": 1,
+        "crafting_tax": 230
     },
     "T4_SHOES_LEATHER_SET3": {
         "id": "T4_SHOES_LEATHER_SET3",
@@ -1772,120 +3417,1530 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    73,
-                    25
+                    71,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    146,
-                    6
+                    "Fort Sterling",
+                    143,
+                    44
                 ],
                 [
                     "T4_HIDE",
                     "Caerleon",
-                    230,
-                    30
+                    226,
+                    26
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    115,
-                    105,
-                    346
+                    "Thetford",
+                    113,
+                    113,
+                    339
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    182,
-                    137,
-                    1277
+                    "Thetford",
+                    178,
+                    140,
+                    1250
                 ],
                 [
                     "T4_SHOES_LEATHER_SET3",
-                    "Lymhurst",
-                    288,
-                    590,
-                    33156
+                    "Fort Sterling",
+                    282,
+                    871,
+                    32446
                 ]
             ]
         },
-        "city_sell": "Lymhurst",
+        "city_sell": "Fort Sterling",
         "city_buy": "Martlock",
-        "price_buy": 590,
-        "price_sell": 901,
+        "price_buy": 871,
+        "price_sell": 904,
         "city_craft": "Lymhurst",
-        "revision_sell": "1052",
-        "revision_buy": "647",
+        "revision_sell": "1309",
+        "revision_buy": "84",
         "quality": 1,
         "crafting_tax": 115
     },
-    "T5_SHOES_LEATHER_SET3@2": {
-        "id": "T5_SHOES_LEATHER_SET3@2",
-        "ign": "Expert's Assassin Shoes",
-        "weight": 2.5,
+    "T6_SHOES_LEATHER_SET3": {
+        "id": "T6_SHOES_LEATHER_SET3",
+        "ign": "Master's Assassin Shoes",
+        "weight": 3.8,
         "recipe": {
             "buy": [
                 [
                     "T2_LEATHER",
                     "Lymhurst",
                     1,
-                    25
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
+                    "Fort Sterling",
                     2,
-                    6
+                    44
                 ],
                 [
-                    "T4_LEATHER_LEVEL2@2",
-                    "Bridgewatch",
-                    3,
-                    1303
+                    "T4_LEATHER",
+                    "Thetford",
+                    2,
+                    140
                 ],
                 [
-                    "T5_HIDE_LEVEL2@2",
-                    "Lymhurst",
-                    9,
-                    1740
+                    "T5_HIDE",
+                    "Caerleon",
+                    8,
+                    308
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    18,
+                    957
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    2,
-                    105,
-                    6
+                    "Thetford",
+                    1,
+                    113,
+                    5
                 ],
                 [
-                    "T5_LEATHER_LEVEL2@2",
+                    "T5_LEATHER",
                     "Martlock",
-                    5,
-                    4937,
-                    319
+                    4,
+                    692,
+                    69
                 ],
                 [
-                    "T5_SHOES_LEATHER_SET3@2",
+                    "T6_LEATHER",
                     "Fort Sterling",
+                    7,
+                    3396,
+                    228
+                ],
+                [
+                    "T6_SHOES_LEATHER_SET3",
+                    "Martlock",
+                    11,
+                    14994,
+                    5350
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "price_buy": 14994,
+        "price_sell": 16654,
+        "city_craft": "Lymhurst",
+        "revision_sell": "1309",
+        "revision_buy": "264",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T3_HEAD_CLOTH_SET1": {
+        "id": "T3_HEAD_CLOTH_SET1",
+        "ign": "Journeyman's Scholar Cowl",
+        "weight": 1.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    100,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    316,
+                    39
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    249,
+                    100,
+                    749
+                ],
+                [
+                    "T3_HEAD_CLOTH_SET1",
+                    "Lymhurst",
+                    395,
+                    233,
+                    22515
+                ]
+            ]
+        },
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "price_buy": 233,
+        "price_sell": 403,
+        "city_craft": "Thetford",
+        "revision_sell": "1074",
+        "revision_buy": "1429",
+        "quality": 1,
+        "crafting_tax": 57
+    },
+    "T4_HEAD_CLOTH_SET1": {
+        "id": "T4_HEAD_CLOTH_SET1",
+        "ign": "Adept's Scholar Cowl",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    41,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    131,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    208,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    104,
+                    100,
+                    312
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    164,
+                    152,
+                    1151
+                ],
+                [
+                    "T4_HEAD_CLOTH_SET1",
+                    "Thetford",
+                    259,
+                    699,
+                    29884
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 699,
+        "price_sell": 852,
+        "city_craft": "Thetford",
+        "revision_sell": "244",
+        "revision_buy": "194",
+        "quality": 1,
+        "crafting_tax": 115
+    },
+    "T5_HEAD_CLOTH_SET1": {
+        "id": "T5_HEAD_CLOTH_SET1",
+        "ign": "Expert's Scholar Cowl",
+        "weight": 2.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
                     8,
-                    19998,
-                    7368
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    26,
+                    39
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    33,
+                    152
+                ],
+                [
+                    "T5_FIBER",
+                    "Caerleon",
+                    100,
+                    169
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    21,
+                    100,
+                    63
+                ],
+                [
+                    "T5_CLOTH",
+                    "Thetford",
+                    53,
+                    470,
+                    744
+                ],
+                [
+                    "T5_HEAD_CLOTH_SET1",
+                    "Thetford",
+                    84,
+                    2078,
+                    19329
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Thetford",
+        "price_buy": 2078,
+        "price_sell": 2514,
+        "city_craft": "Thetford",
+        "revision_sell": "1079",
+        "revision_buy": "1079",
+        "quality": 1,
+        "crafting_tax": 230
+    },
+    "T2_ARMOR_CLOTH_SET1": {
+        "id": "T2_ARMOR_CLOTH_SET1",
+        "ign": "Novice's Scholar Robe",
+        "weight": 1.5,
+        "recipe": {
+            "buy": [],
+            "craft": [
+                [
+                    "T2_ARMOR_CLOTH_SET1",
+                    "Martlock",
+                    1645,
+                    80,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "price_buy": 80,
+        "price_sell": 123,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "69",
+        "revision_buy": "554",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T4_ARMOR_CLOTH_SET1": {
+        "id": "T4_ARMOR_CLOTH_SET1",
+        "ign": "Adept's Scholar Robe",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    20,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    65,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    104,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    52,
+                    100,
+                    156
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    82,
+                    152,
+                    575
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET1",
+                    "Thetford",
+                    129,
+                    1399,
+                    29884
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 1399,
+        "price_sell": 2131,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "244",
+        "revision_buy": "1354",
+        "quality": 1,
+        "crafting_tax": 230
+    },
+    "T5_ARMOR_CLOTH_SET1@1": {
+        "id": "T5_ARMOR_CLOTH_SET1@1",
+        "ign": "Expert's Scholar Robe",
+        "weight": 5.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    1,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    4,
+                    39
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Martlock",
+                    6,
+                    302
+                ],
+                [
+                    "T5_FIBER_LEVEL1@1",
+                    "Caerleon",
+                    18,
+                    356
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    3,
+                    100,
+                    11
+                ],
+                [
+                    "T5_CLOTH_LEVEL1@1",
+                    "Bridgewatch",
+                    9,
+                    1268,
+                    276
+                ],
+                [
+                    "T5_ARMOR_CLOTH_SET1@1",
+                    "Martlock",
+                    15,
+                    14299,
+                    14345
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "price_buy": 14299,
+        "price_sell": 18444,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "364",
+        "revision_buy": "269",
+        "quality": 1,
+        "crafting_tax": 921
+    },
+    "T4_HEAD_CLOTH_SET2": {
+        "id": "T4_HEAD_CLOTH_SET2",
+        "ign": "Adept's Cleric Cowl",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    41,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    131,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    208,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    104,
+                    100,
+                    312
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    164,
+                    152,
+                    1151
+                ],
+                [
+                    "T4_HEAD_CLOTH_SET2",
+                    "Fort Sterling",
+                    259,
+                    1000,
+                    29884
                 ]
             ]
         },
         "city_sell": "Fort Sterling",
-        "city_buy": "Lymhurst",
-        "price_buy": 19998,
-        "price_sell": 22000,
-        "city_craft": "Lymhurst",
-        "revision_sell": "117",
-        "revision_buy": "257",
+        "city_buy": "Martlock",
+        "price_buy": 1000,
+        "price_sell": 1212,
+        "city_craft": "Thetford",
+        "revision_sell": "999",
+        "revision_buy": "824",
         "quality": 1,
-        "crafting_tax": 921
+        "crafting_tax": 115
+    },
+    "T4_ARMOR_CLOTH_SET2": {
+        "id": "T4_ARMOR_CLOTH_SET2",
+        "ign": "Adept's Cleric Robe",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    20,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    65,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    104,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    52,
+                    100,
+                    156
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    82,
+                    152,
+                    575
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET2",
+                    "Bridgewatch",
+                    129,
+                    1099,
+                    29884
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 1099,
+        "price_sell": 2081,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "244",
+        "revision_buy": "554",
+        "quality": 1,
+        "crafting_tax": 230
+    },
+    "T4_ARMOR_CLOTH_SET2@1": {
+        "id": "T4_ARMOR_CLOTH_SET2@1",
+        "ign": "Adept's Cleric Robe",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    10,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    33,
+                    39
+                ],
+                [
+                    "T4_FIBER_LEVEL1@1",
+                    "Bridgewatch",
+                    52,
+                    148
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    26,
+                    100,
+                    78
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Martlock",
+                    41,
+                    302,
+                    579
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET2@1",
+                    "Fort Sterling",
+                    65,
+                    3999,
+                    30082
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "price_buy": 3999,
+        "price_sell": 4183,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "279",
+        "revision_buy": "329",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T5_SHOES_CLOTH_SET2@1": {
+        "id": "T5_SHOES_CLOTH_SET2@1",
+        "ign": "Expert's Cleric Sandals",
+        "weight": 2.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    3,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    9,
+                    39
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Martlock",
+                    12,
+                    302
+                ],
+                [
+                    "T5_FIBER_LEVEL1@1",
+                    "Caerleon",
+                    37,
+                    356
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    7,
+                    100,
+                    23
+                ],
+                [
+                    "T5_CLOTH_LEVEL1@1",
+                    "Bridgewatch",
+                    19,
+                    1268,
+                    552
+                ],
+                [
+                    "T5_SHOES_CLOTH_SET2@1",
+                    "Martlock",
+                    31,
+                    6009,
+                    14329
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "price_buy": 6009,
+        "price_sell": 6338,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "1309",
+        "revision_buy": "949",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T6_SHOES_CLOTH_SET2": {
+        "id": "T6_SHOES_CLOTH_SET2",
+        "ign": "Master's Cleric Sandals",
+        "weight": 3.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    1,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    4,
+                    39
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    4,
+                    152
+                ],
+                [
+                    "T5_FIBER",
+                    "Caerleon",
+                    14,
+                    169
+                ],
+                [
+                    "T6_FIBER",
+                    "Caerleon",
+                    31,
+                    513
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    3,
+                    100,
+                    9
+                ],
+                [
+                    "T5_CLOTH",
+                    "Thetford",
+                    7,
+                    470,
+                    110
+                ],
+                [
+                    "T6_CLOTH",
+                    "Lymhurst",
+                    12,
+                    2004,
+                    349
+                ],
+                [
+                    "T6_SHOES_CLOTH_SET2",
+                    "Fort Sterling",
+                    19,
+                    7382,
+                    9066
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Thetford",
+        "price_buy": 7382,
+        "price_sell": 7721,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "1309",
+        "revision_buy": "384",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T4_HEAD_CLOTH_SET3": {
+        "id": "T4_HEAD_CLOTH_SET3",
+        "ign": "Adept's Mage Cowl",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    41,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    131,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    208,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    104,
+                    100,
+                    312
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    164,
+                    152,
+                    1151
+                ],
+                [
+                    "T4_HEAD_CLOTH_SET3",
+                    "Thetford",
+                    259,
+                    870,
+                    29884
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 870,
+        "price_sell": 1209,
+        "city_craft": "Thetford",
+        "revision_sell": "1124",
+        "revision_buy": "194",
+        "quality": 1,
+        "crafting_tax": 115
+    },
+    "T5_HEAD_CLOTH_SET3@1": {
+        "id": "T5_HEAD_CLOTH_SET3@1",
+        "ign": "Expert's Mage Cowl",
+        "weight": 2.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    3,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    9,
+                    39
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Martlock",
+                    12,
+                    302
+                ],
+                [
+                    "T5_FIBER_LEVEL1@1",
+                    "Caerleon",
+                    37,
+                    356
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    7,
+                    100,
+                    23
+                ],
+                [
+                    "T5_CLOTH_LEVEL1@1",
+                    "Bridgewatch",
+                    19,
+                    1268,
+                    552
+                ],
+                [
+                    "T5_HEAD_CLOTH_SET3@1",
+                    "Martlock",
+                    31,
+                    10712,
+                    14329
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "price_buy": 10712,
+        "price_sell": 13943,
+        "city_craft": "Thetford",
+        "revision_sell": "364",
+        "revision_buy": "69",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T4_ARMOR_CLOTH_SET3": {
+        "id": "T4_ARMOR_CLOTH_SET3",
+        "ign": "Adept's Mage Robe",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    20,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    65,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    104,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    52,
+                    100,
+                    156
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    82,
+                    152,
+                    575
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET3",
+                    "Bridgewatch",
+                    129,
+                    973,
+                    29884
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 973,
+        "price_sell": 1670,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "244",
+        "revision_buy": "554",
+        "quality": 1,
+        "crafting_tax": 230
+    },
+    "T7_ARMOR_CLOTH_SET3": {
+        "id": "T7_ARMOR_CLOTH_SET3",
+        "ign": "Grandmaster's Mage Robe",
+        "weight": 11.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    0,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    0,
+                    39
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    0,
+                    152
+                ],
+                [
+                    "T5_CLOTH",
+                    "Thetford",
+                    0,
+                    470
+                ],
+                [
+                    "T6_FIBER",
+                    "Caerleon",
+                    3,
+                    513
+                ],
+                [
+                    "T7_FIBER",
+                    "Caerleon",
+                    7,
+                    935
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    0,
+                    100,
+                    1
+                ],
+                [
+                    "T6_CLOTH",
+                    "Lymhurst",
+                    1,
+                    2004,
+                    43
+                ],
+                [
+                    "T7_CLOTH",
+                    "Thetford",
+                    2,
+                    5049,
+                    138
+                ],
+                [
+                    "T7_ARMOR_CLOTH_SET3",
+                    "Fort Sterling",
+                    3,
+                    45000,
+                    7209
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "price_buy": 45000,
+        "price_sell": 51115,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "419",
+        "revision_buy": "814",
+        "quality": 1,
+        "crafting_tax": 1843
+    },
+    "T4_SHOES_CLOTH_SET3": {
+        "id": "T4_SHOES_CLOTH_SET3",
+        "ign": "Adept's Mage Sandals",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    41,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    131,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    208,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    104,
+                    100,
+                    312
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    164,
+                    152,
+                    1151
+                ],
+                [
+                    "T4_SHOES_CLOTH_SET3",
+                    "Thetford",
+                    259,
+                    595,
+                    29884
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Bridgewatch",
+        "price_buy": 595,
+        "price_sell": 627,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "549",
+        "revision_buy": "224",
+        "quality": 1,
+        "crafting_tax": 115
+    },
+    "T5_SHOES_CLOTH_SET3@1": {
+        "id": "T5_SHOES_CLOTH_SET3@1",
+        "ign": "Expert's Mage Sandals",
+        "weight": 2.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    3,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    9,
+                    39
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Martlock",
+                    12,
+                    302
+                ],
+                [
+                    "T5_FIBER_LEVEL1@1",
+                    "Caerleon",
+                    37,
+                    356
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    7,
+                    100,
+                    23
+                ],
+                [
+                    "T5_CLOTH_LEVEL1@1",
+                    "Bridgewatch",
+                    19,
+                    1268,
+                    552
+                ],
+                [
+                    "T5_SHOES_CLOTH_SET3@1",
+                    "Martlock",
+                    31,
+                    5987,
+                    14329
+                ]
+            ]
+        },
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "price_buy": 5987,
+        "price_sell": 9287,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "364",
+        "revision_buy": "949",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T4_ARMOR_CLOTH_KEEPER": {
+        "id": "T4_ARMOR_CLOTH_KEEPER",
+        "ign": "Adept's Druid Robe",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    11,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    36,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    58,
+                    36
+                ],
+                [
+                    "T4_ARTEFACT_ARMOR_CLOTH_KEEPER",
+                    "Lymhurst",
+                    46,
+                    1913
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    29,
+                    100,
+                    87
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    46,
+                    152,
+                    322
+                ],
+                [
+                    "T4_ARMOR_CLOTH_KEEPER",
+                    "Thetford",
+                    72,
+                    4159,
+                    20945
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "price_buy": 4159,
+        "price_sell": 5701,
+        "city_craft": "Fort Sterling",
+        "revision_sell": "919",
+        "revision_buy": "1254",
+        "quality": 1,
+        "crafting_tax": 288
+    },
+    "T4_ARMOR_GATHERER_FIBER": {
+        "id": "T4_ARMOR_GATHERER_FIBER",
+        "ign": "Adept's Harvester Garb",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Bridgewatch",
+                    41,
+                    17
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    131,
+                    39
+                ],
+                [
+                    "T4_FIBER",
+                    "Caerleon",
+                    208,
+                    36
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    104,
+                    100,
+                    312
+                ],
+                [
+                    "T4_CLOTH",
+                    "Bridgewatch",
+                    164,
+                    152,
+                    1151
+                ],
+                [
+                    "T4_ARMOR_GATHERER_FIBER",
+                    "Lymhurst",
+                    259,
+                    740,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "price_buy": 740,
+        "price_sell": 1003,
+        "city_craft": "",
+        "revision_sell": "1019",
+        "revision_buy": "1214",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T5_SHOES_GATHERER_HIDE": {
+        "id": "T5_SHOES_GATHERER_HIDE",
+        "ign": "Expert's Skinner Workboots",
+        "weight": 2.5,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    9,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    18,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    22,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    68,
+                    308
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    14,
+                    113,
+                    43
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    36,
+                    692,
+                    541
+                ],
+                [
+                    "T5_SHOES_GATHERER_HIDE",
+                    "Bridgewatch",
+                    57,
+                    6098,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Lymhurst",
+        "price_buy": 6098,
+        "price_sell": 6241,
+        "city_craft": "",
+        "revision_sell": "1264",
+        "revision_buy": "374",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T4_ARMOR_GATHERER_ORE": {
+        "id": "T4_ARMOR_GATHERER_ORE",
+        "ign": "Adept's Miner Garb",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_METALBAR",
+                    "Martlock",
+                    90,
+                    9
+                ],
+                [
+                    "T3_ORE",
+                    "Bridgewatch",
+                    180,
+                    40
+                ],
+                [
+                    "T4_ORE",
+                    "Bridgewatch",
+                    285,
+                    28
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_METALBAR",
+                    "Thetford",
+                    142,
+                    86,
+                    285
+                ],
+                [
+                    "T4_METALBAR",
+                    "Thetford",
+                    225,
+                    111,
+                    1126
+                ],
+                [
+                    "T4_ARMOR_GATHERER_ORE",
+                    "Thetford",
+                    355,
+                    746,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Thetford",
+        "city_buy": "Lymhurst",
+        "price_buy": 746,
+        "price_sell": 834,
+        "city_craft": "",
+        "revision_sell": "1169",
+        "revision_buy": "1114",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T4_ARMOR_GATHERER_FISH": {
+        "id": "T4_ARMOR_GATHERER_FISH",
+        "ign": "Adept's Fisherman Garb",
+        "weight": 3.4,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    71,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    143,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    226,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    113,
+                    113,
+                    339
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    178,
+                    140,
+                    1250
+                ],
+                [
+                    "T4_ARMOR_GATHERER_FISH",
+                    "Caerleon",
+                    282,
+                    699,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "price_buy": 699,
+        "price_sell": 886,
+        "city_craft": "",
+        "revision_sell": "1259",
+        "revision_buy": "254",
+        "quality": 1,
+        "crafting_tax": 0
+    },
+    "T4_BACKPACK_GATHERER_FISH": {
+        "id": "T4_BACKPACK_GATHERER_FISH",
+        "ign": "Adept's Fisherman Backpack",
+        "weight": 1.7,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    68,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    137,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    216,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    108,
+                    113,
+                    325
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    171,
+                    140,
+                    1198
+                ],
+                [
+                    "T4_BACKPACK_GATHERER_FISH",
+                    "Bridgewatch",
+                    270,
+                    411,
+                    0
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Lymhurst",
+        "price_buy": 411,
+        "price_sell": 1053,
+        "city_craft": "",
+        "revision_sell": "1209",
+        "revision_buy": "459",
+        "quality": 1,
+        "crafting_tax": 0
     },
     "T3_MAIN_DAGGER": {
         "id": "T3_MAIN_DAGGER",
@@ -1896,40 +4951,40 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    55,
-                    25
+                    53,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    111,
-                    6
+                    "Fort Sterling",
+                    106,
+                    44
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    87,
-                    105,
-                    263
+                    "Thetford",
+                    83,
+                    113,
+                    251
                 ],
                 [
                     "T3_MAIN_DAGGER",
                     "Thetford",
-                    138,
-                    600,
-                    23838
+                    132,
+                    298,
+                    22760
                 ]
             ]
         },
         "city_sell": "Thetford",
-        "city_buy": "Martlock",
-        "price_buy": 600,
-        "price_sell": 714,
+        "city_buy": "Caerleon",
+        "price_buy": 298,
+        "price_sell": 863,
         "city_craft": "Bridgewatch",
-        "revision_sell": "1212",
-        "revision_buy": "227",
+        "revision_sell": "944",
+        "revision_buy": "224",
         "quality": 1,
         "crafting_tax": 172
     },
@@ -1942,120 +4997,55 @@
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    25,
-                    25
+                    26,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    51,
-                    6
+                    "Fort Sterling",
+                    53,
+                    44
                 ],
                 [
                     "T4_HIDE",
                     "Caerleon",
-                    80,
-                    30
+                    84,
+                    26
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    40,
-                    105,
-                    121
+                    "Thetford",
+                    42,
+                    113,
+                    126
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    63,
-                    137,
-                    446
+                    "Thetford",
+                    66,
+                    140,
+                    464
                 ],
                 [
                     "T4_MAIN_DAGGER",
-                    "Bridgewatch",
-                    100,
-                    2141,
-                    34808
+                    "Thetford",
+                    104,
+                    1762,
+                    36195
                 ]
             ]
         },
-        "city_sell": "Bridgewatch",
+        "city_sell": "Thetford",
         "city_buy": "Caerleon",
-        "price_buy": 2141,
-        "price_sell": 2621,
+        "price_buy": 1762,
+        "price_sell": 2644,
         "city_craft": "Bridgewatch",
-        "revision_sell": "202",
-        "revision_buy": "337",
+        "revision_sell": "944",
+        "revision_buy": "224",
         "quality": 1,
         "crafting_tax": 345
-    },
-    "T5_MAIN_DAGGER": {
-        "id": "T5_MAIN_DAGGER",
-        "ign": "Expert's Dagger",
-        "weight": 7.6,
-        "recipe": {
-            "buy": [
-                [
-                    "T2_LEATHER",
-                    "Lymhurst",
-                    3,
-                    25
-                ],
-                [
-                    "T3_HIDE",
-                    "Bridgewatch",
-                    7,
-                    6
-                ],
-                [
-                    "T4_LEATHER",
-                    "Martlock",
-                    8,
-                    137
-                ],
-                [
-                    "T5_HIDE",
-                    "Caerleon",
-                    26,
-                    253
-                ]
-            ],
-            "craft": [
-                [
-                    "T3_LEATHER",
-                    "Martlock",
-                    5,
-                    105,
-                    17
-                ],
-                [
-                    "T5_LEATHER",
-                    "Martlock",
-                    14,
-                    650,
-                    212
-                ],
-                [
-                    "T5_MAIN_DAGGER",
-                    "Martlock",
-                    22,
-                    9044,
-                    15499
-                ]
-            ]
-        },
-        "city_sell": "Martlock",
-        "city_buy": "Lymhurst",
-        "price_buy": 9044,
-        "price_sell": 10493,
-        "city_craft": "Bridgewatch",
-        "revision_sell": "777",
-        "revision_buy": "1032",
-        "quality": 1,
-        "crafting_tax": 691
     },
     "T4_2H_DAGGERPAIR": {
         "id": "T4_2H_DAGGERPAIR",
@@ -2067,52 +5057,111 @@
                     "T2_LEATHER",
                     "Lymhurst",
                     19,
-                    25
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    38,
-                    6
+                    "Fort Sterling",
+                    39,
+                    44
                 ],
                 [
                     "T4_HIDE",
                     "Caerleon",
-                    60,
-                    30
+                    63,
+                    26
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    30,
-                    105,
-                    90
+                    "Thetford",
+                    31,
+                    113,
+                    94
                 ],
                 [
                     "T4_LEATHER",
-                    "Martlock",
-                    47,
-                    137,
-                    335
+                    "Thetford",
+                    49,
+                    140,
+                    348
                 ],
                 [
                     "T4_2H_DAGGERPAIR",
+                    "Bridgewatch",
+                    78,
+                    3046,
+                    36195
+                ]
+            ]
+        },
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "price_buy": 3046,
+        "price_sell": 3763,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "239",
+        "revision_buy": "544",
+        "quality": 1,
+        "crafting_tax": 460
+    },
+    "T4_2H_CLAWPAIR": {
+        "id": "T4_2H_CLAWPAIR",
+        "ign": "Adept's Claws",
+        "weight": 6.8,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    19,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    38,
+                    44
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    61,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
                     "Thetford",
-                    75,
-                    2153,
-                    34808
+                    30,
+                    113,
+                    91
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    48,
+                    140,
+                    338
+                ],
+                [
+                    "T4_2H_CLAWPAIR",
+                    "Thetford",
+                    76,
+                    2696,
+                    35179
                 ]
             ]
         },
         "city_sell": "Thetford",
-        "city_buy": "Caerleon",
-        "price_buy": 2153,
-        "price_sell": 3739,
+        "city_buy": "Lymhurst",
+        "price_buy": 2696,
+        "price_sell": 3137,
         "city_craft": "Bridgewatch",
-        "revision_sell": "202",
-        "revision_buy": "237",
+        "revision_sell": "1234",
+        "revision_buy": "1134",
         "quality": 1,
         "crafting_tax": 460
     },
@@ -2126,171 +5175,261 @@
                     "T2_LEATHER",
                     "Lymhurst",
                     7,
-                    25
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    15,
-                    6
+                    "Fort Sterling",
+                    14,
+                    44
                 ],
                 [
                     "T4_HIDE_LEVEL1@1",
-                    "Bridgewatch",
-                    24,
-                    67
+                    "Lymhurst",
+                    23,
+                    176
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    12,
-                    105,
-                    37
+                    "Thetford",
+                    11,
+                    113,
+                    34
                 ],
                 [
                     "T4_LEATHER_LEVEL1@1",
                     "Martlock",
-                    19,
-                    312,
-                    292
+                    18,
+                    333,
+                    272
                 ],
                 [
                     "T4_2H_CLAWPAIR@1",
                     "Bridgewatch",
-                    30,
-                    9500,
-                    28366
+                    28,
+                    11498,
+                    26448
                 ]
             ]
         },
         "city_sell": "Bridgewatch",
         "city_buy": "Caerleon",
-        "price_buy": 9500,
-        "price_sell": 15049,
+        "price_buy": 11498,
+        "price_sell": 15050,
         "city_craft": "Bridgewatch",
-        "revision_sell": "202",
-        "revision_buy": "837",
+        "revision_sell": "994",
+        "revision_buy": "1349",
         "quality": 1,
         "crafting_tax": 921
     },
-    "T4_2H_CLAYMORE": {
-        "id": "T4_2H_CLAYMORE",
-        "ign": "Adept's Claymore",
-        "weight": 6.8,
+    "T5_2H_CLAWPAIR": {
+        "id": "T5_2H_CLAWPAIR",
+        "ign": "Expert's Claws",
+        "weight": 10.1,
         "recipe": {
             "buy": [
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    19,
-                    25
+                    2,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    38,
-                    6
+                    "Fort Sterling",
+                    5,
+                    44
                 ],
                 [
-                    "T4_HIDE",
+                    "T4_LEATHER",
+                    "Thetford",
+                    6,
+                    140
+                ],
+                [
+                    "T5_HIDE",
                     "Caerleon",
-                    61,
-                    30
+                    19,
+                    308
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    30,
-                    105,
-                    92
-                ],
-                [
-                    "T4_LEATHER",
-                    "Martlock",
-                    48,
-                    137,
-                    339
-                ],
-                [
-                    "T4_2H_CLAYMORE",
                     "Thetford",
-                    76,
-                    1749,
-                    35247
+                    4,
+                    113,
+                    12
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    10,
+                    692,
+                    152
+                ],
+                [
+                    "T5_2H_CLAWPAIR",
+                    "Bridgewatch",
+                    16,
+                    12993,
+                    14767
                 ]
             ]
         },
-        "city_sell": "Thetford",
+        "city_sell": "Bridgewatch",
         "city_buy": "Caerleon",
-        "price_buy": 1749,
-        "price_sell": 2149,
-        "city_craft": "Lymhurst",
-        "revision_sell": "197",
-        "revision_buy": "642",
+        "price_buy": 12993,
+        "price_sell": 13053,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "1069",
+        "revision_buy": "1414",
         "quality": 1,
-        "crafting_tax": 460
+        "crafting_tax": 921
     },
-    "T4_2H_KNUCKLES_SET2": {
-        "id": "T4_2H_KNUCKLES_SET2",
-        "ign": "Adept's Battle Bracers",
-        "weight": 6.8,
+    "T6_2H_CLAWPAIR": {
+        "id": "T6_2H_CLAWPAIR",
+        "ign": "Master's Claws",
+        "weight": 15.2,
         "recipe": {
             "buy": [
                 [
                     "T2_LEATHER",
                     "Lymhurst",
-                    18,
-                    25
+                    0,
+                    24
                 ],
                 [
                     "T3_HIDE",
-                    "Bridgewatch",
-                    37,
-                    6
+                    "Fort Sterling",
+                    0,
+                    44
                 ],
                 [
-                    "T4_HIDE",
+                    "T4_LEATHER",
+                    "Thetford",
+                    0,
+                    140
+                ],
+                [
+                    "T5_HIDE",
                     "Caerleon",
-                    59,
-                    30
+                    2,
+                    308
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    5,
+                    957
                 ]
             ],
             "craft": [
                 [
                     "T3_LEATHER",
-                    "Martlock",
-                    29,
-                    105,
-                    89
-                ],
-                [
-                    "T4_LEATHER",
-                    "Martlock",
-                    47,
-                    137,
-                    331
-                ],
-                [
-                    "T4_2H_KNUCKLES_SET2",
                     "Thetford",
-                    74,
-                    2033,
-                    34380
+                    0,
+                    113,
+                    1
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    1,
+                    692,
+                    20
+                ],
+                [
+                    "T6_LEATHER",
+                    "Fort Sterling",
+                    2,
+                    3396,
+                    66
+                ],
+                [
+                    "T6_2H_CLAWPAIR",
+                    "Thetford",
+                    3,
+                    63887,
+                    6254
                 ]
             ]
         },
         "city_sell": "Thetford",
         "city_buy": "Martlock",
-        "price_buy": 2033,
-        "price_sell": 2500,
-        "city_craft": "Caerlon",
-        "revision_sell": "1052",
-        "revision_buy": "202",
+        "price_buy": 63887,
+        "price_sell": 69062,
+        "city_craft": "Bridgewatch",
+        "revision_sell": "1309",
+        "revision_buy": "1109",
         "quality": 1,
-        "crafting_tax": 460
+        "crafting_tax": 1843
+    },
+    "T5_2H_DUALSWORD": {
+        "id": "T5_2H_DUALSWORD",
+        "ign": "Expert's Dual Swords",
+        "weight": 10.1,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_LEATHER",
+                    "Lymhurst",
+                    2,
+                    24
+                ],
+                [
+                    "T3_HIDE",
+                    "Fort Sterling",
+                    5,
+                    44
+                ],
+                [
+                    "T4_LEATHER",
+                    "Thetford",
+                    6,
+                    140
+                ],
+                [
+                    "T5_HIDE",
+                    "Caerleon",
+                    20,
+                    308
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Thetford",
+                    4,
+                    113,
+                    13
+                ],
+                [
+                    "T5_LEATHER",
+                    "Martlock",
+                    11,
+                    692,
+                    165
+                ],
+                [
+                    "T5_2H_DUALSWORD",
+                    "Fort Sterling",
+                    17,
+                    18942,
+                    16093
+                ]
+            ]
+        },
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "price_buy": 18942,
+        "price_sell": 19134,
+        "city_craft": "Lymhurst",
+        "revision_sell": "484",
+        "revision_buy": "914",
+        "quality": 1,
+        "crafting_tax": 921
     }
 }

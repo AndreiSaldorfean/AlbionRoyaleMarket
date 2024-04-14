@@ -171,7 +171,7 @@ def prettyfy(wrapper):
         wrapper[1][i][4] = int(wrapper[1][i][4])
 
 api_prices_file = open("InputFiles/python/output/json/api_items_price.json","r")
-site_input_file = open("InputFiles/python/output/json/site_input.json","r")
+site_input_file = open("InputFiles/json/site_input.json","r")
 fetched_prices  = json.load(api_prices_file)
 site_input_json = json.load(site_input_file)
 REFINING_BONUS  = 1.58

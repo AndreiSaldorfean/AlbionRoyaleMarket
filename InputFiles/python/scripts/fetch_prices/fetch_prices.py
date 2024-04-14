@@ -3,22 +3,22 @@ import requests
 import os
 import time#OBS:perf_counter() is prefered over time()
 QUALITY=1
-FILE_PATH="../..//output//json//"
+FILE_PATH="InputFiles/python/output/json/"
 FILE_NAME=FILE_PATH+"fetched_prices.json"
 URL_LIMIT=4096#based on indication found at https://www.albion-online-data.com/
 URL_BEGIN="https://west.albion-online-data.com/api/v2/stats/Prices/"
 URL_END=".json?locations=Caerleon,Martlock,Bridgewatch,Lymhurst,Fort%20Sterling,Thetford&qualities=1"
-items_list=[]#used for storing information about item id,name,city
+items_list={}#used for storing information about item id,name,city
 with open(FILE_NAME,"w") as fout:#formating the .json file
     fout.write("[")
     fout.close()
 #============================================================================================    
 def generate_items_list():#used for gathering items ID
-    fin=open("../..//output//json//items_info_list.json")
+    fin=open("InputFiles/json/items_info_list.json")
     buffer=json.load(fin)
     buffer_length=len(buffer)
-    for i in range(buffer_length):
-        items_list.append(buffer[i]) 
+    for i in buffer:
+        items_list[i] = buffer[i]
     fin.close()
 def append_file(data_request):#used for appending data to the prices.json file
     buffer=data_request.json()
@@ -36,9 +36,9 @@ def data_fetching():#used for fetching data via API
     max_index=len(items_list)
     url=URL_BEGIN
     index=0#used for indexing through .json file
-    while index<=max_index-1:
-        if(len(url+items_list[index]["item_id"]+URL_END)<URL_LIMIT):
-            url=url+items_list[index]["item_id"]+","
+    for i in items_list:
+        if(len(url+i+URL_END)<URL_LIMIT):
+            url=url+i+","
             index=index+1
         else:
             url=url[:-1]#removing "," for the last item

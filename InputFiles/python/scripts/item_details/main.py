@@ -28,8 +28,8 @@ import time
 t1 = time.time()
 
 def assign_city(category):
-    if category in ["planks","metalbar","cloth","other",
-                    "leather","magic_artefact",
+    if category in ["wood","ore","fiber","other",
+                    "hide","magic_artefact",
                     "ranged_artefact","melee_artefact",
                     "offhand_artefact","armor_artefact"
                     ,"cape","bag",
@@ -63,10 +63,10 @@ def get_usage_fee(station):
         return usage_fee_json["usage_fee"][station]
     return 0
         
-info_file       = open("InputFiles/python/output/json/items_info_list.json","r")
+info_file       = open("InputFiles/json/items_info_list.json","r")
 api_file        = open("InputFiles/python/output/json/parsed_prices.json","r")
-cities_file     = open("InputFiles/python/json/cities.json","r")
-site_input_file = open("InputFiles/python/output/json/site_input.json","r")
+cities_file     = open("InputFiles/json/cities.json","r")
+site_input_file = open("InputFiles/json/site_input.json","r")
 out             = open("InputFiles/python/output/json/api_items_price.json","w")
 info_json       = json.load(info_file)
 api_prices_json = json.load(api_file)

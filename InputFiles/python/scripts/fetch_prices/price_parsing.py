@@ -2,8 +2,8 @@ import json
 import os
 from datetime import datetime
 PRICE_PERCENTAGE=0.3
-PRICES_FILE="../../output/json/fetched_prices.json"
-PARSED_PRICES_FILE="../../output/json/parsed_prices.json"
+PRICES_FILE="InputFiles/python/output/json/fetched_prices.json"
+PARSED_PRICES_FILE="InputFiles/python/output/json/parsed_prices.json"
 NUM_CITIES=6#number of cities=number of instances when an item appears on the prices file
 fin=open(PRICES_FILE,"r")
 prices_list=json.load(fin)

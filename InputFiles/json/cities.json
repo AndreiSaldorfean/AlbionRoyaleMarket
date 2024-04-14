@@ -7,7 +7,7 @@
 			"Bridgewatch":6
 		},
 		"RefiningBonus":{
-			"fiber":0.4
+			"cloth":0.4
 		},
 		"ProductionBonuses":{
 			"Raw Goose":0.1,
@@ -26,7 +26,7 @@
 			"Lymhurst":6
 		},
 		"RefiningBonus":{
-			"wood":0.4
+			"planks":0.4
 		},
 		"ProductionBonuses":{
 				"Raw Chicken":0.1,
@@ -46,7 +46,7 @@
 			"Martlock":5
 		},
 		"RefiningBonus":{
-			"ore":0.4
+			"metalbar":0.4
 		},
 		"ProductionBonuses":{
 			"Raw pork":0.1,
@@ -65,7 +65,7 @@
 			"Thetford":6
 		},
 		"RefiningBonus":{
-			"hide":0.4
+			"leather":0.4
 		},
 		"ProductionBonuses":{
 			"Raw Beef":0.1,
@@ -84,7 +84,7 @@
 			"Martlock":5
 		},
 		"RefiningBonus":{
-			"stone":0.4
+			"stoneblock":0.4
 		},
 		"ProductionBonuses":{
 			"Raw Goat":0.1,

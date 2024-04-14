@@ -1,0 +1,8 @@
+file1 = InputFiles/python/scripts/item_details/main.py
+file2 = InputFiles/python/scripts/cleaned_api_details/recipe.py
+file5 = InputFiles/python/scripts/cleaned_api_details/main.py
+file3 = InputFiles/python/scripts/items_info/assign_category.py
+file4 = InputFiles/python/scripts/items_info/assign_crafting_station.py
+test = InputFiles/python/scripts/item_details/test.py
+all:
+	@python3 $(file5)
