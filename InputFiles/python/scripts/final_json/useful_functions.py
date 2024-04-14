@@ -1,7 +1,7 @@
 import sys
 import random
 sys.path.append('../city_travel_cost')
-import mount
+import class_mount
 import json
 MAP_FILE="../../../json/cities.json"
 REFINING_BONUS=1.58

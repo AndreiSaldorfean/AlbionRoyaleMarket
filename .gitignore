@@ -1,8 +1,12 @@
-.gitignore
 makefile
-cea.txt
 TODO.txt
 input.txt
 itemsCheck
-InputFile/python/output/json/fetched_prices.json
-InputFile/python/output/json/parsed_prices.json
+notes
+backup
+.gitignore
+node_modules
+package.json
+package-lock.json
+final.json
+items.json
