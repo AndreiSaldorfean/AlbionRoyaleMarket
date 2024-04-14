@@ -5,7 +5,7 @@ import recipe
 t1 = time.time()
 
 api_prices_file  = open("InputFiles/python/output/json/api_items_price.json","r")
-out              = open("InputFiles/python/output/json/proccessed_items.json","w")
+out              = open("InputFiles/python/output/json/processed_items.json","w")
 api_prices_json  = json.load(api_prices_file)
 
 out.write("{\n")
