@@ -59,19 +59,14 @@ amount = []
 
 for i in file1:
     recepie.append(i[:-1])
-
 for i in file2:
-    items_id.append(i[:-1])
-    
+    items_id.append(i[:-1])  
 for i in file3:
     items_iv.append(i[:-1])
-
 for i in file4:
     amount.append(i[:-1])
-
 for i in file5:
     items_ign.append(i[:-1])
-
 for i in file6:
     res.append(i[:-1])
 

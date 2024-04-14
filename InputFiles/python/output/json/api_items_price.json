@@ -1,0 +1,4968 @@
+{
+    "T3_WOOD": {
+        "id": "T3_WOOD",
+        "ign": "Chestnut Logs",
+        "item_value": 8,
+        "weight": 0.3,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "227",
+        "revision_sell": "192",
+        "price_sell": 61,
+        "price_buy": 56,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Thetford",
+        "city_craft": "Fort Sterling"
+    },
+    "T5_WOOD": {
+        "id": "T5_WOOD",
+        "ign": "Cedar Logs",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "522",
+        "price_sell": 154,
+        "price_buy": 114,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Fort Sterling"
+    },
+    "T6_WOOD": {
+        "id": "T6_WOOD",
+        "ign": "Bloodoak Logs",
+        "item_value": 64,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1032",
+        "revision_sell": "927",
+        "price_sell": 526,
+        "price_buy": 496,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Martlock",
+        "city_craft": "Fort Sterling"
+    },
+    "T7_WOOD": {
+        "id": "T7_WOOD",
+        "ign": "Ashenbark Logs",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1392",
+        "revision_sell": "1337",
+        "price_sell": 1046,
+        "price_buy": 916,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Martlock",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_WOOD_LEVEL1@1": {
+        "id": "T4_WOOD_LEVEL1@1",
+        "ign": "Uncommon Pine Logs",
+        "item_value": 32,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1407",
+        "revision_sell": "862",
+        "price_sell": 60,
+        "price_buy": 39,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Fort Sterling"
+    },
+    "T5_WOOD_LEVEL1@1": {
+        "id": "T5_WOOD_LEVEL1@1",
+        "ign": "Uncommon Cedar Logs",
+        "item_value": 64,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "527",
+        "price_sell": 286,
+        "price_buy": 222,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Fort Sterling"
+    },
+    "T6_WOOD_LEVEL1@1": {
+        "id": "T6_WOOD_LEVEL1@1",
+        "ign": "Uncommon Bloodoak Logs",
+        "item_value": 128,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1397",
+        "revision_sell": "237",
+        "price_sell": 936,
+        "price_buy": 708,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Fort Sterling"
+    },
+    "T7_WOOD_LEVEL1@1": {
+        "id": "T7_WOOD_LEVEL1@1",
+        "ign": "Uncommon Ashenbark Logs",
+        "item_value": 256,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "682",
+        "revision_sell": "407",
+        "price_sell": 2263,
+        "price_buy": 2136,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Martlock",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_WOOD_LEVEL2@2": {
+        "id": "T4_WOOD_LEVEL2@2",
+        "ign": "Rare Pine Logs",
+        "item_value": 64,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "497",
+        "revision_sell": "522",
+        "price_sell": 349,
+        "price_buy": 283,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Fort Sterling"
+    },
+    "T5_WOOD_LEVEL2@2": {
+        "id": "T5_WOOD_LEVEL2@2",
+        "ign": "Rare Cedar Logs",
+        "item_value": 128,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "717",
+        "revision_sell": "497",
+        "price_sell": 798,
+        "price_buy": 711,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_WOOD_LEVEL3@3": {
+        "id": "T4_WOOD_LEVEL3@3",
+        "ign": "Exceptional Pine Logs",
+        "item_value": 128,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1032",
+        "revision_sell": "522",
+        "price_sell": 2464,
+        "price_buy": 2451,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Fort Sterling"
+    },
+    "T6_WOOD_LEVEL3@3": {
+        "id": "T6_WOOD_LEVEL3@3",
+        "ign": "Exceptional Bloodoak Logs",
+        "item_value": 512,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "497",
+        "revision_sell": "232",
+        "price_sell": 11300,
+        "price_buy": 9093,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Fort Sterling"
+    },
+    "T7_WOOD_LEVEL3@3": {
+        "id": "T7_WOOD_LEVEL3@3",
+        "ign": "Exceptional Ashenbark Logs",
+        "item_value": 1024,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "wood",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "362",
+        "revision_sell": "1437",
+        "price_sell": 39456,
+        "price_buy": 34991,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Fort Sterling"
+    },
+    "T2_ORE": {
+        "id": "T2_ORE",
+        "ign": "Copper Ore",
+        "item_value": 4,
+        "weight": 0.2,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "337",
+        "revision_sell": "1097",
+        "price_sell": 23,
+        "price_buy": 20,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Martlock",
+        "city_craft": "Thetford"
+    },
+    "T3_ORE": {
+        "id": "T3_ORE",
+        "ign": "Tin Ore",
+        "item_value": 8,
+        "weight": 0.3,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "297",
+        "price_sell": 45,
+        "price_buy": 16,
+        "city_sell": "Thetford",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Thetford"
+    },
+    "T4_ORE": {
+        "id": "T4_ORE",
+        "ign": "Iron Ore",
+        "item_value": 16,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "497",
+        "revision_sell": "1097",
+        "price_sell": 39,
+        "price_buy": 33,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Thetford"
+    },
+    "T5_ORE": {
+        "id": "T5_ORE",
+        "ign": "Titanium Ore",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "497",
+        "revision_sell": "497",
+        "price_sell": 197,
+        "price_buy": 187,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Thetford"
+    },
+    "T7_ORE": {
+        "id": "T7_ORE",
+        "ign": "Meteorite Ore",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "457",
+        "revision_sell": "497",
+        "price_sell": 1002,
+        "price_buy": 845,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "city_craft": "Thetford"
+    },
+    "T8_ORE": {
+        "id": "T8_ORE",
+        "ign": "Adamantium Ore",
+        "item_value": 256,
+        "weight": 2.6,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "382",
+        "revision_sell": "642",
+        "price_sell": 6012,
+        "price_buy": 5599,
+        "city_sell": "Thetford",
+        "city_buy": "Martlock",
+        "city_craft": "Thetford"
+    },
+    "T4_ORE_LEVEL1@1": {
+        "id": "T4_ORE_LEVEL1@1",
+        "ign": "Uncommon Iron Ore",
+        "item_value": 32,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1407",
+        "revision_sell": "382",
+        "price_sell": 195,
+        "price_buy": 146,
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "city_craft": "Thetford"
+    },
+    "T5_ORE_LEVEL1@1": {
+        "id": "T5_ORE_LEVEL1@1",
+        "ign": "Uncommon Titanium Ore",
+        "item_value": 64,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "717",
+        "revision_sell": "187",
+        "price_sell": 550,
+        "price_buy": 393,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "city_craft": "Thetford"
+    },
+    "T4_ORE_LEVEL2@2": {
+        "id": "T4_ORE_LEVEL2@2",
+        "ign": "Rare Iron Ore",
+        "item_value": 64,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "187",
+        "revision_sell": "1267",
+        "price_sell": 792,
+        "price_buy": 523,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "city_craft": "Thetford"
+    },
+    "T5_ORE_LEVEL2@2": {
+        "id": "T5_ORE_LEVEL2@2",
+        "ign": "Rare Titanium Ore",
+        "item_value": 128,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "717",
+        "revision_sell": "187",
+        "price_sell": 1700,
+        "price_buy": 1379,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "city_craft": "Thetford"
+    },
+    "T4_ORE_LEVEL3@3": {
+        "id": "T4_ORE_LEVEL3@3",
+        "ign": "Exceptional Iron Ore",
+        "item_value": 128,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "397",
+        "revision_sell": "1342",
+        "price_sell": 4231,
+        "price_buy": 3741,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Thetford"
+    },
+    "T5_ORE_LEVEL3@3": {
+        "id": "T5_ORE_LEVEL3@3",
+        "ign": "Exceptional Titanium Ore",
+        "item_value": 256,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "382",
+        "revision_sell": "247",
+        "price_sell": 8596,
+        "price_buy": 7992,
+        "city_sell": "Thetford",
+        "city_buy": "Martlock",
+        "city_craft": "Thetford"
+    },
+    "T6_ORE_LEVEL3@3": {
+        "id": "T6_ORE_LEVEL3@3",
+        "ign": "Exceptional Runite Ore",
+        "item_value": 512,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "497",
+        "revision_sell": "252",
+        "price_sell": 19004,
+        "price_buy": 17205,
+        "city_sell": "Thetford",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Thetford"
+    },
+    "T5_ORE_LEVEL4@4": {
+        "id": "T5_ORE_LEVEL4@4",
+        "ign": "Pristine Titanium Ore",
+        "item_value": 512,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "ore",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "652",
+        "revision_sell": "252",
+        "price_sell": 40006,
+        "price_buy": 40000,
+        "city_sell": "Thetford",
+        "city_buy": "Lymhurst",
+        "city_craft": "Thetford"
+    },
+    "T2_HIDE": {
+        "id": "T2_HIDE",
+        "ign": "Rugged Hide",
+        "item_value": 4,
+        "weight": 0.2,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "337",
+        "revision_sell": "1117",
+        "price_sell": 47,
+        "price_buy": 44,
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Martlock"
+    },
+    "T3_HIDE": {
+        "id": "T3_HIDE",
+        "ign": "Thin Hide",
+        "item_value": 8,
+        "weight": 0.3,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "837",
+        "price_sell": 48,
+        "price_buy": 6,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Martlock"
+    },
+    "T4_HIDE": {
+        "id": "T4_HIDE",
+        "ign": "Medium Hide",
+        "item_value": 16,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "837",
+        "revision_sell": "1302",
+        "price_sell": 42,
+        "price_buy": 30,
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T5_HIDE": {
+        "id": "T5_HIDE",
+        "ign": "Heavy Hide",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "837",
+        "revision_sell": "457",
+        "price_sell": 348,
+        "price_buy": 253,
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T6_HIDE": {
+        "id": "T6_HIDE",
+        "ign": "Robust Hide",
+        "item_value": 64,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "297",
+        "price_sell": 1126,
+        "price_buy": 1016,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T7_HIDE": {
+        "id": "T7_HIDE",
+        "ign": "Thick Hide",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "217",
+        "price_sell": 2810,
+        "price_buy": 2481,
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T8_HIDE": {
+        "id": "T8_HIDE",
+        "ign": "Resilient Hide",
+        "item_value": 256,
+        "weight": 2.6,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "217",
+        "price_sell": 8826,
+        "price_buy": 8720,
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T4_HIDE_LEVEL1@1": {
+        "id": "T4_HIDE_LEVEL1@1",
+        "ign": "Uncommon Medium Hide",
+        "item_value": 32,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "312",
+        "price_sell": 227,
+        "price_buy": 67,
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Martlock"
+    },
+    "T5_HIDE_LEVEL1@1": {
+        "id": "T5_HIDE_LEVEL1@1",
+        "ign": "Uncommon Heavy Hide",
+        "item_value": 64,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "717",
+        "revision_sell": "587",
+        "price_sell": 530,
+        "price_buy": 385,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T6_HIDE_LEVEL1@1": {
+        "id": "T6_HIDE_LEVEL1@1",
+        "ign": "Uncommon Robust Hide",
+        "item_value": 128,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "217",
+        "price_sell": 2450,
+        "price_buy": 2238,
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T4_HIDE_LEVEL2@2": {
+        "id": "T4_HIDE_LEVEL2@2",
+        "ign": "Rare Medium Hide",
+        "item_value": 64,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "522",
+        "revision_sell": "767",
+        "price_sell": 943,
+        "price_buy": 842,
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "city_craft": "Martlock"
+    },
+    "T5_HIDE_LEVEL2@2": {
+        "id": "T5_HIDE_LEVEL2@2",
+        "ign": "Rare Heavy Hide",
+        "item_value": 128,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "212",
+        "revision_sell": "767",
+        "price_sell": 1810,
+        "price_buy": 1740,
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "city_craft": "Martlock"
+    },
+    "T6_HIDE_LEVEL2@2": {
+        "id": "T6_HIDE_LEVEL2@2",
+        "ign": "Rare Robust Hide",
+        "item_value": 256,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "217",
+        "price_sell": 7566,
+        "price_buy": 7057,
+        "city_sell": "Martlock",
+        "city_buy": "Caerleon",
+        "city_craft": "Martlock"
+    },
+    "T4_HIDE_LEVEL3@3": {
+        "id": "T4_HIDE_LEVEL3@3",
+        "ign": "Exceptional Medium Hide",
+        "item_value": 128,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "182",
+        "revision_sell": "767",
+        "price_sell": 5425,
+        "price_buy": 5131,
+        "city_sell": "Martlock",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Martlock"
+    },
+    "T5_HIDE_LEVEL3@3": {
+        "id": "T5_HIDE_LEVEL3@3",
+        "ign": "Exceptional Heavy Hide",
+        "item_value": 256,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "12",
+        "revision_sell": "502",
+        "price_sell": 8003,
+        "price_buy": 7775,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Thetford",
+        "city_craft": "Martlock"
+    },
+    "T6_HIDE_LEVEL3@3": {
+        "id": "T6_HIDE_LEVEL3@3",
+        "ign": "Exceptional Robust Hide",
+        "item_value": 512,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "847",
+        "revision_sell": "217",
+        "price_sell": 27001,
+        "price_buy": 26381,
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "city_craft": "Martlock"
+    },
+    "T4_HIDE_LEVEL4@4": {
+        "id": "T4_HIDE_LEVEL4@4",
+        "ign": "Pristine Medium Hide",
+        "item_value": 256,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "hide",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "677",
+        "revision_sell": "767",
+        "price_sell": 32002,
+        "price_buy": 30999,
+        "city_sell": "Martlock",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Martlock"
+    },
+    "T2_FIBER": {
+        "id": "T2_FIBER",
+        "ign": "Cotton",
+        "item_value": 4,
+        "weight": 0.2,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "352",
+        "revision_sell": "502",
+        "price_sell": 23,
+        "price_buy": 18,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Martlock",
+        "city_craft": "Lymhurst"
+    },
+    "T3_FIBER": {
+        "id": "T3_FIBER",
+        "ign": "Flax",
+        "item_value": 8,
+        "weight": 0.3,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1302",
+        "revision_sell": "1117",
+        "price_sell": 53,
+        "price_buy": 42,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": "Lymhurst"
+    },
+    "T4_FIBER": {
+        "id": "T4_FIBER",
+        "ign": "Hemp",
+        "item_value": 16,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "217",
+        "price_sell": 57,
+        "price_buy": 33,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": "Lymhurst"
+    },
+    "T5_FIBER": {
+        "id": "T5_FIBER",
+        "ign": "Skyflower",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1037",
+        "revision_sell": "197",
+        "price_sell": 190,
+        "price_buy": 171,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Lymhurst"
+    },
+    "T6_FIBER": {
+        "id": "T6_FIBER",
+        "ign": "Amberleaf Cotton",
+        "item_value": 64,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "342",
+        "revision_sell": "672",
+        "price_sell": 661,
+        "price_buy": 545,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Lymhurst"
+    },
+    "T7_FIBER": {
+        "id": "T7_FIBER",
+        "ign": "Sunflax",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "942",
+        "price_sell": 1067,
+        "price_buy": 1006,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Lymhurst"
+    },
+    "T8_FIBER": {
+        "id": "T8_FIBER",
+        "ign": "Ghost Hemp",
+        "item_value": 256,
+        "weight": 2.6,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "237",
+        "revision_sell": "942",
+        "price_sell": 5826,
+        "price_buy": 5300,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Lymhurst"
+    },
+    "T4_FIBER_LEVEL1@1": {
+        "id": "T4_FIBER_LEVEL1@1",
+        "ign": "Uncommon Hemp",
+        "item_value": 32,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1407",
+        "revision_sell": "217",
+        "price_sell": 173,
+        "price_buy": 122,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Lymhurst"
+    },
+    "T5_FIBER_LEVEL1@1": {
+        "id": "T5_FIBER_LEVEL1@1",
+        "ign": "Uncommon Skyflower",
+        "item_value": 64,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "717",
+        "revision_sell": "217",
+        "price_sell": 500,
+        "price_buy": 374,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Lymhurst"
+    },
+    "T6_FIBER_LEVEL1@1": {
+        "id": "T6_FIBER_LEVEL1@1",
+        "ign": "Uncommon Amberleaf Cotton",
+        "item_value": 128,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "237",
+        "price_sell": 1078,
+        "price_buy": 984,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": "Lymhurst"
+    },
+    "T7_FIBER_LEVEL1@1": {
+        "id": "T7_FIBER_LEVEL1@1",
+        "ign": "Uncommon Sunflax",
+        "item_value": 256,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "427",
+        "revision_sell": "352",
+        "price_sell": 3403,
+        "price_buy": 3290,
+        "city_sell": "Thetford",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Lymhurst"
+    },
+    "T8_FIBER_LEVEL1@1": {
+        "id": "T8_FIBER_LEVEL1@1",
+        "ign": "Uncommon Ghost Hemp",
+        "item_value": 512,
+        "weight": 2.6,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "222",
+        "revision_sell": "352",
+        "price_sell": 12004,
+        "price_buy": 10000,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Lymhurst"
+    },
+    "T4_FIBER_LEVEL2@2": {
+        "id": "T4_FIBER_LEVEL2@2",
+        "ign": "Rare Hemp",
+        "item_value": 64,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "942",
+        "price_sell": 966,
+        "price_buy": 843,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": "Lymhurst"
+    },
+    "T5_FIBER_LEVEL2@2": {
+        "id": "T5_FIBER_LEVEL2@2",
+        "ign": "Rare Skyflower",
+        "item_value": 128,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "747",
+        "revision_sell": "1052",
+        "price_sell": 910,
+        "price_buy": 815,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "city_craft": "Lymhurst"
+    },
+    "T6_FIBER_LEVEL2@2": {
+        "id": "T6_FIBER_LEVEL2@2",
+        "ign": "Rare Amberleaf Cotton",
+        "item_value": 256,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "222",
+        "revision_sell": "942",
+        "price_sell": 4027,
+        "price_buy": 3936,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Lymhurst"
+    },
+    "T7_FIBER_LEVEL2@2": {
+        "id": "T7_FIBER_LEVEL2@2",
+        "ign": "Rare Sunflax",
+        "item_value": 512,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "222",
+        "revision_sell": "597",
+        "price_sell": 8349,
+        "price_buy": 8331,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Lymhurst"
+    },
+    "T4_FIBER_LEVEL3@3": {
+        "id": "T4_FIBER_LEVEL3@3",
+        "ign": "Exceptional Hemp",
+        "item_value": 128,
+        "weight": 0.5,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "232",
+        "revision_sell": "917",
+        "price_sell": 5250,
+        "price_buy": 5123,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": "Lymhurst"
+    },
+    "T5_FIBER_LEVEL3@3": {
+        "id": "T5_FIBER_LEVEL3@3",
+        "ign": "Exceptional Skyflower",
+        "item_value": 256,
+        "weight": 0.8,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "612",
+        "revision_sell": "942",
+        "price_sell": 5958,
+        "price_buy": 5797,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Lymhurst"
+    },
+    "T8_FIBER_LEVEL3@3": {
+        "id": "T8_FIBER_LEVEL3@3",
+        "ign": "Exceptional Ghost Hemp",
+        "item_value": 2048,
+        "weight": 2.6,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "277",
+        "revision_sell": "597",
+        "price_sell": 155006,
+        "price_buy": 130000,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Lymhurst"
+    },
+    "T6_FIBER_LEVEL4@4": {
+        "id": "T6_FIBER_LEVEL4@4",
+        "ign": "Pristine Amberleaf Cotton",
+        "item_value": 1024,
+        "weight": 1.1,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "192",
+        "revision_sell": "567",
+        "price_sell": 68016,
+        "price_buy": 61111,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Lymhurst"
+    },
+    "T7_FIBER_LEVEL4@4": {
+        "id": "T7_FIBER_LEVEL4@4",
+        "ign": "Pristine Sunflax",
+        "item_value": 2048,
+        "weight": 1.7,
+        "recipe": {},
+        "category": "fiber",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "502",
+        "revision_sell": "567",
+        "price_sell": 125036,
+        "price_buy": 114997,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Lymhurst"
+    },
+    "T2_PLANKS": {
+        "id": "T2_PLANKS",
+        "ign": "Birch Planks",
+        "item_value": 4,
+        "weight": 0.2,
+        "recipe": {
+            "T2_WOOD": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "242",
+        "revision_sell": "197",
+        "price_sell": 15,
+        "price_buy": 13,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_PLANKS": {
+        "id": "T4_PLANKS",
+        "ign": "Pine Planks",
+        "item_value": 16,
+        "weight": 0.5,
+        "recipe": {
+            "T4_WOOD": {
+                "amount": "2"
+            },
+            "T3_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 7,
+        "revision_buy": "192",
+        "revision_sell": "202",
+        "price_sell": 253,
+        "price_buy": 133,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T5_PLANKS": {
+        "id": "T5_PLANKS",
+        "ign": "Cedar Planks",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {
+            "T5_WOOD": {
+                "amount": "3"
+            },
+            "T4_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 15,
+        "revision_buy": "197",
+        "revision_sell": "1277",
+        "price_sell": 542,
+        "price_buy": 449,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T6_PLANKS": {
+        "id": "T6_PLANKS",
+        "ign": "Bloodoak Planks",
+        "item_value": 64,
+        "weight": 1.1,
+        "recipe": {
+            "T6_WOOD": {
+                "amount": "4"
+            },
+            "T5_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 31,
+        "revision_buy": "242",
+        "revision_sell": "1277",
+        "price_sell": 1962,
+        "price_buy": 1872,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T7_PLANKS": {
+        "id": "T7_PLANKS",
+        "ign": "Ashenbark Planks",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T7_WOOD": {
+                "amount": "5"
+            },
+            "T6_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 63,
+        "revision_buy": "572",
+        "revision_sell": "1052",
+        "price_sell": 5501,
+        "price_buy": 5099,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T4_PLANKS_LEVEL1@1": {
+        "id": "T4_PLANKS_LEVEL1@1",
+        "ign": "Uncommon Pine Planks",
+        "item_value": 32,
+        "weight": 0.5,
+        "recipe": {
+            "T4_WOOD_LEVEL1@1": {
+                "amount": "2"
+            },
+            "T3_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 15,
+        "revision_buy": "1127",
+        "revision_sell": "787",
+        "price_sell": 273,
+        "price_buy": 204,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T5_PLANKS_LEVEL1@1": {
+        "id": "T5_PLANKS_LEVEL1@1",
+        "ign": "Uncommon Cedar Planks",
+        "item_value": 64,
+        "weight": 0.8,
+        "recipe": {
+            "T5_WOOD_LEVEL1@1": {
+                "amount": "3"
+            },
+            "T4_PLANKS_LEVEL1@1": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 31,
+        "revision_buy": "497",
+        "revision_sell": "157",
+        "price_sell": 1047,
+        "price_buy": 930,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T6_PLANKS_LEVEL1@1": {
+        "id": "T6_PLANKS_LEVEL1@1",
+        "ign": "Uncommon Bloodoak Planks",
+        "item_value": 128,
+        "weight": 1.1,
+        "recipe": {
+            "T6_WOOD_LEVEL1@1": {
+                "amount": "4"
+            },
+            "T5_PLANKS_LEVEL1@1": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 63,
+        "revision_buy": "262",
+        "revision_sell": "212",
+        "price_sell": 3674,
+        "price_buy": 3646,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_PLANKS_LEVEL2@2": {
+        "id": "T4_PLANKS_LEVEL2@2",
+        "ign": "Rare Pine Planks",
+        "item_value": 64,
+        "weight": 0.5,
+        "recipe": {
+            "T4_WOOD_LEVEL2@2": {
+                "amount": "2"
+            },
+            "T3_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 31,
+        "revision_buy": "197",
+        "revision_sell": "497",
+        "price_sell": 723,
+        "price_buy": 627,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T5_PLANKS_LEVEL2@2": {
+        "id": "T5_PLANKS_LEVEL2@2",
+        "ign": "Rare Cedar Planks",
+        "item_value": 128,
+        "weight": 0.8,
+        "recipe": {
+            "T5_WOOD_LEVEL2@2": {
+                "amount": "3"
+            },
+            "T4_PLANKS_LEVEL2@2": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 63,
+        "revision_buy": "687",
+        "revision_sell": "497",
+        "price_sell": 3258,
+        "price_buy": 3083,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T7_PLANKS_LEVEL2@2": {
+        "id": "T7_PLANKS_LEVEL2@2",
+        "ign": "Rare Ashenbark Planks",
+        "item_value": 512,
+        "weight": 1.7,
+        "recipe": {
+            "T7_WOOD_LEVEL2@2": {
+                "amount": "5"
+            },
+            "T6_PLANKS_LEVEL2@2": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 253,
+        "revision_buy": "182",
+        "revision_sell": "1277",
+        "price_sell": 34260,
+        "price_buy": 33105,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T4_PLANKS_LEVEL3@3": {
+        "id": "T4_PLANKS_LEVEL3@3",
+        "ign": "Exceptional Pine Planks",
+        "item_value": 128,
+        "weight": 0.5,
+        "recipe": {
+            "T4_WOOD_LEVEL3@3": {
+                "amount": "2"
+            },
+            "T3_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 63,
+        "revision_buy": "787",
+        "revision_sell": "652",
+        "price_sell": 4535,
+        "price_buy": 4279,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": ""
+    },
+    "T4_PLANKS_LEVEL4@4": {
+        "id": "T4_PLANKS_LEVEL4@4",
+        "ign": "Pristine Pine Planks",
+        "item_value": 256,
+        "weight": 0.5,
+        "recipe": {
+            "T4_WOOD_LEVEL4@4": {
+                "amount": "2"
+            },
+            "T3_PLANKS": {
+                "amount": "1"
+            }
+        },
+        "category": "planks",
+        "crafting_station": "lumbermill",
+        "quality": 1,
+        "crafting_tax": 126,
+        "revision_buy": "1277",
+        "revision_sell": "687",
+        "price_sell": 35669,
+        "price_buy": 34940,
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "city_craft": ""
+    },
+    "T2_METALBAR": {
+        "id": "T2_METALBAR",
+        "ign": "Copper Bar",
+        "item_value": 4,
+        "weight": 0.2,
+        "recipe": {
+            "T2_ORE": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "192",
+        "price_sell": 14,
+        "price_buy": 11,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T3_METALBAR": {
+        "id": "T3_METALBAR",
+        "ign": "Bronze Bar",
+        "item_value": 8,
+        "weight": 0.3,
+        "recipe": {
+            "T3_ORE": {
+                "amount": "2"
+            },
+            "T2_METALBAR": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 2,
+        "revision_buy": "382",
+        "revision_sell": "247",
+        "price_sell": 95,
+        "price_buy": 85,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T4_METALBAR": {
+        "id": "T4_METALBAR",
+        "ign": "Steel Bar",
+        "item_value": 16,
+        "weight": 0.5,
+        "recipe": {
+            "T4_ORE": {
+                "amount": "2"
+            },
+            "T3_METALBAR": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 5,
+        "revision_buy": "222",
+        "revision_sell": "217",
+        "price_sell": 175,
+        "price_buy": 124,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T5_METALBAR": {
+        "id": "T5_METALBAR",
+        "ign": "Titanium Steel Bar",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {
+            "T5_ORE": {
+                "amount": "3"
+            },
+            "T4_METALBAR": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 11,
+        "revision_buy": "232",
+        "revision_sell": "462",
+        "price_sell": 626,
+        "price_buy": 524,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T6_METALBAR": {
+        "id": "T6_METALBAR",
+        "ign": "Runite Steel Bar",
+        "item_value": 64,
+        "weight": 1.1,
+        "recipe": {
+            "T6_ORE": {
+                "amount": "4"
+            },
+            "T5_METALBAR": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 22,
+        "revision_buy": "262",
+        "revision_sell": "457",
+        "price_sell": 2182,
+        "price_buy": 2082,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T8_METALBAR": {
+        "id": "T8_METALBAR",
+        "ign": "Adamantium Steel Bar",
+        "item_value": 256,
+        "weight": 2.6,
+        "recipe": {
+            "T8_ORE": {
+                "amount": "5"
+            },
+            "T7_METALBAR": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 89,
+        "revision_buy": "917",
+        "revision_sell": "1277",
+        "price_sell": 21025,
+        "price_buy": 20296,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_METALBAR_LEVEL1@1": {
+        "id": "T4_METALBAR_LEVEL1@1",
+        "ign": "Uncommon Steel Bar",
+        "item_value": 32,
+        "weight": 0.5,
+        "recipe": {
+            "T4_ORE_LEVEL1@1": {
+                "amount": "2"
+            },
+            "T3_METALBAR": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 11,
+        "revision_buy": "312",
+        "revision_sell": "217",
+        "price_sell": 430,
+        "price_buy": 335,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T5_METALBAR_LEVEL1@1": {
+        "id": "T5_METALBAR_LEVEL1@1",
+        "ign": "Uncommon Titanium Steel Bar",
+        "item_value": 64,
+        "weight": 0.8,
+        "recipe": {
+            "T5_ORE_LEVEL1@1": {
+                "amount": "3"
+            },
+            "T4_METALBAR_LEVEL1@1": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 22,
+        "revision_buy": "462",
+        "revision_sell": "902",
+        "price_sell": 1428,
+        "price_buy": 1391,
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "city_craft": ""
+    },
+    "T4_METALBAR_LEVEL2@2": {
+        "id": "T4_METALBAR_LEVEL2@2",
+        "ign": "Rare Steel Bar",
+        "item_value": 64,
+        "weight": 0.5,
+        "recipe": {
+            "T4_ORE_LEVEL2@2": {
+                "amount": "2"
+            },
+            "T3_METALBAR": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 22,
+        "revision_buy": "702",
+        "revision_sell": "262",
+        "price_sell": 1201,
+        "price_buy": 1165,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T5_METALBAR_LEVEL3@3": {
+        "id": "T5_METALBAR_LEVEL3@3",
+        "ign": "Exceptional Titanium Steel Bar",
+        "item_value": 256,
+        "weight": 0.8,
+        "recipe": {
+            "T5_ORE_LEVEL3@3": {
+                "amount": "3"
+            },
+            "T4_METALBAR_LEVEL3@3": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 89,
+        "revision_buy": "462",
+        "revision_sell": "312",
+        "price_sell": 19528,
+        "price_buy": 18900,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Caerleon",
+        "city_craft": ""
+    },
+    "T6_METALBAR_LEVEL4@4": {
+        "id": "T6_METALBAR_LEVEL4@4",
+        "ign": "Pristine Runite Steel Bar",
+        "item_value": 1024,
+        "weight": 1.1,
+        "recipe": {
+            "T6_ORE_LEVEL4@4": {
+                "amount": "4"
+            },
+            "T5_METALBAR_LEVEL4@4": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 357,
+        "revision_buy": "262",
+        "revision_sell": "1272",
+        "price_sell": 270000,
+        "price_buy": 266666,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T7_METALBAR_LEVEL4@4": {
+        "id": "T7_METALBAR_LEVEL4@4",
+        "ign": "Pristine Meteorite Steel Bar",
+        "item_value": 2048,
+        "weight": 1.7,
+        "recipe": {
+            "T7_ORE_LEVEL4@4": {
+                "amount": "5"
+            },
+            "T6_METALBAR_LEVEL4@4": {
+                "amount": "1"
+            }
+        },
+        "category": "metalbar",
+        "crafting_station": "smelter",
+        "quality": 1,
+        "crafting_tax": 714,
+        "revision_buy": "917",
+        "revision_sell": "1272",
+        "price_sell": 590000,
+        "price_buy": 508939,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T2_LEATHER": {
+        "id": "T2_LEATHER",
+        "ign": "Stiff Leather",
+        "item_value": 4,
+        "weight": 0.2,
+        "recipe": {
+            "T2_HIDE": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "662",
+        "revision_sell": "762",
+        "price_sell": 32,
+        "price_buy": 25,
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T3_LEATHER": {
+        "id": "T3_LEATHER",
+        "ign": "Thick Leather",
+        "item_value": 8,
+        "weight": 0.3,
+        "recipe": {
+            "T3_HIDE": {
+                "amount": "2"
+            },
+            "T2_LEATHER": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 3,
+        "revision_buy": "457",
+        "revision_sell": "122",
+        "price_sell": 115,
+        "price_buy": 105,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T4_LEATHER": {
+        "id": "T4_LEATHER",
+        "ign": "Worked Leather",
+        "item_value": 16,
+        "weight": 0.5,
+        "recipe": {
+            "T4_HIDE": {
+                "amount": "2"
+            },
+            "T3_LEATHER": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 7,
+        "revision_buy": "262",
+        "revision_sell": "1247",
+        "price_sell": 182,
+        "price_buy": 137,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T5_LEATHER": {
+        "id": "T5_LEATHER",
+        "ign": "Cured Leather",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {
+            "T5_HIDE": {
+                "amount": "3"
+            },
+            "T4_LEATHER": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 15,
+        "revision_buy": "262",
+        "revision_sell": "902",
+        "price_sell": 901,
+        "price_buy": 650,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T4_LEATHER_LEVEL1@1": {
+        "id": "T4_LEATHER_LEVEL1@1",
+        "ign": "Uncommon Worked Leather",
+        "item_value": 32,
+        "weight": 0.5,
+        "recipe": {
+            "T4_HIDE_LEVEL1@1": {
+                "amount": "2"
+            },
+            "T3_LEATHER": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 15,
+        "revision_buy": "262",
+        "revision_sell": "217",
+        "price_sell": 351,
+        "price_buy": 312,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T6_LEATHER_LEVEL1@1": {
+        "id": "T6_LEATHER_LEVEL1@1",
+        "ign": "Uncommon Hardened Leather",
+        "item_value": 128,
+        "weight": 1.1,
+        "recipe": {
+            "T6_HIDE_LEVEL1@1": {
+                "amount": "4"
+            },
+            "T5_LEATHER_LEVEL1@1": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 63,
+        "revision_buy": "262",
+        "revision_sell": "707",
+        "price_sell": 7301,
+        "price_buy": 7278,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T4_LEATHER_LEVEL2@2": {
+        "id": "T4_LEATHER_LEVEL2@2",
+        "ign": "Rare Worked Leather",
+        "item_value": 64,
+        "weight": 0.5,
+        "recipe": {
+            "T4_HIDE_LEVEL2@2": {
+                "amount": "2"
+            },
+            "T3_LEATHER": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 31,
+        "revision_buy": "257",
+        "revision_sell": "957",
+        "price_sell": 1400,
+        "price_buy": 1303,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T5_LEATHER_LEVEL2@2": {
+        "id": "T5_LEATHER_LEVEL2@2",
+        "ign": "Rare Cured Leather",
+        "item_value": 128,
+        "weight": 0.8,
+        "recipe": {
+            "T5_HIDE_LEVEL2@2": {
+                "amount": "3"
+            },
+            "T4_LEATHER_LEVEL2@2": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 63,
+        "revision_buy": "262",
+        "revision_sell": "987",
+        "price_sell": 5005,
+        "price_buy": 4937,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T4_LEATHER_LEVEL3@3": {
+        "id": "T4_LEATHER_LEVEL3@3",
+        "ign": "Exceptional Worked Leather",
+        "item_value": 128,
+        "weight": 0.5,
+        "recipe": {
+            "T4_HIDE_LEVEL3@3": {
+                "amount": "2"
+            },
+            "T3_LEATHER": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 63,
+        "revision_buy": "302",
+        "revision_sell": "122",
+        "price_sell": 7500,
+        "price_buy": 7092,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T5_LEATHER_LEVEL3@3": {
+        "id": "T5_LEATHER_LEVEL3@3",
+        "ign": "Exceptional Cured Leather",
+        "item_value": 256,
+        "weight": 0.8,
+        "recipe": {
+            "T5_HIDE_LEVEL3@3": {
+                "amount": "3"
+            },
+            "T4_LEATHER_LEVEL3@3": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 126,
+        "revision_buy": "257",
+        "revision_sell": "262",
+        "price_sell": 18501,
+        "price_buy": 18449,
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T4_LEATHER_LEVEL4@4": {
+        "id": "T4_LEATHER_LEVEL4@4",
+        "ign": "Pristine Worked Leather",
+        "item_value": 256,
+        "weight": 0.5,
+        "recipe": {
+            "T4_HIDE_LEVEL4@4": {
+                "amount": "2"
+            },
+            "T3_LEATHER": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 126,
+        "revision_buy": "1247",
+        "revision_sell": "257",
+        "price_sell": 40000,
+        "price_buy": 39578,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "city_craft": ""
+    },
+    "T5_LEATHER_LEVEL4@4": {
+        "id": "T5_LEATHER_LEVEL4@4",
+        "ign": "Pristine Cured Leather",
+        "item_value": 512,
+        "weight": 0.8,
+        "recipe": {
+            "T5_HIDE_LEVEL4@4": {
+                "amount": "3"
+            },
+            "T4_LEATHER_LEVEL4@4": {
+                "amount": "1"
+            }
+        },
+        "category": "leather",
+        "crafting_station": "tanner",
+        "quality": 1,
+        "crafting_tax": 253,
+        "revision_buy": "972",
+        "revision_sell": "1052",
+        "price_sell": 83010,
+        "price_buy": 72999,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T2_CLOTH": {
+        "id": "T2_CLOTH",
+        "ign": "Simple Cloth",
+        "item_value": 4,
+        "weight": 0.2,
+        "recipe": {
+            "T2_FIBER": {
+                "amount": "1"
+            }
+        },
+        "category": "cloth",
+        "crafting_station": "weaver",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "207",
+        "revision_sell": "1282",
+        "price_sell": 24,
+        "price_buy": 11,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_CLOTH": {
+        "id": "T4_CLOTH",
+        "ign": "Fine Cloth",
+        "item_value": 16,
+        "weight": 0.5,
+        "recipe": {
+            "T4_FIBER": {
+                "amount": "2"
+            },
+            "T3_CLOTH": {
+                "amount": "1"
+            }
+        },
+        "category": "cloth",
+        "crafting_station": "weaver",
+        "quality": 1,
+        "crafting_tax": 7,
+        "revision_buy": "217",
+        "revision_sell": "197",
+        "price_sell": 213,
+        "price_buy": 138,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T5_CLOTH": {
+        "id": "T5_CLOTH",
+        "ign": "Ornate Cloth",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {
+            "T5_FIBER": {
+                "amount": "3"
+            },
+            "T4_CLOTH": {
+                "amount": "1"
+            }
+        },
+        "category": "cloth",
+        "crafting_station": "weaver",
+        "quality": 1,
+        "crafting_tax": 14,
+        "revision_buy": "217",
+        "revision_sell": "1282",
+        "price_sell": 629,
+        "price_buy": 505,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T5_CLOTH_LEVEL1@1": {
+        "id": "T5_CLOTH_LEVEL1@1",
+        "ign": "Uncommon Ornate Cloth",
+        "item_value": 64,
+        "weight": 0.8,
+        "recipe": {
+            "T5_FIBER_LEVEL1@1": {
+                "amount": "3"
+            },
+            "T4_CLOTH_LEVEL1@1": {
+                "amount": "1"
+            }
+        },
+        "category": "cloth",
+        "crafting_station": "weaver",
+        "quality": 1,
+        "crafting_tax": 28,
+        "revision_buy": "207",
+        "revision_sell": "192",
+        "price_sell": 1429,
+        "price_buy": 1143,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T6_CLOTH_LEVEL3@3": {
+        "id": "T6_CLOTH_LEVEL3@3",
+        "ign": "Exceptional Lavish Cloth",
+        "item_value": 512,
+        "weight": 1.1,
+        "recipe": {
+            "T6_FIBER_LEVEL3@3": {
+                "amount": "4"
+            },
+            "T5_CLOTH_LEVEL3@3": {
+                "amount": "1"
+            }
+        },
+        "category": "cloth",
+        "crafting_station": "weaver",
+        "quality": 1,
+        "crafting_tax": 224,
+        "revision_buy": "917",
+        "revision_sell": "722",
+        "price_sell": 52820,
+        "price_buy": 51177,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_2H_HALBERD_MORGANA": {
+        "id": "T4_ARTEFACT_2H_HALBERD_MORGANA",
+        "ign": "Adept's Morgana Halberd Head",
+        "item_value": 128,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "melee_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1292",
+        "revision_sell": "1432",
+        "price_sell": 256,
+        "price_buy": 163,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA": {
+        "id": "T4_ARTEFACT_MAIN_HOLYSTAFF_MORGANA",
+        "ign": "Adept's Possessed Scroll",
+        "item_value": 96,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "magic_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "187",
+        "revision_sell": "1087",
+        "price_sell": 309,
+        "price_buy": 174,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD": {
+        "id": "T4_ARTEFACT_2H_REPEATINGCROSSBOW_UNDEAD",
+        "ign": "Adept's Lost Crossbow Mechanism",
+        "item_value": 128,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "ranged_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "837",
+        "revision_sell": "1437",
+        "price_sell": 257,
+        "price_buy": 196,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD": {
+        "id": "T4_ARTEFACT_MAIN_CURSEDSTAFF_UNDEAD",
+        "ign": "Adept's Lost Cursed Crystal",
+        "item_value": 96,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "magic_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1262",
+        "revision_sell": "1087",
+        "price_sell": 214,
+        "price_buy": 119,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_MAIN_FIRESTAFF_KEEPER": {
+        "id": "T4_ARTEFACT_MAIN_FIRESTAFF_KEEPER",
+        "ign": "Adept's Wildfire Orb",
+        "item_value": 96,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "magic_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1107",
+        "revision_sell": "1432",
+        "price_sell": 228,
+        "price_buy": 137,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_MAIN_FROSTSTAFF_KEEPER": {
+        "id": "T4_ARTEFACT_MAIN_FROSTSTAFF_KEEPER",
+        "ign": "Adept's Hoarfrost Orb",
+        "item_value": 96,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "magic_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "987",
+        "revision_sell": "1432",
+        "price_sell": 309,
+        "price_buy": 168,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_MAIN_SPEAR_KEEPER": {
+        "id": "T4_ARTEFACT_MAIN_SPEAR_KEEPER",
+        "ign": "Adept's Keeper Spearhead",
+        "item_value": 96,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "melee_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "262",
+        "revision_sell": "202",
+        "price_sell": 185,
+        "price_buy": 181,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_2H_ARCANESTAFF_HELL": {
+        "id": "T6_ARTEFACT_2H_ARCANESTAFF_HELL",
+        "ign": "Master's Occult Orb",
+        "item_value": 1500,
+        "weight": 2.0,
+        "recipe": {
+            "T6_SOUL": {
+                "amount": "50"
+            }
+        },
+        "category": "magic_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "1052",
+        "price_sell": 4800,
+        "price_buy": 4194,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T7_ARTEFACT_2H_HARPOON_HELL": {
+        "id": "T7_ARTEFACT_2H_HARPOON_HELL",
+        "ign": "Grandmaster's Infernal Harpoon Tip",
+        "item_value": 3100,
+        "weight": 2.0,
+        "recipe": {
+            "T7_SOUL": {
+                "amount": "50"
+            }
+        },
+        "category": "melee_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1032",
+        "revision_sell": "207",
+        "price_sell": 19000,
+        "price_buy": 16990,
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T7_ARTEFACT_2H_HOLYSTAFF_HELL": {
+        "id": "T7_ARTEFACT_2H_HOLYSTAFF_HELL",
+        "ign": "Grandmaster's Infernal Scroll",
+        "item_value": 3100,
+        "weight": 2.0,
+        "recipe": {
+            "T7_SOUL": {
+                "amount": "50"
+            }
+        },
+        "category": "magic_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "37",
+        "revision_sell": "207",
+        "price_sell": 19000,
+        "price_buy": 17996,
+        "city_sell": "Martlock",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_2H_KNUCKLES_KEEPER": {
+        "id": "T4_ARTEFACT_2H_KNUCKLES_KEEPER",
+        "ign": "Adept's Ursine Guardian Remains",
+        "item_value": 128,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "melee_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "367",
+        "revision_sell": "1432",
+        "price_sell": 509,
+        "price_buy": 79,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_2H_KNUCKLES_KEEPER": {
+        "id": "T6_ARTEFACT_2H_KNUCKLES_KEEPER",
+        "ign": "Master's Ursine Guardian Remains",
+        "item_value": 512,
+        "weight": 2.0,
+        "recipe": {
+            "T6_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "melee_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1432",
+        "revision_sell": "1087",
+        "price_sell": 2615,
+        "price_buy": 1847,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T5_ARTEFACT_OFF_TOWERSHIELD_UNDEAD": {
+        "id": "T5_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "ign": "Expert's Ancient Shield Core",
+        "item_value": 64,
+        "weight": 2.0,
+        "recipe": {
+            "T5_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "1272",
+        "price_sell": 1901,
+        "price_buy": 1467,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_OFF_TOWERSHIELD_UNDEAD": {
+        "id": "T6_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "ign": "Master's Ancient Shield Core",
+        "item_value": 128,
+        "weight": 2.0,
+        "recipe": {
+            "T6_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "1272",
+        "price_sell": 2916,
+        "price_buy": 1471,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T7_ARTEFACT_OFF_TOWERSHIELD_UNDEAD": {
+        "id": "T7_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "ign": "Grandmaster's Ancient Shield Core",
+        "item_value": 256,
+        "weight": 2.0,
+        "recipe": {
+            "T7_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1042",
+        "revision_sell": "1272",
+        "price_sell": 6357,
+        "price_buy": 3170,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T5_ARTEFACT_OFF_SHIELD_HELL": {
+        "id": "T5_ARTEFACT_OFF_SHIELD_HELL",
+        "ign": "Expert's Infernal Shield Core",
+        "item_value": 192,
+        "weight": 2.0,
+        "recipe": {
+            "T5_SOUL": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "482",
+        "price_sell": 5217,
+        "price_buy": 2294,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_OFF_SHIELD_HELL": {
+        "id": "T6_ARTEFACT_OFF_SHIELD_HELL",
+        "ign": "Master's Infernal Shield Core",
+        "item_value": 384,
+        "weight": 2.0,
+        "recipe": {
+            "T6_SOUL": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "1272",
+        "price_sell": 7526,
+        "price_buy": 4920,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T7_ARTEFACT_OFF_SHIELD_AVALON": {
+        "id": "T7_ARTEFACT_OFF_SHIELD_AVALON",
+        "ign": "Grandmaster's Crushed Avalonian Heirloom",
+        "item_value": 3800,
+        "weight": 2.0,
+        "recipe": {
+            "T7_SHARD_AVALONIAN": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "202",
+        "revision_sell": "1052",
+        "price_sell": 50944,
+        "price_buy": 29876,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_OFF_ORB_MORGANA": {
+        "id": "T4_ARTEFACT_OFF_ORB_MORGANA",
+        "ign": "Adept's Alluring Crystal",
+        "item_value": 32,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "1432",
+        "price_sell": 811,
+        "price_buy": 772,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_OFF_CENSER_AVALON": {
+        "id": "T6_ARTEFACT_OFF_CENSER_AVALON",
+        "ign": "Master's Severed Celestial Keepsake",
+        "item_value": 1900,
+        "weight": 2.0,
+        "recipe": {
+            "T6_SHARD_AVALONIAN": {
+                "amount": "50"
+            }
+        },
+        "category": "offhand_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "197",
+        "price_sell": 13016,
+        "price_buy": 5960,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_HEAD_PLATE_UNDEAD": {
+        "id": "T4_ARTEFACT_HEAD_PLATE_UNDEAD",
+        "ign": "Adept's Ancient Padding",
+        "item_value": 32,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "37",
+        "revision_sell": "1432",
+        "price_sell": 1066,
+        "price_buy": 435,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T7_ARTEFACT_HEAD_PLATE_UNDEAD": {
+        "id": "T7_ARTEFACT_HEAD_PLATE_UNDEAD",
+        "ign": "Grandmaster's Ancient Padding",
+        "item_value": 256,
+        "weight": 2.0,
+        "recipe": {
+            "T7_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "202",
+        "price_sell": 3002,
+        "price_buy": 2222,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_ARMOR_PLATE_UNDEAD": {
+        "id": "T4_ARTEFACT_ARMOR_PLATE_UNDEAD",
+        "ign": "Adept's Ancient Chain Rings",
+        "item_value": 64,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "987",
+        "revision_sell": "472",
+        "price_sell": 1586,
+        "price_buy": 315,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_SHOES_PLATE_UNDEAD": {
+        "id": "T4_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "ign": "Adept's Ancient Bindings",
+        "item_value": 32,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "1432",
+        "price_sell": 1467,
+        "price_buy": 1186,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T7_ARTEFACT_SHOES_PLATE_UNDEAD": {
+        "id": "T7_ARTEFACT_SHOES_PLATE_UNDEAD",
+        "ign": "Grandmaster's Ancient Bindings",
+        "item_value": 256,
+        "weight": 2.0,
+        "recipe": {
+            "T7_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1417",
+        "revision_sell": "202",
+        "price_sell": 5750,
+        "price_buy": 4848,
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_ARMOR_PLATE_AVALON": {
+        "id": "T6_ARTEFACT_ARMOR_PLATE_AVALON",
+        "ign": "Master's Exalted Plating",
+        "item_value": 3800,
+        "weight": 2.0,
+        "recipe": {
+            "T6_SHARD_AVALONIAN": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "907",
+        "revision_sell": "192",
+        "price_sell": 8003,
+        "price_buy": 7855,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_HEAD_PLATE_FEY": {
+        "id": "T4_ARTEFACT_HEAD_PLATE_FEY",
+        "ign": "Adept's Veilweaver Mandibles",
+        "item_value": 224,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RELIC": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "412",
+        "revision_sell": "482",
+        "price_sell": 5000,
+        "price_buy": 3200,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_SHOES_PLATE_FEY": {
+        "id": "T6_ARTEFACT_SHOES_PLATE_FEY",
+        "ign": "Master's Veilweaver Claws",
+        "item_value": 896,
+        "weight": 2.0,
+        "recipe": {
+            "T6_RELIC": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "67",
+        "revision_sell": "192",
+        "price_sell": 25675,
+        "price_buy": 16000,
+        "city_sell": "Martlock",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_HEAD_LEATHER_MORGANA": {
+        "id": "T4_ARTEFACT_HEAD_LEATHER_MORGANA",
+        "ign": "Adept's Imbued Visor",
+        "item_value": 32,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "712",
+        "revision_sell": "1007",
+        "price_sell": 727,
+        "price_buy": 311,
+        "city_sell": "Lymhurst",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_ARMOR_CLOTH_KEEPER": {
+        "id": "T4_ARTEFACT_ARMOR_CLOTH_KEEPER",
+        "ign": "Adept's Druidic Feathers",
+        "item_value": 64,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "37",
+        "revision_sell": "1432",
+        "price_sell": 2402,
+        "price_buy": 998,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_SHOES_CLOTH_KEEPER": {
+        "id": "T4_ARTEFACT_SHOES_CLOTH_KEEPER",
+        "ign": "Adept's Druidic Bindings",
+        "item_value": 32,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "947",
+        "revision_sell": "1432",
+        "price_sell": 1031,
+        "price_buy": 756,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T5_ARTEFACT_SHOES_CLOTH_KEEPER": {
+        "id": "T5_ARTEFACT_SHOES_CLOTH_KEEPER",
+        "ign": "Expert's Druidic Bindings",
+        "item_value": 64,
+        "weight": 2.0,
+        "recipe": {
+            "T5_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "942",
+        "price_sell": 1036,
+        "price_buy": 595,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T6_ARTEFACT_SHOES_CLOTH_KEEPER": {
+        "id": "T6_ARTEFACT_SHOES_CLOTH_KEEPER",
+        "ign": "Master's Druidic Bindings",
+        "item_value": 128,
+        "weight": 2.0,
+        "recipe": {
+            "T6_RUNE": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "912",
+        "revision_sell": "192",
+        "price_sell": 2060,
+        "price_buy": 1846,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_ARMOR_CLOTH_HELL": {
+        "id": "T4_ARTEFACT_ARMOR_CLOTH_HELL",
+        "ign": "Adept's Infernal Cloth Folds",
+        "item_value": 192,
+        "weight": 2.0,
+        "recipe": {
+            "T4_SOUL": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "907",
+        "revision_sell": "112",
+        "price_sell": 2504,
+        "price_buy": 1771,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T4_ARTEFACT_SHOES_CLOTH_FEY": {
+        "id": "T4_ARTEFACT_SHOES_CLOTH_FEY",
+        "ign": "Adept's Fey Dragonscales",
+        "item_value": 224,
+        "weight": 2.0,
+        "recipe": {
+            "T4_RELIC": {
+                "amount": "50"
+            }
+        },
+        "category": "armor_artefact",
+        "crafting_station": "none",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "267",
+        "revision_sell": "97",
+        "price_sell": 17004,
+        "price_buy": 14000,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T3_OFF_SHIELD": {
+        "id": "T3_OFF_SHIELD",
+        "ign": "Journeyman's Shield",
+        "item_value": 64,
+        "weight": 1.1,
+        "recipe": {
+            "T3_PLANKS": {
+                "amount": "4"
+            },
+            "T3_METALBAR": {
+                "amount": "4"
+            }
+        },
+        "category": "shield",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 57,
+        "revision_buy": "1217",
+        "revision_sell": "582",
+        "price_sell": 590,
+        "price_buy": 505,
+        "city_sell": "Thetford",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Martlock"
+    },
+    "T5_OFF_SHIELD@1": {
+        "id": "T5_OFF_SHIELD@1",
+        "ign": "Expert's Shield",
+        "item_value": 512,
+        "weight": 2.5,
+        "recipe": {
+            "T5_PLANKS_LEVEL1@1": {
+                "amount": "4"
+            },
+            "T5_METALBAR_LEVEL1@1": {
+                "amount": "4"
+            }
+        },
+        "category": "shield",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "187",
+        "revision_sell": "1052",
+        "price_sell": 7958,
+        "price_buy": 5972,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Martlock"
+    },
+    "T5_CAPE": {
+        "id": "T5_CAPE",
+        "ign": "Expert's Cape",
+        "item_value": 256,
+        "weight": 2.5,
+        "recipe": {
+            "T5_CLOTH": {
+                "amount": "4"
+            },
+            "T5_LEATHER": {
+                "amount": "4"
+            }
+        },
+        "category": "cape",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1357",
+        "revision_sell": "1002",
+        "price_sell": 4598,
+        "price_buy": 4274,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T4_CAPEITEM_FW_FORTSTERLING": {
+        "id": "T4_CAPEITEM_FW_FORTSTERLING",
+        "ign": "Adept's Fort Sterling Cape",
+        "item_value": 161900,
+        "weight": 1.7,
+        "recipe": {
+            "T4_CAPE": {
+                "amount": "1"
+            },
+            "T4_CAPEITEM_FW_FORTSTERLING_BP": {
+                "amount": "1"
+            },
+            "T1_FACTION_MOUNTAIN_TOKEN_1": {
+                "amount": "1"
+            }
+        },
+        "category": "cape",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "392",
+        "revision_sell": "1072",
+        "price_sell": 49061,
+        "price_buy": 47960,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Caerleon",
+        "city_craft": ""
+    },
+    "T4_CAPEITEM_HERETIC": {
+        "id": "T4_CAPEITEM_HERETIC",
+        "ign": "Adept's Heretic Cape",
+        "item_value": 161900,
+        "weight": 1.7,
+        "recipe": {
+            "T4_CAPE": {
+                "amount": "1"
+            },
+            "T4_CAPEITEM_HERETIC_BP": {
+                "amount": "1"
+            },
+            "T1_FACTION_FOREST_TOKEN_1": {
+                "amount": "1"
+            }
+        },
+        "category": "cape",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1092",
+        "revision_sell": "1077",
+        "price_sell": 36005,
+        "price_buy": 34993,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": ""
+    },
+    "T4_BAG": {
+        "id": "T4_BAG",
+        "ign": "Adept's Bag",
+        "item_value": 256,
+        "weight": 3.4,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "8"
+            },
+            "T4_LEATHER": {
+                "amount": "8"
+            }
+        },
+        "category": "bag",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "197",
+        "revision_sell": "202",
+        "price_sell": 3340,
+        "price_buy": 2494,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T5_BAG": {
+        "id": "T5_BAG",
+        "ign": "Expert's Bag",
+        "item_value": 512,
+        "weight": 5.1,
+        "recipe": {
+            "T5_CLOTH": {
+                "amount": "8"
+            },
+            "T5_LEATHER": {
+                "amount": "8"
+            }
+        },
+        "category": "bag",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "227",
+        "revision_sell": "517",
+        "price_sell": 10002,
+        "price_buy": 8970,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": ""
+    },
+    "T4_BAG_INSIGHT": {
+        "id": "T4_BAG_INSIGHT",
+        "ign": "Adept's Satchel of Insight",
+        "item_value": 162028,
+        "weight": 3.4,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "8"
+            },
+            "T4_LEATHER": {
+                "amount": "8"
+            },
+            "T4_SKILLBOOK_STANDARD": {
+                "amount": "1"
+            }
+        },
+        "category": "bag",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1212",
+        "revision_sell": "212",
+        "price_sell": 15058,
+        "price_buy": 12999,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T4_BAG_INSIGHT@1": {
+        "id": "T4_BAG_INSIGHT@1",
+        "ign": "Adept's Satchel of Insight",
+        "item_value": 162284,
+        "weight": 3.4,
+        "recipe": {
+            "T4_CLOTH_LEVEL1@1": {
+                "amount": "8"
+            },
+            "T4_LEATHER_LEVEL1@1": {
+                "amount": "8"
+            },
+            "T4_SKILLBOOK_STANDARD": {
+                "amount": "1"
+            }
+        },
+        "category": "bag",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "1212",
+        "revision_sell": "812",
+        "price_sell": 19277,
+        "price_buy": 18282,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": ""
+    },
+    "T4_BAG_INSIGHT@2": {
+        "id": "T4_BAG_INSIGHT@2",
+        "ign": "Adept's Satchel of Insight",
+        "item_value": 162796,
+        "weight": 3.4,
+        "recipe": {
+            "T4_CLOTH_LEVEL2@2": {
+                "amount": "8"
+            },
+            "T4_LEATHER_LEVEL2@2": {
+                "amount": "8"
+            },
+            "T4_SKILLBOOK_STANDARD": {
+                "amount": "1"
+            }
+        },
+        "category": "bag",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "922",
+        "revision_sell": "1052",
+        "price_sell": 29364,
+        "price_buy": 28000,
+        "city_sell": "Thetford",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T5_BAG_INSIGHT": {
+        "id": "T5_BAG_INSIGHT",
+        "ign": "Expert's Satchel of Insight",
+        "item_value": 162284,
+        "weight": 5.1,
+        "recipe": {
+            "T5_CLOTH": {
+                "amount": "8"
+            },
+            "T5_LEATHER": {
+                "amount": "8"
+            },
+            "T4_SKILLBOOK_STANDARD": {
+                "amount": "1"
+            }
+        },
+        "category": "bag",
+        "crafting_station": "toolmaker",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "617",
+        "revision_sell": "212",
+        "price_sell": 21213,
+        "price_buy": 19931,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": ""
+    },
+    "T2_HEAD_PLATE_SET1": {
+        "id": "T2_HEAD_PLATE_SET1",
+        "ign": "Novice's Soldier Helmet",
+        "item_value": 32,
+        "weight": 0.8,
+        "recipe": {
+            "T2_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 0,
+        "revision_buy": "267",
+        "revision_sell": "1052",
+        "price_sell": 41,
+        "price_buy": 30,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T3_HEAD_PLATE_SET1": {
+        "id": "T3_HEAD_PLATE_SET1",
+        "ign": "Journeyman's Soldier Helmet",
+        "item_value": 64,
+        "weight": 1.1,
+        "recipe": {
+            "T3_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 57,
+        "revision_buy": "582",
+        "revision_sell": "237",
+        "price_sell": 587,
+        "price_buy": 345,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_HEAD_PLATE_SET1": {
+        "id": "T4_HEAD_PLATE_SET1",
+        "ign": "Adept's Soldier Helmet",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "967",
+        "revision_sell": "227",
+        "price_sell": 716,
+        "price_buy": 557,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": "Fort Sterling"
+    },
+    "T5_HEAD_PLATE_SET1@1": {
+        "id": "T5_HEAD_PLATE_SET1@1",
+        "ign": "Expert's Soldier Helmet",
+        "item_value": 512,
+        "weight": 2.5,
+        "recipe": {
+            "T5_METALBAR_LEVEL1@1": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "192",
+        "revision_sell": "237",
+        "price_sell": 7322,
+        "price_buy": 7169,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Fort Sterling"
+    },
+    "T6_HEAD_PLATE_SET1": {
+        "id": "T6_HEAD_PLATE_SET1",
+        "ign": "Master's Soldier Helmet",
+        "item_value": 512,
+        "weight": 3.8,
+        "recipe": {
+            "T6_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "832",
+        "revision_sell": "187",
+        "price_sell": 10020,
+        "price_buy": 9996,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T5_ARMOR_PLATE_SET1@1": {
+        "id": "T5_ARMOR_PLATE_SET1@1",
+        "ign": "Expert's Soldier Armor",
+        "item_value": 1024,
+        "weight": 5.1,
+        "recipe": {
+            "T5_METALBAR_LEVEL1@1": {
+                "amount": "16"
+            }
+        },
+        "category": "plate_armor",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "307",
+        "revision_sell": "757",
+        "price_sell": 11109,
+        "price_buy": 9999,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Bridgewatch"
+    },
+    "T6_ARMOR_PLATE_SET1@1": {
+        "id": "T6_ARMOR_PLATE_SET1@1",
+        "ign": "Master's Soldier Armor",
+        "item_value": 2048,
+        "weight": 7.6,
+        "recipe": {
+            "T6_METALBAR_LEVEL1@1": {
+                "amount": "16"
+            }
+        },
+        "category": "plate_armor",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 1843,
+        "revision_buy": "732",
+        "revision_sell": "962",
+        "price_sell": 46309,
+        "price_buy": 46000,
+        "city_sell": "Lymhurst",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_SHOES_PLATE_SET1": {
+        "id": "T4_SHOES_PLATE_SET1",
+        "ign": "Adept's Soldier Boots",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_shoes",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "207",
+        "revision_sell": "1052",
+        "price_sell": 1023,
+        "price_buy": 867,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Martlock"
+    },
+    "T4_SHOES_PLATE_SET1@2": {
+        "id": "T4_SHOES_PLATE_SET1@2",
+        "ign": "Adept's Soldier Boots",
+        "item_value": 512,
+        "weight": 1.7,
+        "recipe": {
+            "T4_METALBAR_LEVEL2@2": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_shoes",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "247",
+        "revision_sell": "862",
+        "price_sell": 10271,
+        "price_buy": 9982,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Martlock"
+    },
+    "T6_SHOES_PLATE_SET1@1": {
+        "id": "T6_SHOES_PLATE_SET1@1",
+        "ign": "Master's Soldier Boots",
+        "item_value": 1024,
+        "weight": 3.8,
+        "recipe": {
+            "T6_METALBAR_LEVEL1@1": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_shoes",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "337",
+        "revision_sell": "932",
+        "price_sell": 36735,
+        "price_buy": 30966,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": "Martlock"
+    },
+    "T4_HEAD_PLATE_SET2": {
+        "id": "T4_HEAD_PLATE_SET2",
+        "ign": "Adept's Knight Helmet",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "732",
+        "revision_sell": "197",
+        "price_sell": 709,
+        "price_buy": 494,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_ARMOR_PLATE_SET2": {
+        "id": "T4_ARMOR_PLATE_SET2",
+        "ign": "Adept's Knight Armor",
+        "item_value": 256,
+        "weight": 3.4,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "16"
+            }
+        },
+        "category": "plate_armor",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 230,
+        "revision_buy": "202",
+        "revision_sell": "807",
+        "price_sell": 830,
+        "price_buy": 756,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T6_ARMOR_PLATE_SET2": {
+        "id": "T6_ARMOR_PLATE_SET2",
+        "ign": "Master's Knight Armor",
+        "item_value": 1024,
+        "weight": 7.6,
+        "recipe": {
+            "T6_METALBAR": {
+                "amount": "16"
+            }
+        },
+        "category": "plate_armor",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "202",
+        "revision_sell": "1052",
+        "price_sell": 17503,
+        "price_buy": 15992,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_SHOES_PLATE_SET2": {
+        "id": "T4_SHOES_PLATE_SET2",
+        "ign": "Adept's Knight Boots",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_shoes",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "1192",
+        "revision_sell": "227",
+        "price_sell": 975,
+        "price_buy": 660,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": "Martlock"
+    },
+    "T5_SHOES_PLATE_SET2": {
+        "id": "T5_SHOES_PLATE_SET2",
+        "ign": "Expert's Knight Boots",
+        "item_value": 256,
+        "weight": 2.5,
+        "recipe": {
+            "T5_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_shoes",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 230,
+        "revision_buy": "597",
+        "revision_sell": "1052",
+        "price_sell": 3001,
+        "price_buy": 2686,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Lymhurst",
+        "city_craft": "Martlock"
+    },
+    "T6_SHOES_PLATE_SET2": {
+        "id": "T6_SHOES_PLATE_SET2",
+        "ign": "Master's Knight Boots",
+        "item_value": 512,
+        "weight": 3.8,
+        "recipe": {
+            "T6_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_shoes",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "202",
+        "revision_sell": "1052",
+        "price_sell": 10045,
+        "price_buy": 9989,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Thetford",
+        "city_craft": "Martlock"
+    },
+    "T4_HEAD_PLATE_SET3": {
+        "id": "T4_HEAD_PLATE_SET3",
+        "ign": "Adept's Guardian Helmet",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "267",
+        "revision_sell": "232",
+        "price_sell": 487,
+        "price_buy": 367,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_HEAD_PLATE_KEEPER@3": {
+        "id": "T4_HEAD_PLATE_KEEPER@3",
+        "ign": "Adept's Judicator Helmet",
+        "item_value": 1248,
+        "weight": 1.7,
+        "recipe": {
+            "T4_METALBAR_LEVEL3@3": {
+                "amount": "8"
+            },
+            "T4_ARTEFACT_HEAD_PLATE_KEEPER": {
+                "amount": "1"
+            }
+        },
+        "category": "plate_helmet",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 1123,
+        "revision_buy": "917",
+        "revision_sell": "1052",
+        "price_sell": 21440,
+        "price_buy": 20994,
+        "city_sell": "Thetford",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_ARMOR_LEATHER_SET1": {
+        "id": "T4_ARMOR_LEATHER_SET1",
+        "ign": "Adept's Mercenary Jacket",
+        "item_value": 256,
+        "weight": 3.4,
+        "recipe": {
+            "T4_LEATHER": {
+                "amount": "16"
+            }
+        },
+        "category": "leather_armor",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 230,
+        "revision_buy": "257",
+        "revision_sell": "202",
+        "price_sell": 1065,
+        "price_buy": 798,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T4_ARMOR_LEATHER_SET1@1": {
+        "id": "T4_ARMOR_LEATHER_SET1@1",
+        "ign": "Adept's Mercenary Jacket",
+        "item_value": 512,
+        "weight": 3.4,
+        "recipe": {
+            "T4_LEATHER_LEVEL1@1": {
+                "amount": "16"
+            }
+        },
+        "category": "leather_armor",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "207",
+        "revision_sell": "207",
+        "price_sell": 4456,
+        "price_buy": 3983,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T5_ARMOR_LEATHER_SET1": {
+        "id": "T5_ARMOR_LEATHER_SET1",
+        "ign": "Expert's Mercenary Jacket",
+        "item_value": 512,
+        "weight": 5.1,
+        "recipe": {
+            "T5_LEATHER": {
+                "amount": "16"
+            }
+        },
+        "category": "leather_armor",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "1237",
+        "revision_sell": "1052",
+        "price_sell": 8037,
+        "price_buy": 7449,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T6_ARMOR_LEATHER_SET1": {
+        "id": "T6_ARMOR_LEATHER_SET1",
+        "ign": "Master's Mercenary Jacket",
+        "item_value": 1024,
+        "weight": 7.6,
+        "recipe": {
+            "T6_LEATHER": {
+                "amount": "16"
+            }
+        },
+        "category": "leather_armor",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "1377",
+        "revision_sell": "997",
+        "price_sell": 32017,
+        "price_buy": 31965,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": "Thetford"
+    },
+    "T4_SHOES_LEATHER_SET2": {
+        "id": "T4_SHOES_LEATHER_SET2",
+        "ign": "Adept's Hunter Shoes",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_LEATHER": {
+                "amount": "8"
+            }
+        },
+        "category": "leather_shoes",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "647",
+        "revision_sell": "142",
+        "price_sell": 921,
+        "price_buy": 699,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": "Lymhurst"
+    },
+    "T5_ARMOR_LEATHER_SET3": {
+        "id": "T5_ARMOR_LEATHER_SET3",
+        "ign": "Expert's Assassin Jacket",
+        "item_value": 512,
+        "weight": 5.1,
+        "recipe": {
+            "T5_LEATHER": {
+                "amount": "16"
+            }
+        },
+        "category": "leather_armor",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "187",
+        "revision_sell": "392",
+        "price_sell": 7624,
+        "price_buy": 6196,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": "Thetford"
+    },
+    "T6_ARMOR_LEATHER_SET3": {
+        "id": "T6_ARMOR_LEATHER_SET3",
+        "ign": "Master's Assassin Jacket",
+        "item_value": 1024,
+        "weight": 7.6,
+        "recipe": {
+            "T6_LEATHER": {
+                "amount": "16"
+            }
+        },
+        "category": "leather_armor",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "302",
+        "revision_sell": "747",
+        "price_sell": 28285,
+        "price_buy": 24992,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T4_SHOES_LEATHER_SET3": {
+        "id": "T4_SHOES_LEATHER_SET3",
+        "ign": "Adept's Assassin Shoes",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_LEATHER": {
+                "amount": "8"
+            }
+        },
+        "category": "leather_shoes",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "647",
+        "revision_sell": "1052",
+        "price_sell": 901,
+        "price_buy": 590,
+        "city_sell": "Martlock",
+        "city_buy": "Lymhurst",
+        "city_craft": "Lymhurst"
+    },
+    "T5_SHOES_LEATHER_SET3@2": {
+        "id": "T5_SHOES_LEATHER_SET3@2",
+        "ign": "Expert's Assassin Shoes",
+        "item_value": 1024,
+        "weight": 2.5,
+        "recipe": {
+            "T5_LEATHER_LEVEL2@2": {
+                "amount": "8"
+            }
+        },
+        "category": "leather_shoes",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "257",
+        "revision_sell": "117",
+        "price_sell": 22000,
+        "price_buy": 19998,
+        "city_sell": "Lymhurst",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Lymhurst"
+    },
+    "T7_HEAD_LEATHER_MORGANA": {
+        "id": "T7_HEAD_LEATHER_MORGANA",
+        "ign": "Grandmaster's Stalker Hood",
+        "item_value": 1280,
+        "weight": 5.7,
+        "recipe": {
+            "T7_LEATHER": {
+                "amount": "8"
+            },
+            "T7_ARTEFACT_HEAD_LEATHER_MORGANA": {
+                "amount": "1"
+            }
+        },
+        "category": "leather_helmet",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 1152,
+        "revision_buy": "1432",
+        "revision_sell": "387",
+        "price_sell": 95000,
+        "price_buy": 78858,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Lymhurst"
+    },
+    "T4_HEAD_CLOTH_SET1": {
+        "id": "T4_HEAD_CLOTH_SET1",
+        "ign": "Adept's Scholar Cowl",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "8"
+            }
+        },
+        "category": "cloth_helmet",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "807",
+        "revision_sell": "227",
+        "price_sell": 843,
+        "price_buy": 449,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": "Thetford"
+    },
+    "T4_HEAD_CLOTH_SET1@1": {
+        "id": "T4_HEAD_CLOTH_SET1@1",
+        "ign": "Adept's Scholar Cowl",
+        "item_value": 256,
+        "weight": 1.7,
+        "recipe": {
+            "T4_CLOTH_LEVEL1@1": {
+                "amount": "8"
+            }
+        },
+        "category": "cloth_helmet",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 230,
+        "revision_buy": "1217",
+        "revision_sell": "862",
+        "price_sell": 2298,
+        "price_buy": 2187,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Thetford"
+    },
+    "T3_ARMOR_CLOTH_SET1": {
+        "id": "T3_ARMOR_CLOTH_SET1",
+        "ign": "Journeyman's Scholar Robe",
+        "item_value": 128,
+        "weight": 2.3,
+        "recipe": {
+            "T3_CLOTH": {
+                "amount": "16"
+            }
+        },
+        "category": "cloth_armor",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "767",
+        "revision_sell": "117",
+        "price_sell": 930,
+        "price_buy": 843,
+        "city_sell": "Martlock",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_ARMOR_CLOTH_SET1": {
+        "id": "T4_ARMOR_CLOTH_SET1",
+        "ign": "Adept's Scholar Robe",
+        "item_value": 256,
+        "weight": 3.4,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "16"
+            }
+        },
+        "category": "cloth_armor",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 230,
+        "revision_buy": "362",
+        "revision_sell": "942",
+        "price_sell": 1652,
+        "price_buy": 900,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_SHOES_CLOTH_SET1": {
+        "id": "T4_SHOES_CLOTH_SET1",
+        "ign": "Adept's Scholar Sandals",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "8"
+            }
+        },
+        "category": "cloth_shoes",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "687",
+        "revision_sell": "882",
+        "price_sell": 641,
+        "price_buy": 371,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T5_HEAD_CLOTH_SET2@1": {
+        "id": "T5_HEAD_CLOTH_SET2@1",
+        "ign": "Expert's Cleric Cowl",
+        "item_value": 512,
+        "weight": 2.5,
+        "recipe": {
+            "T5_CLOTH_LEVEL1@1": {
+                "amount": "8"
+            }
+        },
+        "category": "cloth_helmet",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "607",
+        "revision_sell": "1052",
+        "price_sell": 10452,
+        "price_buy": 8692,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T4_ARMOR_CLOTH_SET2": {
+        "id": "T4_ARMOR_CLOTH_SET2",
+        "ign": "Adept's Cleric Robe",
+        "item_value": 256,
+        "weight": 3.4,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "16"
+            }
+        },
+        "category": "cloth_armor",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 230,
+        "revision_buy": "227",
+        "revision_sell": "1152",
+        "price_sell": 2081,
+        "price_buy": 1456,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T5_ARMOR_CLOTH_SET2": {
+        "id": "T5_ARMOR_CLOTH_SET2",
+        "ign": "Expert's Cleric Robe",
+        "item_value": 512,
+        "weight": 5.1,
+        "recipe": {
+            "T5_CLOTH": {
+                "amount": "16"
+            }
+        },
+        "category": "cloth_armor",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "772",
+        "revision_sell": "877",
+        "price_sell": 4630,
+        "price_buy": 4484,
+        "city_sell": "Lymhurst",
+        "city_buy": "Caerleon",
+        "city_craft": "Fort Sterling"
+    },
+    "T6_ARMOR_CLOTH_SET2": {
+        "id": "T6_ARMOR_CLOTH_SET2",
+        "ign": "Master's Cleric Robe",
+        "item_value": 1024,
+        "weight": 7.6,
+        "recipe": {
+            "T6_CLOTH": {
+                "amount": "16"
+            }
+        },
+        "category": "cloth_armor",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "537",
+        "revision_sell": "1052",
+        "price_sell": 19012,
+        "price_buy": 14950,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_SHOES_CLOTH_SET2": {
+        "id": "T4_SHOES_CLOTH_SET2",
+        "ign": "Adept's Cleric Sandals",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "8"
+            }
+        },
+        "category": "cloth_shoes",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "817",
+        "revision_sell": "1052",
+        "price_sell": 898,
+        "price_buy": 749,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_HEAD_CLOTH_SET3": {
+        "id": "T4_HEAD_CLOTH_SET3",
+        "ign": "Adept's Mage Cowl",
+        "item_value": 128,
+        "weight": 1.7,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "8"
+            }
+        },
+        "category": "cloth_helmet",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 115,
+        "revision_buy": "232",
+        "revision_sell": "1197",
+        "price_sell": 1150,
+        "price_buy": 780,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T4_ARMOR_CLOTH_SET3": {
+        "id": "T4_ARMOR_CLOTH_SET3",
+        "ign": "Adept's Mage Robe",
+        "item_value": 256,
+        "weight": 3.4,
+        "recipe": {
+            "T4_CLOTH": {
+                "amount": "16"
+            }
+        },
+        "category": "cloth_armor",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 230,
+        "revision_buy": "362",
+        "revision_sell": "1052",
+        "price_sell": 1322,
+        "price_buy": 1060,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_2H_WARBOW": {
+        "id": "T4_2H_WARBOW",
+        "ign": "Adept's Warbow",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "32"
+            }
+        },
+        "category": "bow",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "42",
+        "revision_sell": "752",
+        "price_sell": 2110,
+        "price_buy": 1037,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Lymhurst"
+    },
+    "T4_2H_CROSSBOW": {
+        "id": "T4_2H_CROSSBOW",
+        "ign": "Adept's Crossbow",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "20"
+            },
+            "T4_METALBAR": {
+                "amount": "12"
+            }
+        },
+        "category": "crossbow",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "247",
+        "revision_sell": "752",
+        "price_sell": 3806,
+        "price_buy": 2920,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_MAIN_1HCROSSBOW": {
+        "id": "T4_MAIN_1HCROSSBOW",
+        "ign": "Adept's Light Crossbow",
+        "item_value": 384,
+        "weight": 5.1,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "16"
+            },
+            "T4_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "crossbow",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 345,
+        "revision_buy": "1007",
+        "revision_sell": "972",
+        "price_sell": 3302,
+        "price_buy": 1986,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Bridgewatch"
+    },
+    "T5_MAIN_1HCROSSBOW@1": {
+        "id": "T5_MAIN_1HCROSSBOW@1",
+        "ign": "Expert's Light Crossbow",
+        "item_value": 1536,
+        "weight": 7.6,
+        "recipe": {
+            "T5_PLANKS_LEVEL1@1": {
+                "amount": "16"
+            },
+            "T5_METALBAR_LEVEL1@1": {
+                "amount": "8"
+            }
+        },
+        "category": "crossbow",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 1382,
+        "revision_buy": "752",
+        "revision_sell": "1052",
+        "price_sell": 43381,
+        "price_buy": 38998,
+        "city_sell": "Caerleon",
+        "city_buy": "Lymhurst",
+        "city_craft": "Bridgewatch"
+    },
+    "T3_MAIN_CURSEDSTAFF": {
+        "id": "T3_MAIN_CURSEDSTAFF",
+        "ign": "Journeyman's Cursed Staff",
+        "item_value": 192,
+        "weight": 3.4,
+        "recipe": {
+            "T3_PLANKS": {
+                "amount": "16"
+            },
+            "T3_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "cursestaff",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 172,
+        "revision_buy": "892",
+        "revision_sell": "192",
+        "price_sell": 1219,
+        "price_buy": 1006,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_2H_CURSEDSTAFF": {
+        "id": "T4_2H_CURSEDSTAFF",
+        "ign": "Adept's Great Cursed Staff",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "20"
+            },
+            "T4_METALBAR": {
+                "amount": "12"
+            }
+        },
+        "category": "cursestaff",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "307",
+        "revision_sell": "792",
+        "price_sell": 3024,
+        "price_buy": 2784,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Bridgewatch"
+    },
+    "T6_2H_CURSEDSTAFF": {
+        "id": "T6_2H_CURSEDSTAFF",
+        "ign": "Master's Great Cursed Staff",
+        "item_value": 2048,
+        "weight": 15.2,
+        "recipe": {
+            "T6_PLANKS": {
+                "amount": "20"
+            },
+            "T6_METALBAR": {
+                "amount": "12"
+            }
+        },
+        "category": "cursestaff",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 1843,
+        "revision_buy": "307",
+        "revision_sell": "757",
+        "price_sell": 28951,
+        "price_buy": 28500,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_2H_DEMONICSTAFF": {
+        "id": "T4_2H_DEMONICSTAFF",
+        "ign": "Adept's Demonic Staff",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "20"
+            },
+            "T4_METALBAR": {
+                "amount": "12"
+            }
+        },
+        "category": "cursestaff",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "202",
+        "revision_sell": "792",
+        "price_sell": 3364,
+        "price_buy": 2179,
+        "city_sell": "Lymhurst",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T3_MAIN_ARCANESTAFF": {
+        "id": "T3_MAIN_ARCANESTAFF",
+        "ign": "Journeyman's Arcane Staff",
+        "item_value": 192,
+        "weight": 3.4,
+        "recipe": {
+            "T3_PLANKS": {
+                "amount": "16"
+            },
+            "T3_METALBAR": {
+                "amount": "8"
+            }
+        },
+        "category": "arcanestaff",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 172,
+        "revision_buy": "217",
+        "revision_sell": "262",
+        "price_sell": 1307,
+        "price_buy": 1140,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": "Lymhurst"
+    },
+    "T4_2H_ARCANESTAFF": {
+        "id": "T4_2H_ARCANESTAFF",
+        "ign": "Adept's Great Arcane Staff",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "20"
+            },
+            "T4_METALBAR": {
+                "amount": "12"
+            }
+        },
+        "category": "arcanestaff",
+        "crafting_station": "mage",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "152",
+        "revision_sell": "187",
+        "price_sell": 4831,
+        "price_buy": 4816,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Lymhurst"
+    },
+    "T6_2H_NATURESTAFF_HELL@2": {
+        "id": "T6_2H_NATURESTAFF_HELL@2",
+        "ign": "Master's Blight Staff",
+        "item_value": 9692,
+        "weight": 15.2,
+        "recipe": {
+            "T6_PLANKS_LEVEL2@2": {
+                "amount": "20"
+            },
+            "T6_CLOTH_LEVEL2@2": {
+                "amount": "12"
+            },
+            "T6_ARTEFACT_2H_NATURESTAFF_HELL": {
+                "amount": "1"
+            }
+        },
+        "category": "naturestaff",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 8722,
+        "revision_buy": "257",
+        "revision_sell": "1052",
+        "price_sell": 300000,
+        "price_buy": 285999,
+        "city_sell": "Martlock",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Thetford"
+    },
+    "T3_MAIN_DAGGER": {
+        "id": "T3_MAIN_DAGGER",
+        "ign": "Journeyman's Dagger",
+        "item_value": 192,
+        "weight": 3.4,
+        "recipe": {
+            "T3_METALBAR": {
+                "amount": "12"
+            },
+            "T3_LEATHER": {
+                "amount": "12"
+            }
+        },
+        "category": "dagger",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 172,
+        "revision_buy": "227",
+        "revision_sell": "1212",
+        "price_sell": 714,
+        "price_buy": 600,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_MAIN_DAGGER": {
+        "id": "T4_MAIN_DAGGER",
+        "ign": "Adept's Dagger",
+        "item_value": 384,
+        "weight": 5.1,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "12"
+            },
+            "T4_LEATHER": {
+                "amount": "12"
+            }
+        },
+        "category": "dagger",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 345,
+        "revision_buy": "337",
+        "revision_sell": "202",
+        "price_sell": 2621,
+        "price_buy": 2141,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Bridgewatch"
+    },
+    "T5_MAIN_DAGGER": {
+        "id": "T5_MAIN_DAGGER",
+        "ign": "Expert's Dagger",
+        "item_value": 768,
+        "weight": 7.6,
+        "recipe": {
+            "T5_METALBAR": {
+                "amount": "12"
+            },
+            "T5_LEATHER": {
+                "amount": "12"
+            }
+        },
+        "category": "dagger",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 691,
+        "revision_buy": "1032",
+        "revision_sell": "777",
+        "price_sell": 10493,
+        "price_buy": 9044,
+        "city_sell": "Lymhurst",
+        "city_buy": "Martlock",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_2H_DAGGERPAIR": {
+        "id": "T4_2H_DAGGERPAIR",
+        "ign": "Adept's Dagger Pair",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "16"
+            },
+            "T4_LEATHER": {
+                "amount": "16"
+            }
+        },
+        "category": "dagger",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "237",
+        "revision_sell": "202",
+        "price_sell": 3739,
+        "price_buy": 2153,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_2H_CLAWPAIR@1": {
+        "id": "T4_2H_CLAWPAIR@1",
+        "ign": "Adept's Claws",
+        "item_value": 1024,
+        "weight": 6.8,
+        "recipe": {
+            "T4_METALBAR_LEVEL1@1": {
+                "amount": "12"
+            },
+            "T4_LEATHER_LEVEL1@1": {
+                "amount": "20"
+            }
+        },
+        "category": "dagger",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 921,
+        "revision_buy": "837",
+        "revision_sell": "202",
+        "price_sell": 15049,
+        "price_buy": 9500,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_MAIN_RAPIER_MORGANA@1": {
+        "id": "T4_MAIN_RAPIER_MORGANA@1",
+        "ign": "Adept's Bloodletter",
+        "item_value": 864,
+        "weight": 5.1,
+        "recipe": {
+            "T4_METALBAR_LEVEL1@1": {
+                "amount": "16"
+            },
+            "T4_LEATHER_LEVEL1@1": {
+                "amount": "8"
+            },
+            "T4_ARTEFACT_MAIN_RAPIER_MORGANA": {
+                "amount": "1"
+            }
+        },
+        "category": "dagger",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 777,
+        "revision_buy": "197",
+        "revision_sell": "202",
+        "price_sell": 11701,
+        "price_buy": 11494,
+        "city_sell": "Thetford",
+        "city_buy": "Caerleon",
+        "city_craft": "Bridgewatch"
+    },
+    "T5_MAIN_RAPIER_MORGANA": {
+        "id": "T5_MAIN_RAPIER_MORGANA",
+        "ign": "Expert's Bloodletter",
+        "item_value": 960,
+        "weight": 7.6,
+        "recipe": {
+            "T5_METALBAR": {
+                "amount": "16"
+            },
+            "T5_LEATHER": {
+                "amount": "8"
+            },
+            "T5_ARTEFACT_MAIN_RAPIER_MORGANA": {
+                "amount": "1"
+            }
+        },
+        "category": "dagger",
+        "crafting_station": "hunter",
+        "quality": 1,
+        "crafting_tax": 864,
+        "revision_buy": "757",
+        "revision_sell": "1052",
+        "price_sell": 20153,
+        "price_buy": 20000,
+        "city_sell": "Fort Sterling",
+        "city_buy": "Lymhurst",
+        "city_craft": "Bridgewatch"
+    },
+    "T4_MAIN_AXE": {
+        "id": "T4_MAIN_AXE",
+        "ign": "Adept's Battleaxe",
+        "item_value": 384,
+        "weight": 5.1,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "8"
+            },
+            "T4_METALBAR": {
+                "amount": "16"
+            }
+        },
+        "category": "axe",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 345,
+        "revision_buy": "1217",
+        "revision_sell": "202",
+        "price_sell": 1199,
+        "price_buy": 986,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Martlock"
+    },
+    "T4_MAIN_AXE@2": {
+        "id": "T4_MAIN_AXE@2",
+        "ign": "Adept's Battleaxe",
+        "item_value": 1536,
+        "weight": 5.1,
+        "recipe": {
+            "T4_PLANKS_LEVEL2@2": {
+                "amount": "8"
+            },
+            "T4_METALBAR_LEVEL2@2": {
+                "amount": "16"
+            }
+        },
+        "category": "axe",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 1382,
+        "revision_buy": "987",
+        "revision_sell": "807",
+        "price_sell": 15405,
+        "price_buy": 13996,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": "Martlock"
+    },
+    "T4_2H_AXE": {
+        "id": "T4_2H_AXE",
+        "ign": "Adept's Greataxe",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "12"
+            },
+            "T4_METALBAR": {
+                "amount": "20"
+            }
+        },
+        "category": "axe",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "1142",
+        "revision_sell": "187",
+        "price_sell": 3527,
+        "price_buy": 2212,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Martlock"
+    },
+    "T5_2H_AXE@1": {
+        "id": "T5_2H_AXE@1",
+        "ign": "Expert's Greataxe",
+        "item_value": 2048,
+        "weight": 10.1,
+        "recipe": {
+            "T5_PLANKS_LEVEL1@1": {
+                "amount": "12"
+            },
+            "T5_METALBAR_LEVEL1@1": {
+                "amount": "20"
+            }
+        },
+        "category": "axe",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 1843,
+        "revision_buy": "1247",
+        "revision_sell": "492",
+        "price_sell": 25041,
+        "price_buy": 24499,
+        "city_sell": "Lymhurst",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Martlock"
+    },
+    "T4_2H_HALBERD": {
+        "id": "T4_2H_HALBERD",
+        "ign": "Adept's Halberd",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "20"
+            },
+            "T4_METALBAR": {
+                "amount": "12"
+            }
+        },
+        "category": "axe",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "1212",
+        "revision_sell": "797",
+        "price_sell": 3667,
+        "price_buy": 3229,
+        "city_sell": "Caerleon",
+        "city_buy": "Bridgewatch",
+        "city_craft": "Martlock"
+    },
+    "T4_2H_HALBERD_MORGANA": {
+        "id": "T4_2H_HALBERD_MORGANA",
+        "ign": "Adept's Carrioncaller",
+        "item_value": 640,
+        "weight": 6.8,
+        "recipe": {
+            "T4_PLANKS": {
+                "amount": "20"
+            },
+            "T4_METALBAR": {
+                "amount": "12"
+            },
+            "T4_ARTEFACT_2H_HALBERD_MORGANA": {
+                "amount": "1"
+            }
+        },
+        "category": "axe",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 576,
+        "revision_buy": "1172",
+        "revision_sell": "797",
+        "price_sell": 8154,
+        "price_buy": 1989,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Martlock"
+    },
+    "T4_2H_CLAYMORE": {
+        "id": "T4_2H_CLAYMORE",
+        "ign": "Adept's Claymore",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "20"
+            },
+            "T4_LEATHER": {
+                "amount": "12"
+            }
+        },
+        "category": "sword",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "642",
+        "revision_sell": "197",
+        "price_sell": 2149,
+        "price_buy": 1749,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Lymhurst"
+    },
+    "T4_2H_POLEHAMMER": {
+        "id": "T4_2H_POLEHAMMER",
+        "ign": "Adept's Polehammer",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "20"
+            },
+            "T4_CLOTH": {
+                "amount": "12"
+            }
+        },
+        "category": "hammer",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "737",
+        "revision_sell": "227",
+        "price_sell": 5027,
+        "price_buy": 3574,
+        "city_sell": "Caerleon",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Fort Sterling"
+    },
+    "T4_2H_HAMMER": {
+        "id": "T4_2H_HAMMER",
+        "ign": "Adept's Great Hammer",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "20"
+            },
+            "T4_CLOTH": {
+                "amount": "12"
+            }
+        },
+        "category": "hammer",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "1112",
+        "revision_sell": "1052",
+        "price_sell": 3880,
+        "price_buy": 3563,
+        "city_sell": "Caerleon",
+        "city_buy": "Martlock",
+        "city_craft": "Fort Sterling"
+    },
+    "T3_MAIN_MACE": {
+        "id": "T3_MAIN_MACE",
+        "ign": "Journeyman's Mace",
+        "item_value": 192,
+        "weight": 3.4,
+        "recipe": {
+            "T3_METALBAR": {
+                "amount": "16"
+            },
+            "T3_CLOTH": {
+                "amount": "8"
+            }
+        },
+        "category": "mace",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 172,
+        "revision_buy": "587",
+        "revision_sell": "892",
+        "price_sell": 1767,
+        "price_buy": 1540,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T4_MAIN_MACE": {
+        "id": "T4_MAIN_MACE",
+        "ign": "Adept's Mace",
+        "item_value": 384,
+        "weight": 5.1,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "16"
+            },
+            "T4_CLOTH": {
+                "amount": "8"
+            }
+        },
+        "category": "mace",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 345,
+        "revision_buy": "832",
+        "revision_sell": "1052",
+        "price_sell": 2011,
+        "price_buy": 958,
+        "city_sell": "Lymhurst",
+        "city_buy": "Fort Sterling",
+        "city_craft": "Thetford"
+    },
+    "T5_MAIN_MACE": {
+        "id": "T5_MAIN_MACE",
+        "ign": "Expert's Mace",
+        "item_value": 768,
+        "weight": 7.6,
+        "recipe": {
+            "T5_METALBAR": {
+                "amount": "16"
+            },
+            "T5_CLOTH": {
+                "amount": "8"
+            }
+        },
+        "category": "mace",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 691,
+        "revision_buy": "977",
+        "revision_sell": "1052",
+        "price_sell": 7800,
+        "price_buy": 6078,
+        "city_sell": "Bridgewatch",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T4_2H_MACE": {
+        "id": "T4_2H_MACE",
+        "ign": "Adept's Heavy Mace",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "20"
+            },
+            "T4_CLOTH": {
+                "amount": "12"
+            }
+        },
+        "category": "mace",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "817",
+        "revision_sell": "892",
+        "price_sell": 4922,
+        "price_buy": 1969,
+        "city_sell": "Caerleon",
+        "city_buy": "Thetford",
+        "city_craft": "Thetford"
+    },
+    "T4_2H_KNUCKLES_SET2": {
+        "id": "T4_2H_KNUCKLES_SET2",
+        "ign": "Adept's Battle Bracers",
+        "item_value": 512,
+        "weight": 6.8,
+        "recipe": {
+            "T4_METALBAR": {
+                "amount": "12"
+            },
+            "T4_LEATHER": {
+                "amount": "20"
+            }
+        },
+        "category": "knuckles",
+        "crafting_station": "warrior",
+        "quality": 1,
+        "crafting_tax": 460,
+        "revision_buy": "202",
+        "revision_sell": "1052",
+        "price_sell": 2500,
+        "price_buy": 2033,
+        "city_sell": "Martlock",
+        "city_buy": "Thetford",
+        "city_craft": "Caerlon"
+    }
+}

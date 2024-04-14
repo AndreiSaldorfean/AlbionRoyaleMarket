@@ -1,6 +1,12 @@
-.gitignore
 makefile
-cea.txt
 TODO.txt
 input.txt
 itemsCheck
+notes
+backup
+.gitignore
+node_modules
+package.json
+package-lock.json
+final.json
+items.json
