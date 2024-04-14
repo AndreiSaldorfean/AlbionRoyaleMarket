@@ -25,10 +25,10 @@ crafting_stations = {
             "crossbow","shield","plate_shoes","plate_armor",
             "plate_helmet"
         ],
-    "lumbermill":"wood",
-    "smelter":"ore",
-    "weaver":"fiber",
-    "tanner":"hide",
+    "lumbermill":"planks",
+    "smelter":"metalbar",
+    "weaver":"cloth",
+    "tanner":"leather",
     "toolmaker":
         [
             "bag","cape",

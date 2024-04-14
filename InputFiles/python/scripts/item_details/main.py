@@ -61,10 +61,10 @@ def assign_city(category):
 def get_usage_fee(station):
     if usage_fee_json["usage_fee"].get(station) is not None:
         return usage_fee_json["usage_fee"][station]
-    return 9999
+    return 0
         
 info_file       = open("InputFiles/python/output/json/items_info_list.json","r")
-api_file        = open("InputFiles/python/output/json/api_prices.json","r")
+api_file        = open("InputFiles/python/output/json/parsed_prices.json","r")
 cities_file     = open("InputFiles/python/output/json/cities.json","r")
 site_input_file = open("InputFiles/python/output/json/site_input.json","r")
 out             = open("InputFiles/python/output/json/api_items_price.json","w")
@@ -80,8 +80,9 @@ price_buy       = 0
 price_sell      = 0
 city_buy        = ""
 city_sell       = ""
-
+output          = ""
 out.write("{\n")
+
 for i in info_json:
 
     if api_prices_json.get(i) is not None:
@@ -109,16 +110,16 @@ for i in info_json:
 
 
     api_item_obj = class_api_item.ApiItem(i,info_json[i]["item_ign"], item_value,
-                                    float(info_json[i]["weight"]),info_json[i]["recepie"],
-                                    info_json[i]["recepie_amounts"],info_json[i]["category"],
-                                    info_json[i]["crafting_station"],crafting_tax, quality,
-                                    revision_sell, revision_buy, price_sell, price_buy,
-                                    city_sell, city_buy,city_craft)
-    string =  api_item_obj.toJSON()
-    if items[len(items)-1][0] == i:
-        out.write(string[2:-2]+"\n")
-    else:
-        out.write(string[2:-2]+",\n")
+                                    float(info_json[i]["weight"]),info_json[i]["recipe"],
+                                    info_json[i]["category"],info_json[i]["crafting_station"],
+                                    crafting_tax, quality,revision_sell, revision_buy, 
+                                    price_sell, price_buy, city_sell, city_buy,city_craft)
+    if api_item_obj.price_buy != 0 and api_item_obj.price_sell != 0:
+        string =  api_item_obj.toJSON()
+        output += (string[2:-2]+",\n")
+
+output = "".join(output.rsplit(",", 1))
+out.write(output)
 out.write("}")
 
 t2 = time.time()

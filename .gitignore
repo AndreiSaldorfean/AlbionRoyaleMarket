@@ -8,3 +8,5 @@ backup
 node_modules
 package.json
 package-lock.json
+final.json
+items.json

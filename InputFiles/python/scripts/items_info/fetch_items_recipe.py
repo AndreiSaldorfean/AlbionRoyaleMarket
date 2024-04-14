@@ -18,7 +18,7 @@ def trim_enchant(item):
         return item
     return item[:-2]
 
-def get_recepies(string):
+def get_recipe(string):
     string = trim_enchant(string)
     url = "https://albiononline2d.com/en/item/id/"
     response = requests.get(url+string+"/craftingrequirements")
@@ -46,7 +46,7 @@ def exists(string,container):
 
 items_name = open("output/text/items_id.txt","r")
 bl_res = open("output/text/blacklisted_resources.txt","r")
-out = open("output/text/items_recepies.txt","w")
+out = open("output/text/items_recipe.txt","w")
 resources = []
 
 for i in bl_res:
@@ -54,9 +54,9 @@ for i in bl_res:
     
 for i in items_name:
     if not exists(i,resources):
-        recepie = get_recepies(i[:-1])+"\n"
-        print(i[:-1]+" "+recepie[:-1])
-        out.write(recepie)
+        recipe = get_recipe(i[:-1])+"\n"
+        print(i[:-1]+" "+recipe[:-1])
+        out.write(recipe)
     else: out.write("o\n")
     
 out.close()
