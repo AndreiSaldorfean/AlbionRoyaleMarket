@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[6229],{6229:(e,a,l)=>{async function n(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addInteractor("particlesCollisions",(async e=>{const{Collider:a}=await Promise.all([l.e(8306),l.e(9375)]).then(l.bind(l,9375));return new a(e)}),a)}l.d(a,{loadParticlesCollisionsInteraction:()=>n})}}]);
+//# sourceMappingURL=6229.26a51b58.chunk.js.map

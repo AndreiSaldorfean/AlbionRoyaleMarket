@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[9273],{9273:(e,a,l)=>{async function i(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const{CircleDrawer:i}=await Promise.all([l.e(8306),l.e(6036)]).then(l.bind(l,6036));await e.addShape("circle",new i,a)}l.d(a,{loadCircleShape:()=>i})}}]);
+//# sourceMappingURL=9273.8562e592.chunk.js.map

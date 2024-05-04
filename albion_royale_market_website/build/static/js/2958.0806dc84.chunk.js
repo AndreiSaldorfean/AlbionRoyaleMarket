@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[2958],{2958:(e,a,n)=>{async function t(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addInteractor("externalPause",(async e=>{const{Pauser:a}=await Promise.all([n.e(8306),n.e(7436)]).then(n.bind(n,7436));return new a(e)}),a)}n.d(a,{loadExternalPauseInteraction:()=>t})}}]);
+//# sourceMappingURL=2958.0806dc84.chunk.js.map

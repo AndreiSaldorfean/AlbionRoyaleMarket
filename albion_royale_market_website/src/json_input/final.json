@@ -1,0 +1,3011 @@
+[
+    {
+        "id": "T3_LEATHER",
+        "ign": "Thick Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 119,
+        "city_sell": "Bridgewatch",
+        "sell_price": 146,
+        "craft_city": "Martlock",
+        "time": 6.033742833742834,
+        "buy_time_update": "1130",
+        "sell_time_update": "850",
+        "carrying_capacity": 3333,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    1063,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    3361,
+                    46
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    2655,
+                    119,
+                    7966
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 153653.60000000003,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_LEATHER",
+        "ign": "Worked Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 115,
+        "city_sell": "Martlock",
+        "sell_price": 212,
+        "craft_city": "Martlock",
+        "time": 7.542178542178543,
+        "buy_time_update": "255",
+        "sell_time_update": "865",
+        "carrying_capacity": 2000,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    468,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    1480,
+                    46
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    2339,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    1169,
+                    119,
+                    3508
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    1847,
+                    115,
+                    12935
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 200625.88,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_LEATHER",
+        "ign": "Cured Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 759,
+        "city_sell": "Bridgewatch",
+        "sell_price": 942,
+        "craft_city": "Martlock",
+        "time": 6.033742833742834,
+        "buy_time_update": "955",
+        "sell_time_update": "850",
+        "carrying_capacity": 1250,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    51,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    162,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    203,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    609,
+                    290
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    128,
+                    119,
+                    385
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    320,
+                    759,
+                    4812
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 63167.79999999999,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_LEATHER",
+        "ign": "Hardened Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 3273,
+        "city_sell": "Thetford",
+        "sell_price": 3403,
+        "craft_city": "Martlock",
+        "time": 9.05061425061425,
+        "buy_time_update": "405",
+        "sell_time_update": "290",
+        "carrying_capacity": 909,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    6,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    21,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    26,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    78,
+                    290
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    166,
+                    1012
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    16,
+                    119,
+                    49
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    41,
+                    759,
+                    624
+                ],
+                [
+                    "T6_LEATHER",
+                    "Thetford",
+                    65,
+                    3273,
+                    2037
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 6666.400000000023,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_LEATHER_LEVEL1@1",
+        "ign": "Uncommon Worked Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 318,
+        "city_sell": "Fort Sterling",
+        "sell_price": 502,
+        "craft_city": "Martlock",
+        "time": 6.033742833742834,
+        "buy_time_update": "1425",
+        "sell_time_update": "865",
+        "carrying_capacity": 2000,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    160,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    507,
+                    46
+                ],
+                [
+                    "T4_HIDE_LEVEL1@1",
+                    "Caerleon",
+                    801,
+                    190
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    400,
+                    119,
+                    1202
+                ],
+                [
+                    "T4_LEATHER_LEVEL1@1",
+                    "Fort Sterling",
+                    633,
+                    318,
+                    9498
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 101254.72000000003,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_LEATHER_LEVEL1@1",
+        "ign": "Uncommon Cured Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 1433,
+        "city_sell": "Bridgewatch",
+        "sell_price": 1656,
+        "craft_city": "Martlock",
+        "time": 6.033742833742834,
+        "buy_time_update": "1340",
+        "sell_time_update": "865",
+        "carrying_capacity": 1250,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    27,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    87,
+                    46
+                ],
+                [
+                    "T4_LEATHER_LEVEL1@1",
+                    "Fort Sterling",
+                    108,
+                    318
+                ],
+                [
+                    "T5_HIDE_LEVEL1@1",
+                    "Caerleon",
+                    326,
+                    507
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    68,
+                    119,
+                    206
+                ],
+                [
+                    "T5_LEATHER_LEVEL1@1",
+                    "Bridgewatch",
+                    171,
+                    1433,
+                    5326
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 50541.92000000001,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_LEATHER_LEVEL1@1",
+        "ign": "Uncommon Hardened Leather",
+        "city_buy": "Lymhurst",
+        "buy_price": 7463,
+        "city_sell": "Bridgewatch",
+        "sell_price": 7519,
+        "craft_city": "Martlock",
+        "time": 9.05061425061425,
+        "buy_time_update": "1340",
+        "sell_time_update": "315",
+        "carrying_capacity": 909,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    2,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    8,
+                    46
+                ],
+                [
+                    "T4_LEATHER_LEVEL1@1",
+                    "Fort Sterling",
+                    11,
+                    318
+                ],
+                [
+                    "T5_HIDE_LEVEL1@1",
+                    "Caerleon",
+                    33,
+                    507
+                ],
+                [
+                    "T6_HIDE_LEVEL1@1",
+                    "Lymhurst",
+                    70,
+                    2469
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    7,
+                    119,
+                    21
+                ],
+                [
+                    "T5_LEATHER_LEVEL1@1",
+                    "Bridgewatch",
+                    17,
+                    1433,
+                    548
+                ],
+                [
+                    "T6_LEATHER_LEVEL1@1",
+                    "Bridgewatch",
+                    27,
+                    7463,
+                    1760
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": -8491.039999999979,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_LEATHER_LEVEL2@2",
+        "ign": "Rare Worked Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 1263,
+        "city_sell": "Fort Sterling",
+        "sell_price": 1404,
+        "craft_city": "Martlock",
+        "time": 6.033742833742834,
+        "buy_time_update": "1430",
+        "sell_time_update": "865",
+        "carrying_capacity": 2000,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    47,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    150,
+                    46
+                ],
+                [
+                    "T4_HIDE_LEVEL2@2",
+                    "Fort Sterling",
+                    237,
+                    782
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    118,
+                    119,
+                    356
+                ],
+                [
+                    "T4_LEATHER_LEVEL2@2",
+                    "Fort Sterling",
+                    187,
+                    1263,
+                    5820
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 41704.16,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_LEATHER_LEVEL2@2",
+        "ign": "Rare Cured Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 4895,
+        "city_sell": "Thetford",
+        "sell_price": 5300,
+        "craft_city": "Martlock",
+        "time": 9.05061425061425,
+        "buy_time_update": "405",
+        "sell_time_update": "800",
+        "carrying_capacity": 1250,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    9,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    29,
+                    46
+                ],
+                [
+                    "T4_LEATHER_LEVEL2@2",
+                    "Fort Sterling",
+                    37,
+                    1263
+                ],
+                [
+                    "T5_HIDE_LEVEL2@2",
+                    "Caerleon",
+                    111,
+                    1369
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    23,
+                    119,
+                    70
+                ],
+                [
+                    "T5_LEATHER_LEVEL2@2",
+                    "Thetford",
+                    58,
+                    4895,
+                    3707
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 78735.0,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_LEATHER_LEVEL2@2",
+        "ign": "Rare Hardened Leather",
+        "city_buy": "Lymhurst",
+        "buy_price": 22986,
+        "city_sell": "Bridgewatch",
+        "sell_price": 24504,
+        "craft_city": "Martlock",
+        "time": 9.05061425061425,
+        "buy_time_update": "1340",
+        "sell_time_update": "330",
+        "carrying_capacity": 909,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    0,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    2,
+                    46
+                ],
+                [
+                    "T4_LEATHER_LEVEL2@2",
+                    "Fort Sterling",
+                    3,
+                    1263
+                ],
+                [
+                    "T5_HIDE_LEVEL2@2",
+                    "Caerleon",
+                    11,
+                    1369
+                ],
+                [
+                    "T6_HIDE_LEVEL2@2",
+                    "Fort Sterling",
+                    23,
+                    7291
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    2,
+                    119,
+                    7
+                ],
+                [
+                    "T5_LEATHER_LEVEL2@2",
+                    "Thetford",
+                    5,
+                    4895,
+                    369
+                ],
+                [
+                    "T6_LEATHER_LEVEL2@2",
+                    "Bridgewatch",
+                    9,
+                    22986,
+                    1169
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 201725.12,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T7_LEATHER_LEVEL2@2",
+        "ign": "Rare Reinforced Leather",
+        "city_buy": "Caerleon",
+        "buy_price": 73998,
+        "city_sell": "Lymhurst",
+        "sell_price": 74009,
+        "craft_city": "Martlock",
+        "time": 9.05061425061425,
+        "buy_time_update": "330",
+        "sell_time_update": "1315",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    0,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    0,
+                    46
+                ],
+                [
+                    "T4_LEATHER_LEVEL2@2",
+                    "Fort Sterling",
+                    0,
+                    1263
+                ],
+                [
+                    "T5_LEATHER_LEVEL2@2",
+                    "Thetford",
+                    1,
+                    4895
+                ],
+                [
+                    "T6_HIDE_LEVEL2@2",
+                    "Fort Sterling",
+                    6,
+                    7291
+                ],
+                [
+                    "T7_HIDE_LEVEL2@2",
+                    "Caerleon",
+                    12,
+                    12000
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    0,
+                    119,
+                    1
+                ],
+                [
+                    "T6_LEATHER_LEVEL2@2",
+                    "Bridgewatch",
+                    2,
+                    22986,
+                    303
+                ],
+                [
+                    "T7_LEATHER_LEVEL2@2",
+                    "Lymhurst",
+                    3,
+                    73998,
+                    963
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 203302.84,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T3_CLOTH",
+        "ign": "Neat Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 108,
+        "city_sell": "Lymhurst",
+        "sell_price": 129,
+        "craft_city": "Lymhurst",
+        "time": 9.05061425061425,
+        "buy_time_update": "210",
+        "sell_time_update": "565",
+        "carrying_capacity": 3333,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    1228,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    3883,
+                    45
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    3067,
+                    108,
+                    9203
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 155493.56,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_CLOTH",
+        "ign": "Fine Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 150,
+        "city_sell": "Lymhurst",
+        "sell_price": 209,
+        "craft_city": "Lymhurst",
+        "time": 9.05061425061425,
+        "buy_time_update": "400",
+        "sell_time_update": "315",
+        "carrying_capacity": 2000,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    455,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    1438,
+                    45
+                ],
+                [
+                    "T4_FIBER",
+                    "Thetford",
+                    2272,
+                    34
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    1136,
+                    108,
+                    3409
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    1795,
+                    150,
+                    12568
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 181516.60000000003,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_CLOTH",
+        "ign": "Ornate Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 487,
+        "city_sell": "Fort Sterling",
+        "sell_price": 723,
+        "craft_city": "Lymhurst",
+        "time": 6.033742833742834,
+        "buy_time_update": "405",
+        "sell_time_update": "395",
+        "carrying_capacity": 1250,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    75,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    238,
+                    45
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    297,
+                    150
+                ],
+                [
+                    "T5_FIBER",
+                    "Thetford",
+                    892,
+                    174
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    188,
+                    108,
+                    565
+                ],
+                [
+                    "T5_CLOTH",
+                    "Fort Sterling",
+                    470,
+                    487,
+                    6583
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 94074.20000000001,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_CLOTH",
+        "ign": "Lavish Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 1998,
+        "city_sell": "Fort Sterling",
+        "sell_price": 2319,
+        "craft_city": "Lymhurst",
+        "time": 6.033742833742834,
+        "buy_time_update": "405",
+        "sell_time_update": "565",
+        "carrying_capacity": 909,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    10,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    34,
+                    45
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    43,
+                    150
+                ],
+                [
+                    "T5_FIBER",
+                    "Thetford",
+                    129,
+                    174
+                ],
+                [
+                    "T6_FIBER",
+                    "Fort Sterling",
+                    273,
+                    610
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    27,
+                    108,
+                    82
+                ],
+                [
+                    "T5_CLOTH",
+                    "Fort Sterling",
+                    68,
+                    487,
+                    956
+                ],
+                [
+                    "T6_CLOTH",
+                    "Fort Sterling",
+                    107,
+                    1998,
+                    3022
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 28104.360000000015,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T7_CLOTH",
+        "ign": "Opulent Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 5135,
+        "city_sell": "Lymhurst",
+        "sell_price": 5564,
+        "craft_city": "Lymhurst",
+        "time": 9.05061425061425,
+        "buy_time_update": "370",
+        "sell_time_update": "1310",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    2,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    9,
+                    45
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    11,
+                    150
+                ],
+                [
+                    "T5_CLOTH",
+                    "Fort Sterling",
+                    18,
+                    487
+                ],
+                [
+                    "T6_FIBER",
+                    "Fort Sterling",
+                    74,
+                    610
+                ],
+                [
+                    "T7_FIBER",
+                    "Caerleon",
+                    146,
+                    965
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    7,
+                    108,
+                    22
+                ],
+                [
+                    "T6_CLOTH",
+                    "Fort Sterling",
+                    29,
+                    1998,
+                    820
+                ],
+                [
+                    "T7_CLOTH",
+                    "Lymhurst",
+                    46,
+                    5135,
+                    2593
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 35984.48000000001,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_CLOTH_LEVEL1@1",
+        "ign": "Uncommon Fine Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 330,
+        "city_sell": "Lymhurst",
+        "sell_price": 423,
+        "craft_city": "Lymhurst",
+        "time": 9.05061425061425,
+        "buy_time_update": "300",
+        "sell_time_update": "505",
+        "carrying_capacity": 2000,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    190,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    602,
+                    45
+                ],
+                [
+                    "T4_FIBER_LEVEL1@1",
+                    "Fort Sterling",
+                    952,
+                    156
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    476,
+                    108,
+                    1428
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Lymhurst",
+                    752,
+                    330,
+                    10533
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 102713.32,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_CLOTH_LEVEL1@1",
+        "ign": "Uncommon Ornate Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 1181,
+        "city_sell": "Bridgewatch",
+        "sell_price": 1484,
+        "craft_city": "Lymhurst",
+        "time": 6.033742833742834,
+        "buy_time_update": "230",
+        "sell_time_update": "395",
+        "carrying_capacity": 1250,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    29,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    92,
+                    45
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Lymhurst",
+                    115,
+                    330
+                ],
+                [
+                    "T5_FIBER_LEVEL1@1",
+                    "Lymhurst",
+                    345,
+                    469
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    72,
+                    108,
+                    218
+                ],
+                [
+                    "T5_CLOTH_LEVEL1@1",
+                    "Bridgewatch",
+                    181,
+                    1181,
+                    5093
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 37547.68000000002,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_CLOTH_LEVEL2@2",
+        "ign": "Rare Fine Cloth",
+        "city_buy": "Caerleon",
+        "buy_price": 1463,
+        "city_sell": "Lymhurst",
+        "sell_price": 1502,
+        "craft_city": "Lymhurst",
+        "time": 9.05061425061425,
+        "buy_time_update": "1415",
+        "sell_time_update": "565",
+        "carrying_capacity": 2000,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    41,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    131,
+                    45
+                ],
+                [
+                    "T4_FIBER_LEVEL2@2",
+                    "Thetford",
+                    207,
+                    909
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    103,
+                    108,
+                    311
+                ],
+                [
+                    "T4_CLOTH_LEVEL2@2",
+                    "Lymhurst",
+                    164,
+                    1463,
+                    4593
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 27150.76000000001,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T2_CAPE",
+        "ign": "Novice's Cape",
+        "city_buy": "Caerleon",
+        "buy_price": 41,
+        "city_sell": "Thetford",
+        "sell_price": 118,
+        "craft_city": "",
+        "time": 9.05061425061425,
+        "buy_time_update": "1165",
+        "sell_time_update": "1085",
+        "carrying_capacity": 1250,
+        "recipe": {
+            "buy": [],
+            "craft": [
+                [
+                    "T2_CAPE",
+                    "Thetford",
+                    1975,
+                    41,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 214406.0,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T3_CAPE",
+        "ign": "Journeyman's Cape",
+        "city_buy": "Caerleon",
+        "buy_price": 548,
+        "city_sell": "Thetford",
+        "sell_price": 658,
+        "craft_city": "",
+        "time": 9.05061425061425,
+        "buy_time_update": "1205",
+        "sell_time_update": "235",
+        "carrying_capacity": 909,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    88,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    278,
+                    46
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    220,
+                    119,
+                    660
+                ],
+                [
+                    "T3_CAPE",
+                    "Thetford",
+                    348,
+                    548,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 194533.28,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_CAPE",
+        "ign": "Adept's Cape",
+        "city_buy": "Caerleon",
+        "buy_price": 1088,
+        "city_sell": "Lymhurst",
+        "sell_price": 1109,
+        "craft_city": "",
+        "time": 9.05061425061425,
+        "buy_time_update": "245",
+        "sell_time_update": "230",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    47,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    151,
+                    46
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    238,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    119,
+                    119,
+                    358
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    188,
+                    115,
+                    1320
+                ],
+                [
+                    "T4_CAPE",
+                    "Lymhurst",
+                    298,
+                    1088,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 289123.44,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_CAPE@1",
+        "ign": "Adept's Cape",
+        "city_buy": "Caerleon",
+        "buy_price": 2968,
+        "city_sell": "Martlock",
+        "sell_price": 3269,
+        "craft_city": "",
+        "time": 7.542178542178543,
+        "buy_time_update": "745",
+        "sell_time_update": "305",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    19,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    61,
+                    46
+                ],
+                [
+                    "T4_HIDE_LEVEL1@1",
+                    "Caerleon",
+                    97,
+                    190
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    48,
+                    119,
+                    146
+                ],
+                [
+                    "T4_LEATHER_LEVEL1@1",
+                    "Fort Sterling",
+                    77,
+                    318,
+                    1157
+                ],
+                [
+                    "T4_CAPE@1",
+                    "Martlock",
+                    121,
+                    2968,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 341947.08,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_CAPE",
+        "ign": "Expert's Cape",
+        "city_buy": "Caerleon",
+        "buy_price": 4005,
+        "city_sell": "Martlock",
+        "sell_price": 5203,
+        "craft_city": "",
+        "time": 7.542178542178543,
+        "buy_time_update": "980",
+        "sell_time_update": "450",
+        "carrying_capacity": 400,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    6,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    20,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    25,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    76,
+                    290
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    16,
+                    119,
+                    48
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    40,
+                    759,
+                    601
+                ],
+                [
+                    "T5_CAPE",
+                    "Martlock",
+                    63,
+                    4005,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 275502.88,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_CAPE",
+        "ign": "Master's Cape",
+        "city_buy": "Caerleon",
+        "buy_price": 8962,
+        "city_sell": "Martlock",
+        "sell_price": 14009,
+        "craft_city": "",
+        "time": 7.542178542178543,
+        "buy_time_update": "775",
+        "sell_time_update": "1275",
+        "carrying_capacity": 263,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    0,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    3,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    3,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    11,
+                    290
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    24,
+                    1012
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    2,
+                    119,
+                    7
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    6,
+                    759,
+                    90
+                ],
+                [
+                    "T6_LEATHER",
+                    "Thetford",
+                    9,
+                    3273,
+                    294
+                ],
+                [
+                    "T6_CAPE",
+                    "Martlock",
+                    14,
+                    8962,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 180436.92,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_BAG",
+        "ign": "Adept's Bag",
+        "city_buy": "Caerleon",
+        "buy_price": 1973,
+        "city_sell": "Lymhurst",
+        "sell_price": 2606,
+        "craft_city": "",
+        "time": 9.05061425061425,
+        "buy_time_update": "300",
+        "sell_time_update": "210",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    23,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    75,
+                    46
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    119,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    59,
+                    119,
+                    179
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    94,
+                    115,
+                    660
+                ],
+                [
+                    "T4_BAG",
+                    "Lymhurst",
+                    149,
+                    1973,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 349812.48000000004,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_BAG@1",
+        "ign": "Adept's Bag",
+        "city_buy": "Caerleon",
+        "buy_price": 5970,
+        "city_sell": "Lymhurst",
+        "sell_price": 6201,
+        "craft_city": "",
+        "time": 9.05061425061425,
+        "buy_time_update": "1365",
+        "sell_time_update": "305",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    9,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    30,
+                    46
+                ],
+                [
+                    "T4_HIDE_LEVEL1@1",
+                    "Caerleon",
+                    48,
+                    190
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    24,
+                    119,
+                    73
+                ],
+                [
+                    "T4_LEATHER_LEVEL1@1",
+                    "Fort Sterling",
+                    38,
+                    318,
+                    578
+                ],
+                [
+                    "T4_BAG@1",
+                    "Lymhurst",
+                    60,
+                    5970,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 331453.2,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_BAG",
+        "ign": "Expert's Bag",
+        "city_buy": "Caerleon",
+        "buy_price": 6948,
+        "city_sell": "Martlock",
+        "sell_price": 9999,
+        "craft_city": "",
+        "time": 7.542178542178543,
+        "buy_time_update": "480",
+        "sell_time_update": "255",
+        "carrying_capacity": 196,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    3,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    10,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    12,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    38,
+                    290
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    8,
+                    119,
+                    24
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    20,
+                    759,
+                    300
+                ],
+                [
+                    "T5_BAG",
+                    "Martlock",
+                    31,
+                    6948,
+                    0
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 272197.48000000004,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_HEAD_LEATHER_SET1",
+        "ign": "Adept's Mercenary Hood",
+        "city_buy": "Caerleon",
+        "buy_price": 813,
+        "city_sell": "Fort Sterling",
+        "sell_price": 1837,
+        "craft_city": "Lymhurst",
+        "time": 6.033742833742834,
+        "buy_time_update": "1120",
+        "sell_time_update": "475",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    55,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    174,
+                    46
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    275,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    137,
+                    119,
+                    412
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    217,
+                    115,
+                    1521
+                ],
+                [
+                    "T4_HEAD_LEATHER_SET1",
+                    "Fort Sterling",
+                    343,
+                    813,
+                    39500
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 522939.72,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_ARMOR_LEATHER_SET1@1",
+        "ign": "Adept's Mercenary Jacket",
+        "city_buy": "Lymhurst",
+        "buy_price": 2794,
+        "city_sell": "Thetford",
+        "sell_price": 2948,
+        "craft_city": "Thetford",
+        "time": 16.592792792792793,
+        "buy_time_update": "1120",
+        "sell_time_update": "1340",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    9,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    31,
+                    46
+                ],
+                [
+                    "T4_HIDE_LEVEL1@1",
+                    "Caerleon",
+                    49,
+                    190
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    24,
+                    119,
+                    74
+                ],
+                [
+                    "T4_LEATHER_LEVEL1@1",
+                    "Fort Sterling",
+                    39,
+                    318,
+                    589
+                ],
+                [
+                    "T4_ARMOR_LEATHER_SET1@1",
+                    "Thetford",
+                    62,
+                    2794,
+                    28569
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 128506.92000000001,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T3_SHOES_LEATHER_SET1",
+        "ign": "Journeyman's Mercenary Shoes",
+        "city_buy": "Thetford",
+        "buy_price": 320,
+        "city_sell": "Lymhurst",
+        "sell_price": 614,
+        "craft_city": "Lymhurst",
+        "time": 16.592792792792793,
+        "buy_time_update": "320",
+        "sell_time_update": "1340",
+        "carrying_capacity": 909,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    84,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    265,
+                    46
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    210,
+                    119,
+                    630
+                ],
+                [
+                    "T3_SHOES_LEATHER_SET1",
+                    "Lymhurst",
+                    331,
+                    320,
+                    18920
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 152673.28,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_SHOES_LEATHER_SET1",
+        "ign": "Adept's Mercenary Shoes",
+        "city_buy": "Caerleon",
+        "buy_price": 584,
+        "city_sell": "Fort Sterling",
+        "sell_price": 823,
+        "craft_city": "Lymhurst",
+        "time": 6.033742833742834,
+        "buy_time_update": "1335",
+        "sell_time_update": "1340",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    55,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    174,
+                    46
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    275,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    137,
+                    119,
+                    412
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    217,
+                    115,
+                    1521
+                ],
+                [
+                    "T4_SHOES_LEATHER_SET1",
+                    "Fort Sterling",
+                    343,
+                    584,
+                    39500
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 202961.88,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_SHOES_LEATHER_SET2",
+        "ign": "Adept's Hunter Shoes",
+        "city_buy": "Thetford",
+        "buy_price": 559,
+        "city_sell": "Martlock",
+        "sell_price": 710,
+        "craft_city": "Lymhurst",
+        "time": 7.542178542178543,
+        "buy_time_update": "1020",
+        "sell_time_update": "235",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    55,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    174,
+                    46
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    275,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    137,
+                    119,
+                    412
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    217,
+                    115,
+                    1521
+                ],
+                [
+                    "T4_SHOES_LEATHER_SET2",
+                    "Martlock",
+                    343,
+                    559,
+                    39500
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 167303.6,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_HEAD_LEATHER_SET3",
+        "ign": "Expert's Assassin Hood",
+        "city_buy": "Fort Sterling",
+        "buy_price": 3875,
+        "city_sell": "Thetford",
+        "sell_price": 4199,
+        "craft_city": "Lymhurst",
+        "time": 7.542178542178543,
+        "buy_time_update": "1120",
+        "sell_time_update": "1340",
+        "carrying_capacity": 400,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    5,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    16,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    20,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    62,
+                    290
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    13,
+                    119,
+                    39
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    32,
+                    759,
+                    494
+                ],
+                [
+                    "T5_HEAD_LEATHER_SET3",
+                    "Thetford",
+                    52,
+                    3875,
+                    11969
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 167705.16,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_ARMOR_LEATHER_SET3",
+        "ign": "Adept's Assassin Jacket",
+        "city_buy": "Fort Sterling",
+        "buy_price": 796,
+        "city_sell": "Martlock",
+        "sell_price": 1064,
+        "craft_city": "Thetford",
+        "time": 15.084357084357086,
+        "buy_time_update": "290",
+        "sell_time_update": "430",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    27,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    87,
+                    46
+                ],
+                [
+                    "T4_HIDE",
+                    "Caerleon",
+                    137,
+                    26
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    68,
+                    119,
+                    206
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    108,
+                    115,
+                    760
+                ],
+                [
+                    "T4_ARMOR_LEATHER_SET3",
+                    "Martlock",
+                    171,
+                    796,
+                    39500
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 119298.48000000001,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_ARMOR_LEATHER_SET3",
+        "ign": "Expert's Assassin Jacket",
+        "city_buy": "Caerleon",
+        "buy_price": 7477,
+        "city_sell": "Lymhurst",
+        "sell_price": 7787,
+        "craft_city": "Thetford",
+        "time": 9.05061425061425,
+        "buy_time_update": "1055",
+        "sell_time_update": "1340",
+        "carrying_capacity": 196,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    2,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    8,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    10,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    31,
+                    290
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    6,
+                    119,
+                    19
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    16,
+                    759,
+                    247
+                ],
+                [
+                    "T5_ARMOR_LEATHER_SET3",
+                    "Lymhurst",
+                    26,
+                    7477,
+                    11969
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 163712.04,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_ARMOR_LEATHER_SET3",
+        "ign": "Master's Assassin Jacket",
+        "city_buy": "Caerleon",
+        "buy_price": 24998,
+        "city_sell": "Lymhurst",
+        "sell_price": 27000,
+        "craft_city": "Thetford",
+        "time": 9.05061425061425,
+        "buy_time_update": "1430",
+        "sell_time_update": "450",
+        "carrying_capacity": 131,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    0,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    1,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    1,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    4,
+                    290
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    9,
+                    1012
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    0,
+                    119,
+                    2
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    2,
+                    759,
+                    36
+                ],
+                [
+                    "T6_LEATHER",
+                    "Thetford",
+                    3,
+                    3273,
+                    118
+                ],
+                [
+                    "T6_ARMOR_LEATHER_SET3",
+                    "Lymhurst",
+                    6,
+                    24998,
+                    5557
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 143484.0,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_SHOES_LEATHER_SET3",
+        "ign": "Master's Assassin Shoes",
+        "city_buy": "Fort Sterling",
+        "buy_price": 12686,
+        "city_sell": "Martlock",
+        "sell_price": 15159,
+        "craft_city": "Lymhurst",
+        "time": 15.084357084357086,
+        "buy_time_update": "480",
+        "sell_time_update": "1340",
+        "carrying_capacity": 263,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_HIDE",
+                    "Bridgewatch",
+                    0,
+                    38
+                ],
+                [
+                    "T3_HIDE",
+                    "Lymhurst",
+                    2,
+                    46
+                ],
+                [
+                    "T4_LEATHER",
+                    "Martlock",
+                    3,
+                    115
+                ],
+                [
+                    "T5_HIDE",
+                    "Lymhurst",
+                    9,
+                    290
+                ],
+                [
+                    "T6_HIDE",
+                    "Caerleon",
+                    19,
+                    1012
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_LEATHER",
+                    "Bridgewatch",
+                    1,
+                    119,
+                    5
+                ],
+                [
+                    "T5_LEATHER",
+                    "Bridgewatch",
+                    4,
+                    759,
+                    72
+                ],
+                [
+                    "T6_LEATHER",
+                    "Thetford",
+                    7,
+                    3273,
+                    236
+                ],
+                [
+                    "T6_SHOES_LEATHER_SET3",
+                    "Martlock",
+                    12,
+                    12686,
+                    5551
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 161805.36000000002,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T3_ARMOR_CLOTH_SET1",
+        "ign": "Journeyman's Scholar Robe",
+        "city_buy": "Bridgewatch",
+        "buy_price": 611,
+        "city_sell": "Thetford",
+        "sell_price": 990,
+        "craft_city": "Fort Sterling",
+        "time": 15.084357084357086,
+        "buy_time_update": "1205",
+        "sell_time_update": "1290",
+        "carrying_capacity": 434,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    46,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    146,
+                    45
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    115,
+                    108,
+                    347
+                ],
+                [
+                    "T3_ARMOR_CLOTH_SET1",
+                    "Thetford",
+                    182,
+                    611,
+                    21030
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 137245.6,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_HEAD_CLOTH_SET2",
+        "ign": "Adept's Cleric Cowl",
+        "city_buy": "Lymhurst",
+        "buy_price": 585,
+        "city_sell": "Martlock",
+        "sell_price": 860,
+        "craft_city": "Thetford",
+        "time": 16.592792792792793,
+        "buy_time_update": "760",
+        "sell_time_update": "20",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    42,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    133,
+                    45
+                ],
+                [
+                    "T4_FIBER",
+                    "Thetford",
+                    210,
+                    34
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    105,
+                    108,
+                    316
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    166,
+                    150,
+                    1166
+                ],
+                [
+                    "T4_HEAD_CLOTH_SET2",
+                    "Martlock",
+                    263,
+                    585,
+                    30283
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 163837.6,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_ARMOR_CLOTH_SET2",
+        "ign": "Adept's Cleric Robe",
+        "city_buy": "Lymhurst",
+        "buy_price": 884,
+        "city_sell": "Bridgewatch",
+        "sell_price": 901,
+        "craft_city": "Fort Sterling",
+        "time": 9.05061425061425,
+        "buy_time_update": "1135",
+        "sell_time_update": "1395",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    21,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    66,
+                    45
+                ],
+                [
+                    "T4_FIBER",
+                    "Thetford",
+                    105,
+                    34
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    52,
+                    108,
+                    158
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    83,
+                    150,
+                    583
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET2",
+                    "Bridgewatch",
+                    131,
+                    884,
+                    30283
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 71345.52,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_ARMOR_CLOTH_SET2@1",
+        "ign": "Adept's Cleric Robe",
+        "city_buy": "Bridgewatch",
+        "buy_price": 2708,
+        "city_sell": "Fort Sterling",
+        "sell_price": 3003,
+        "craft_city": "Fort Sterling",
+        "time": 18.1012285012285,
+        "buy_time_update": "1120",
+        "sell_time_update": "1340",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    9,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    30,
+                    45
+                ],
+                [
+                    "T4_FIBER_LEVEL1@1",
+                    "Fort Sterling",
+                    47,
+                    156
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    23,
+                    108,
+                    71
+                ],
+                [
+                    "T4_CLOTH_LEVEL1@1",
+                    "Lymhurst",
+                    37,
+                    330,
+                    530
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET2@1",
+                    "Fort Sterling",
+                    59,
+                    2708,
+                    27530
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 126610.84,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T6_ARMOR_CLOTH_SET2",
+        "ign": "Master's Cleric Robe",
+        "city_buy": "Caerleon",
+        "buy_price": 10999,
+        "city_sell": "Martlock",
+        "sell_price": 11759,
+        "craft_city": "Fort Sterling",
+        "time": 7.542178542178543,
+        "buy_time_update": "985",
+        "sell_time_update": "1340",
+        "carrying_capacity": 131,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    0,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    2,
+                    45
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    2,
+                    150
+                ],
+                [
+                    "T5_FIBER",
+                    "Thetford",
+                    7,
+                    174
+                ],
+                [
+                    "T6_FIBER",
+                    "Fort Sterling",
+                    15,
+                    610
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    1,
+                    108,
+                    4
+                ],
+                [
+                    "T5_CLOTH",
+                    "Fort Sterling",
+                    3,
+                    487,
+                    55
+                ],
+                [
+                    "T6_CLOTH",
+                    "Fort Sterling",
+                    6,
+                    1998,
+                    175
+                ],
+                [
+                    "T6_ARMOR_CLOTH_SET2",
+                    "Martlock",
+                    9,
+                    10999,
+                    9103
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 88262.52,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_HEAD_CLOTH_SET3",
+        "ign": "Adept's Mage Cowl",
+        "city_buy": "Lymhurst",
+        "buy_price": 701,
+        "city_sell": "Fort Sterling",
+        "sell_price": 780,
+        "craft_city": "Thetford",
+        "time": 9.05061425061425,
+        "buy_time_update": "225",
+        "sell_time_update": "1340",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    42,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    133,
+                    45
+                ],
+                [
+                    "T4_FIBER",
+                    "Thetford",
+                    210,
+                    34
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    105,
+                    108,
+                    316
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    166,
+                    150,
+                    1166
+                ],
+                [
+                    "T4_HEAD_CLOTH_SET3",
+                    "Fort Sterling",
+                    263,
+                    701,
+                    30283
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 144480.80000000002,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_ARMOR_CLOTH_SET3",
+        "ign": "Adept's Mage Robe",
+        "city_buy": "Lymhurst",
+        "buy_price": 953,
+        "city_sell": "Bridgewatch",
+        "sell_price": 1325,
+        "craft_city": "Fort Sterling",
+        "time": 9.05061425061425,
+        "buy_time_update": "1135",
+        "sell_time_update": "680",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    21,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    66,
+                    45
+                ],
+                [
+                    "T4_FIBER",
+                    "Thetford",
+                    105,
+                    34
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    52,
+                    108,
+                    158
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    83,
+                    150,
+                    583
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET3",
+                    "Bridgewatch",
+                    131,
+                    953,
+                    30283
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 122446.0,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_ARMOR_CLOTH_SET3@2",
+        "ign": "Adept's Mage Robe",
+        "city_buy": "Caerleon",
+        "buy_price": 22911,
+        "city_sell": "Lymhurst",
+        "sell_price": 23250,
+        "craft_city": "Fort Sterling",
+        "time": 9.05061425061425,
+        "buy_time_update": "1365",
+        "sell_time_update": "1340",
+        "carrying_capacity": 294,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    2,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    6,
+                    45
+                ],
+                [
+                    "T4_FIBER_LEVEL2@2",
+                    "Thetford",
+                    10,
+                    909
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    5,
+                    108,
+                    16
+                ],
+                [
+                    "T4_CLOTH_LEVEL2@2",
+                    "Lymhurst",
+                    8,
+                    1463,
+                    239
+                ],
+                [
+                    "T4_ARMOR_CLOTH_SET3@2",
+                    "Lymhurst",
+                    13,
+                    22911,
+                    12433
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 256237.0,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T5_ARMOR_CLOTH_SET3",
+        "ign": "Expert's Mage Robe",
+        "city_buy": "Lymhurst",
+        "buy_price": 4000,
+        "city_sell": "Thetford",
+        "sell_price": 4002,
+        "craft_city": "Fort Sterling",
+        "time": 16.592792792792793,
+        "buy_time_update": "85",
+        "sell_time_update": "5",
+        "carrying_capacity": 196,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    4,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    13,
+                    45
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    16,
+                    150
+                ],
+                [
+                    "T5_FIBER",
+                    "Thetford",
+                    48,
+                    174
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    10,
+                    108,
+                    30
+                ],
+                [
+                    "T5_CLOTH",
+                    "Fort Sterling",
+                    25,
+                    487,
+                    359
+                ],
+                [
+                    "T5_ARMOR_CLOTH_SET3",
+                    "Thetford",
+                    40,
+                    4000,
+                    18655
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 117201.6,
+        "roi": -2,
+        "index": -3
+    }
+    ,{
+        "id": "T4_SHOES_CLOTH_SET3",
+        "ign": "Adept's Mage Sandals",
+        "city_buy": "Bridgewatch",
+        "buy_price": 644,
+        "city_sell": "Lymhurst",
+        "sell_price": 768,
+        "craft_city": "Bridgewatch",
+        "time": 9.05061425061425,
+        "buy_time_update": "680",
+        "sell_time_update": "1135",
+        "carrying_capacity": 588,
+        "recipe": {
+            "buy": [
+                [
+                    "T2_FIBER",
+                    "Thetford",
+                    42,
+                    20
+                ],
+                [
+                    "T3_FIBER",
+                    "Thetford",
+                    133,
+                    45
+                ],
+                [
+                    "T4_FIBER",
+                    "Thetford",
+                    210,
+                    34
+                ]
+            ],
+            "craft": [
+                [
+                    "T3_CLOTH",
+                    "Lymhurst",
+                    105,
+                    108,
+                    316
+                ],
+                [
+                    "T4_CLOTH",
+                    "Lymhurst",
+                    166,
+                    150,
+                    1166
+                ],
+                [
+                    "T4_SHOES_CLOTH_SET3",
+                    "Lymhurst",
+                    263,
+                    644,
+                    30283
+                ]
+            ]
+        },
+        "quality": 1,
+        "profit": 141577.28,
+        "roi": -2,
+        "index": -3
+    }
+    
+    ]
+    

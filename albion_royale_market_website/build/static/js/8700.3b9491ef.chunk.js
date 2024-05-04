@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[8700],{8700:(n,e,a)=>{async function i(n){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const{LinksPlugin:i}=await a.e(1997).then(a.bind(a,1997)),l=new i;await n.addPlugin(l,e)}a.d(e,{loadLinksPlugin:()=>i})}}]);
+//# sourceMappingURL=8700.3b9491ef.chunk.js.map

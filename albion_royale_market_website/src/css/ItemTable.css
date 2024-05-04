@@ -1,0 +1,52 @@
+.color{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: #e8c59f;
+    margin: auto; 
+    box-shadow: 0px 0px 100px 10px #b0703d inset;
+    z-index: -1;
+
+}
+.scroll{
+    height: 50vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.b-end{
+    border-right: 2px solid rgba(0, 0, 0, .1);
+}
+.papyrus-texture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/papyrus.jpg");
+    opacity: 0.1;
+}
+
+.sort-field{
+    scale: .8;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.market-offers{
+    color:#533826;
+    text-align: start;
+}
+.header-style div{
+    color:#533826;
+}
+.header-style{
+    font-size: .7em;
+}
+.ign-header{
+    width: 18vw;
+}

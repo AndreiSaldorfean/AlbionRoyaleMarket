@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[1812],{1812:(e,a,n)=>{async function o(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addMover("base",(async()=>{const{BaseMover:e}=await Promise.all([n.e(8306),n.e(3142)]).then(n.bind(n,3142));return new e}),a)}n.d(a,{loadBaseMover:()=>o})}}]);
+//# sourceMappingURL=1812.7cce2fee.chunk.js.map

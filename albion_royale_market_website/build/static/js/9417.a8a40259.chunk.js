@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[9417],{9417:(a,e,t)=>{async function n(a){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const{StarDrawer:n}=await Promise.all([t.e(8306),t.e(593)]).then(t.bind(t,593));await a.addShape("star",new n,e)}t.d(e,{loadStarShape:()=>n})}}]);
+//# sourceMappingURL=9417.a8a40259.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[2755],{2982:(e,a,n)=>{n.d(a,{u:()=>o});const o=["emoji"]},2755:(e,a,n)=>{n.d(a,{loadEmojiShape:()=>i});var o=n(2982);async function i(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const{EmojiDrawer:i}=await Promise.all([n.e(8306),n.e(7055)]).then(n.bind(n,7055));await e.addShape(o.u,new i,a)}}}]);
+//# sourceMappingURL=2755.eb371134.chunk.js.map

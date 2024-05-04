@@ -1,0 +1,10 @@
+.banner-img-left{
+    position: absolute;
+    left:50px;
+    width: 140px;
+}
+.banner-img-right{
+    position: absolute;
+    right:50px;
+    width: 140px;
+}

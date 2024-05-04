@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[7436],{7436:(e,a,s)=>{s.d(a,{Pauser:()=>r});var t=s(8306);class r extends t.sJ{constructor(e){super(e),this.handleClickMode=e=>{if("pause"!==e)return;const a=this.container;a.animationStatus?a.pause():a.play()}}clear(){}init(){}interact(){}isEnabled(){return!0}reset(){}}}}]);
+//# sourceMappingURL=7436.82bfe59c.chunk.js.map

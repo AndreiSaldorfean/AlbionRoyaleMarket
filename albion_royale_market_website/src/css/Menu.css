@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Heads; src: url('../fonts/AnchorSteamNF.otf');
+    font-family: Albion-Original; src: url('../fonts/Koch\ Fraktur.ttf');
+ } 
+.menu-style{
+    color:white;
+    height: 15vh;
+}
+.a-menu-left{
+    padding-left: 25vw;
+}
+.a-menu-right{
+    padding-right: 25vw;
+}
+.menu-hover{
+    font-family: Albion-Original;
+    text-decoration: none;
+    color: #751414;
+    text-align: center;
+    font-size: 6vh;
+    line-height: 110%;
+    transition: all 0.3s ease;
+}
+.menu-hover:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #c52222;
+}
+.font{
+    font-family: Heads; 
+}
+.menu-pos{
+    position: absolute;
+    display: flex !important;
+    height: 6vh;
+    justify-content: space-between;
+    top:23vh;
+    text-align: center !important;
+}

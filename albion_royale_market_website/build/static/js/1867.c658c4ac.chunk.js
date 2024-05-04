@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[1867],{1867:(e,a,n)=>{n.d(a,{LineDrawer:()=>t});class t{draw(e){!function(e){var a;const{context:n,particle:t,radius:l}=e,o=t.shapeData;n.moveTo(-l,0),n.lineTo(l,0),n.lineCap=null!==(a=null===o||void 0===o?void 0:o.cap)&&void 0!==a?a:"butt"}(e)}getSidesCount(){return 1}}}}]);
+//# sourceMappingURL=1867.c658c4ac.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[8732],{8732:(e,a,t)=>{async function n(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addParticleUpdater("size",(async()=>{const{SizeUpdater:e}=await Promise.all([t.e(8306),t.e(5706)]).then(t.bind(t,5706));return new e}),a)}t.d(a,{loadSizeUpdater:()=>n})}}]);
+//# sourceMappingURL=8732.8c6048df.chunk.js.map

@@ -1,0 +1,117 @@
+
+.App {
+  text-align: center;
+  position: relative !important;
+  width: 100% !important;  
+  height: 100% !important;
+}
+
+.main{
+  position: relative;
+  z-index: 3;
+  width: 100% !important;
+  height: 100% !important;
+}
+.background{
+  width: 100%;
+  height: 100%;
+}
+.main-wrapper{
+  width: fit-content;
+  height: fit-content;
+  block-size: fit-content;
+}
+.App-logo {
+  position: relative;
+  z-index: 3;
+  width: 25%;
+  object-fit: contain;
+}
+@media only screen and (max-device-width: 800px) {
+  .App-logo {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+    width: auto;
+    object-fit: contain;
+    height: 40%;
+    pointer-events: none;
+  }
+}
+.background-color{
+  position: absolute;
+  background-color: #43352e;
+  width: 100%;
+  height: 100%;
+}
+.bg-shadow{
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 1000px 10px rgba(0, 0, 0, .8) inset;
+}
+.gradient{
+  z-index: 2;
+  opacity: .3;
+  width: 100%;
+  height: 100vh;
+  background: #d24e07;
+  background: linear-gradient(0deg, #d24e07 0%, rgba(217,49,49,0) 46%);
+  position: fixed;
+}
+.bg-image-top{
+  position: absolute;
+  z-index: 1;
+  height:23vh;
+  width: 100%; 
+  opacity: .3;
+  background-image: url("images/woodtext.png");
+  background-size: 100% 600%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.top mask{
+  position: absolute;
+  width: 100%;
+  top:0px;
+  left:0px;
+  height: 100%;
+  mask-image: linear-gradient(to bottom, black 55%, transparent 80%);
+}
+.bg-image-bottom{
+  position: absolute;
+  z-index: -1;
+  height: 76vh;
+  top:24vh;
+  width: 100%; 
+  opacity: .1;
+  background-image: url("images/stoneWall.jpg");
+  background-size: 60% 80%;
+  object-fit: cover;
+  background-repeat: repeat;
+}
+
+.App-header {
+  position: relative;
+  z-index: 3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

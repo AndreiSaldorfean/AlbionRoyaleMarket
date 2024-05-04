@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[3119],{3119:(e,a,n)=>{async function i(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const{LineDrawer:i}=await n.e(1867).then(n.bind(n,1867));await e.addShape("line",new i,a)}n.d(a,{loadLineShape:()=>i})}}]);
+//# sourceMappingURL=3119.9b2b5ad7.chunk.js.map

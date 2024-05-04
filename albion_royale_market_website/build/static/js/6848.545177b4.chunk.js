@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[6848],{6848:(e,a,t)=>{async function n(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addParticleUpdater("outModes",(async e=>{const{OutOfCanvasUpdater:a}=await Promise.all([t.e(8306),t.e(4449)]).then(t.bind(t,4449));return new a(e)}),a)}t.d(a,{loadOutModesUpdater:()=>n})}}]);
+//# sourceMappingURL=6848.545177b4.chunk.js.map

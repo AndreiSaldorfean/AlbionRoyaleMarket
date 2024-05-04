@@ -6,8 +6,7 @@ notes
 backup
 .gitignore
 public
-src
 README.md
-node_modules/
+node_modules
 package.json
 package-lock.json
