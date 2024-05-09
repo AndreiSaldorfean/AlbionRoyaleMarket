@@ -4,6 +4,7 @@
   position: relative !important;
   width: 100% !important;  
   height: 100% !important;
+  overflow-y: scroll;
 }
 
 .main{
@@ -24,7 +25,7 @@
 .App-logo {
   position: relative;
   z-index: 3;
-  width: 25%;
+  width: 21%;
   object-fit: contain;
 }
 @media only screen and (max-device-width: 800px) {
@@ -114,4 +115,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#custom-scroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: black;
+}
+
+#custom-scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+#root{
+  height: 100vh;
 }

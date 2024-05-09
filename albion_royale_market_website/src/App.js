@@ -1,3 +1,4 @@
+
 import bg from './images/woodtexture.jpg';
 import Menu from './components/Menu.js';
 import Particles,{initParticlesEngine} from '@tsparticles/react';
@@ -12,6 +13,7 @@ import Market from './components/Market.js';
 import Footer from './components/Footer.js';
 import Banners from './components/Banners.js';
 import logo from './images/Logo3.png';
+
 
 function App() {
   const [init, setInit] = useState(false);
@@ -83,7 +85,7 @@ function App() {
 
   return (
     <>
-    <div className="App">
+    <div className="App" id='custom-scroll'>
       
       <header className="App-header">
         

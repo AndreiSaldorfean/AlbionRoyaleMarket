@@ -47,12 +47,51 @@
    margin-left: 0px;
    margin-bottom: 1px;
 }
+.b-r{
+    border-right: 2px rgba(83,56,38,.3) solid;
+}
+.b-b{
+    border-bottom: 2px rgba(83,56,38,.3) solid;
+}
+.b-t{
+    border-top: 2px rgba(83,56,38,.3) solid;
+}
+.b-l{
+    border-left: 2px rgba(83,56,38,.3) solid;
+}
 .table-text{
     line-height: .9rem;
     color:#533826;
     font-weight: 600;
     height: 4rem;
     width: 100%;
+    margin:auto;
+}
+.show-table-col{
+    height: 4rem;
+}
+.show-table-col p{
+    line-height: 2rem;
+    color:#533826;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin:auto;
+}
+.show-table-col img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.show-text{
+    color:#533826;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin:auto;
+}
+.show-text-small{
+    color:#533826;
+    font-weight: 700;
+    font-size: 1.1rem;
     margin:auto;
 }
 .ign-wrapper{

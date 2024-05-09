@@ -17,12 +17,11 @@ export default function InputMenu3(){
                     </div>
 
                     <div className='col-lg d-flex justify-content-center'>
-                        <div className='flex-column mb-1'> 
+                        <div className='flex-column d-flex'> 
                         <CollapseMenu
                             id="usage-fee"
                             text="Usage Fee"
-                            className_btn = "albion-inp-field"
-                            >          
+                            className_btn = "albion-inp-field p-0">          
                                 <input type='text' className='form-control' placeholder='Investment' aria-label='Search' aria-describedby='basic-addon2'/>
                                 <input type='text' className='form-control' placeholder='Investment' aria-label='Search' aria-describedby='basic-addon2'/>
                                 <input type='text' className='form-control' placeholder='Investment' aria-label='Search' aria-describedby='basic-addon2'/>
