@@ -48,6 +48,9 @@ export default function InputMenu3(){
                             <option value="3">Thetford</option>
                             <option value="3">Forst Sterling</option>
                         </select> 
+                    </div> 
+                    <div className='col-lg d-flex justify-content-center'>
+                        <button className='albion-calculate-btn'/>
                     </div>
                 </div>
             </div>

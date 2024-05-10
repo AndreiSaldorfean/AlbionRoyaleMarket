@@ -1,4 +1,3 @@
-import Input from '../json_input/final.json';
 import ItemImage from './ItemImage.js';
 import React, { useState, useEffect } from 'react';
 import { Collapse } from 'bootstrap';
@@ -14,9 +13,7 @@ export default function Market(params){
                     <div className='wood-texture'/>
                     <h2 className='marketplace'>Marketplace</h2>
                     <InputMenu3/>
-                    <ItemsTable 
-                        package = {Input}
-                    />
+                    <ItemsTable />
                 </div>
             </div>
         </>

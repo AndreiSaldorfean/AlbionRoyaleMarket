@@ -1,11 +1,12 @@
-import {sortJson} from  '../scripts/sorter.js'
+import {sortJson} from  '../scripts/sorter.js';
+import Input from '../json_input/final.json';
 import ItemTableRow from './ItemTableRow.js';
 import '../css/ItemTable.css';
 import { useState } from "react";
 import Pagination from './Pagination.js';
 
-export default function ItemsTable(params){
-    let items = JSON.stringify(params.package)
+export default function ItemsTable(){
+    const [items] = useState(JSON.stringify(Input))
     let jObject = JSON.parse(items);
     var   [jobject] = useState(jObject);
     const [sortBy, setSortBy] = useState('roi');

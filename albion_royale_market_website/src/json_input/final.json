@@ -40,7 +40,7 @@
             ]
         },
         "quality": 1,
-        "profit": 251736.76,
+        "import Input from '../json_input/final.json';": 251736.76,
         "roi": -2,
         "index": -3
     }
