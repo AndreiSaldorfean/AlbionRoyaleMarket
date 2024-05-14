@@ -57,6 +57,7 @@ def find_item_recipe(dict,nca):
         craft_list.append(
             [
                 dict["id"], 
+                dict["ign"], 
                 dict["city_buy"], 
                 nca*1.58, 
                 dict["price_buy"], 
@@ -68,6 +69,7 @@ def find_item_recipe(dict,nca):
             mat_wrapper[0].append(
                 [
                     i,                             #item name
+                    dict["ign"],                   #item name
                     fetched_prices[i]["city_buy"], #city to buy from
                     nca,                           #amount
                     fetched_prices[i]["price_buy"] #price buy
@@ -81,30 +83,30 @@ def find_item_recipe(dict,nca):
         return process_item_result(wrapper)
     return ()
 
-def process_material_result(wrapper):        
+def process_material_result(wrapper,list):        
     craft_list     = wrapper[0]
     buy_list       = wrapper[1]
     new_craft_list = []
     new_buy_list   = [] 
     craft_list     = craft_list[::-1]
     buy_list       = buy_list[::-1]
-    market_price   = craft_list[0][2] * craft_list[0][3]
-    craft_price    = buy_list[0][2]   * buy_list[0][3]
+    market_price   = craft_list[0][3] * craft_list[0][4]
+    craft_price    = buy_list[0][3]   * buy_list[0][4]
 
     if craft_price < market_price:
         new_buy_list.append(buy_list[0])
-        craft_list[0][3] = craft_price / craft_list[0][2]
+        craft_list[0][3] = craft_price / craft_list[0][3]
         buy_list.remove(buy_list[0])
     else:
         new_buy_list.append(craft_list[0])
         buy_list.remove(buy_list[0])
 
     while(craft_list.__len__() != 0):
-        mat_price = craft_list[0][2]*craft_list[0][3]
+        mat_price = craft_list[0][3]*craft_list[0][4]
         for j in buy_list:
-            res_price    = j[2]*j[3]
+            res_price    = j[3]*j[4]
             craft_price  = mat_price+res_price
-            market_price = craft_list[1][2]*craft_list[1][3]
+            market_price = craft_list[1][3]*craft_list[1][4]
             if craft_price < market_price:
                 new_buy_list.append(j)
                 new_craft_list.append(craft_list[1])
@@ -118,6 +120,9 @@ def process_material_result(wrapper):
             break
     buy_list   = new_buy_list
     craft_list = new_craft_list
+    for i in range(0,len(new_craft_list)):
+        new_craft_list[i][2] = list[new_craft_list[i][0]]["city_craft"]
+        pass
     if craft_list == []:
         return ()
     
@@ -128,7 +133,8 @@ def find_material_recipe(dict,list,nca,resource_ingredients=[],ok=1):
     if len(dict["recipe"]) == 0:return []
     if any(dict["category"] in j for j in materials_list):
         craft_list.append(
-            [       dict["id"],                        #item name
+            [       dict["id"],                        #item id
+                    dict["ign"],                       #item in game name
                     dict["city_buy"],                  #city to buy the item from
                     nca*1.58,                          #amount to buy
                     dict["price_buy"],                 #item price
@@ -138,7 +144,8 @@ def find_material_recipe(dict,list,nca,resource_ingredients=[],ok=1):
         amount = float(dict["recipe"][i]["amount"])*float(nca)
         if any(list[i]["category"] in j for j in resource_list):
             resource_ingredients.append( 
-                [   i,                          #item name
+                [   i,                          #item id
+                    list[i]["ign"],              #item in game name            #item name
                     list[i]["city_buy"],        #city to buy the item from
                     amount,                     #amount to buy
                     list[i]["price_buy"],       #item price
@@ -147,7 +154,7 @@ def find_material_recipe(dict,list,nca,resource_ingredients=[],ok=1):
             find_material_recipe(list[i], list, amount/REFINING_BONUS,resource_ingredients,0)
     if(ok==1):
         wrapper = (craft_list,resource_ingredients)
-        return process_material_result(wrapper) 
+        return process_material_result(wrapper,list) 
     return ()
 
 def validate_item(dict,list,ok=1):
@@ -162,12 +169,14 @@ def validate_item(dict,list,ok=1):
 
 def prettyfy(wrapper):
     for i, element in enumerate(wrapper[0]):
-        if len(element) == 5:
+        if len(element) == 6:
             wrapper[0][i] = element[:-1]
-        wrapper[0][i][2] = int(wrapper[0][i][2])
+        wrapper[0][i][3] = int(wrapper[0][i][3])
 
     for i, element in enumerate(wrapper[1]):
-        wrapper[1][i][2] = int(wrapper[1][i][2])
+        wrapper[1][i][3] = int(wrapper[1][i][3])
+        if(len(wrapper[1][i]) == 6):
+            wrapper[1][i][5] = int(wrapper[1][i][5])
         wrapper[1][i][4] = int(wrapper[1][i][4])
 
 api_prices_file = open("InputFiles/python/output/json/api_items_price.json","r")
@@ -229,7 +238,6 @@ for i in materials:
         "craft" :craft_list
     }
     materials_recipe[i] = recipe
-
 for i in items:
     if not validate_item(items[i],fetched_prices):
         continue
@@ -242,9 +250,7 @@ for i in items:
     nca = gca/CRAFTING_BONUS
     buy_list   = []
     craft_list = []
-    
-    #the principle is the same
-    if i == "T4_MAIN_RAPIER_MORGANA@1":
+    if i == "T4_2H_HAMMER":
         pass
     wrapper    = find_item_recipe(items[i],nca)
     buy_list   = wrapper[0]
@@ -254,4 +260,20 @@ for i in items:
         "buy"   :buy_list,
         "craft" :craft_list
     }
+    #EG:T3_METALBAR
+    #BUY_LIST
+    # [
+    #     "T2_METALBAR",    <-item name
+    #     "Fort Sterling",  <-city to buy from
+    #     2409,             <-amount
+    #     7                 <-price
+    # ]
+    #Craft_LIST
+    # [
+    #     "T3_METALBAR",    <-item name
+    #     "Fort Sterling",  <-city to craft in 
+    #     3807,             <-amount will be crafted
+    #     93,               <-item price
+    #     7614              <-crafting tax
+    # ]
     items_recipe[i] = recipe

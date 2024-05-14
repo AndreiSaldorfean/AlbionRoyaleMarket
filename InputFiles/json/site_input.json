@@ -9,7 +9,7 @@
 		"hunter"	:800,
 		"mage"		:800
     },
-	"mount"			:"",
-	"current_city"	:"",
+	"mount"			:"Transport Ox T4",
+	"current_city"	:"Lymhurst",
 	"investment"	: 200000
 }

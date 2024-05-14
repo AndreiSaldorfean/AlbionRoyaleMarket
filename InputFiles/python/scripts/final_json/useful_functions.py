@@ -31,8 +31,8 @@ def sum_quantity(item_qunatitites):
 def buy_sum(buying_list):
     sum=0
     for item_index in buying_list:
-        if (int)(item_index[2])>0:
-            sum=sum+(int)(item_index[2])*(int)(item_index[3])
+        if (int)(item_index[3])>0:
+            sum=sum+(int)(item_index[3])*(int)(item_index[4])
         else:
             sum=ERROR_CODE0
             return sum
@@ -59,7 +59,7 @@ def compute_profit(item,investment):
        total_cost=buy_sum(buying_list)#for items which are bought
        for i in range(len(crafting_list)):
            if crafting_list[i][0]==item["id"]:
-               cuantity=crafting_list[i][2]
+               cuantity=crafting_list[i][3]
                total_cost=total_cost+crafting_list[i][4]
        gain=price_sell*cuantity*MARKET_PERCENTAGE
        return gain-total_cost
@@ -69,8 +69,8 @@ def compute_profit(item,investment):
    else:
        item_amount=ERROR_CODE1'''
    return -1
-def compute_roi(item):
+def compute_roi(investment,profit):
     #Return on Investment
-    return -2
+    return profit/investment
 def compute_index(item):
     return -3

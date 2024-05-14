@@ -6,7 +6,7 @@ QUALITY=1
 FILE_PATH="InputFiles/python/output/json/"
 FILE_NAME=FILE_PATH+"fetched_prices.json"
 URL_LIMIT=4096#based on indication found at https://www.albion-online-data.com/
-URL_BEGIN="https://west.albion-online-data.com/api/v2/stats/Prices/"
+URL_BEGIN="https://europe.albion-online-data.com/api/v2/stats/Prices/"
 URL_END=".json?locations=Caerleon,Martlock,Bridgewatch,Lymhurst,Fort%20Sterling,Thetford&qualities=1"
 items_list={}#used for storing information about item id,name,city
 with open(FILE_NAME,"w") as fout:#formating the .json file

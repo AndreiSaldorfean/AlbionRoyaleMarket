@@ -37,8 +37,12 @@ sys.path.append('InputFiles/python/scripts/city_travel_cost')
 import class_mount
 import useful_functions
 ITEMS_FILE="InputFiles/python/output/json/processed_items.json"
+SITE_INPUT_FILE="InputFiles//json/site_input.json"
 OUTPUT_FILE="InputFiles/python/output/json/final.json"
-investment=20000#from web application
+fin = open(SITE_INPUT_FILE,"r")
+investment = json.load(fin)
+investment = investment["investment"]
+fin.close()
 mount_load_capacity=1000##from web application
 player_mount=class_mount.Mount(4,0.5,0.85,1000)#from web application
 #=======================================================================================
@@ -49,22 +53,26 @@ fout=open(OUTPUT_FILE,"w")
 fout.write("[\n")
 fout.close()
 for item in items_buffer:
+    roi = useful_functions.compute_roi(investment,
+                                           useful_functions.compute_profit(items_buffer[item],
+                                                                           investment))
     write_buffer={
-        "Name:":items_buffer[item]["ign"],
-        "City buy":items_buffer[item]["city_buy"],
-        "Buy price:":items_buffer[item]["price_buy"],
-        "City sell":items_buffer[item]["city_sell"],
-        "Sell price:":items_buffer[item]["price_sell"],
-        "Craft city":items_buffer[item]["city_craft"],
-        "Time:":useful_functions.compute_time(player_mount,items_buffer[item]["city_buy"],items_buffer[item]["city_sell"]),
-        "Buy time update:":items_buffer[item]["revision_buy"],
-        "Sell time update:":items_buffer[item]["revision_sell"],
-        "Carrying capacity:":useful_functions.compute_carrying_capacity(player_mount,items_buffer[item]["weight"]),
-        "Recipe:":items_buffer[item]["recipe"],
-        "Quality:":1,
-        "Profit:":useful_functions.compute_profit(items_buffer[item],investment),
-        "ROI:":useful_functions.compute_roi(items_buffer[item]),
-        "Index:":useful_functions.compute_index(items_buffer[item])
+        "id":items_buffer[item]["id"],
+        "ign":items_buffer[item]["ign"],
+        "city_buy":items_buffer[item]["city_buy"],
+        "buy_price":items_buffer[item]["price_buy"],
+        "city_sell":items_buffer[item]["city_sell"],
+        "sell_price":items_buffer[item]["price_sell"],
+        "craft_city":items_buffer[item]["city_craft"],
+        "time":useful_functions.compute_time(player_mount,items_buffer[item]["city_buy"],items_buffer[item]["city_sell"]),
+        "buy_time_update":items_buffer[item]["revision_buy"],
+        "sell_time_update":items_buffer[item]["revision_sell"],
+        "carrying_capacity":useful_functions.compute_carrying_capacity(player_mount,items_buffer[item]["weight"]),
+        "recipe":items_buffer[item]["recipe"],
+        "quality":1,
+        "profit":useful_functions.compute_profit(items_buffer[item],investment),
+        "roi":roi,
+        "index":useful_functions.compute_index(items_buffer[item])
     }
     write_buffer=json.dumps(write_buffer,indent=4)
     fout=open(OUTPUT_FILE,"a")
