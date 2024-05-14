@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[3658],{3658:(e,n,a)=>{async function t(e){let n=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addInteractor("externalConnect",(async e=>{const{Connector:n}=await Promise.all([a.e(8306),a.e(4700)]).then(a.bind(a,2319));return new n(e)}),n)}a.d(n,{loadExternalConnectInteraction:()=>t})}}]);
-//# sourceMappingURL=3658.0839c2b3.chunk.js.map

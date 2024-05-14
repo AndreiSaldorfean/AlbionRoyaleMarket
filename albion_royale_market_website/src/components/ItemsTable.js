@@ -1,27 +1,53 @@
 import {sortJson} from  '../scripts/sorter.js';
-import Input from '../json_input/final.json';
 import ItemTableRow from './ItemTableRow.js';
 import '../css/ItemTable.css';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Pagination from './Pagination.js';
+import {isFileChange} from '../scripts/detectFileChange.js';
 
 export default function ItemsTable(){
-    const [items] = useState(JSON.stringify(Input))
-    let jObject = JSON.parse(items);
-    var   [jobject] = useState(jObject);
+    const PATH = "http://192.168.0.144:3000/final.json";
+    const [jsonData, setJsonData] = useState([]);
+    const [items, setItems] = useState("");
+    let [jobject, setJobject] = useState([]);
     const [sortBy, setSortBy] = useState('roi');
+    const [currentPage, setCurrentPage] = useState(1);
+    const [recordsPerPage] = useState(10);
+    const indexOfLastRecord = currentPage * recordsPerPage;
+    const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
     const handleSortChange = (e) => {
         setSortBy(e.target.value);
         sortJson(jobject,e.target.value);
     };
-    const [currentPage, setCurrentPage] = useState(1);
-    const [recordsPerPage] = useState(10);
+    let [currentRecords,setRecords] = useState([]);
+    let [nPages, setPages] = useState(0); 
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(PATH);
+                const data = await response.json();
+                const tempItem = JSON.stringify(data);
+                const tempObj = JSON.parse(tempItem);
+                const tempRecords = tempObj.slice(indexOfFirstRecord, indexOfLastRecord);
+                const tempPages = Math.ceil(tempObj.length / recordsPerPage);
+                setJsonData(tempObj);
+                setJsonData(tempRecords);
+                setJsonData(tempPages);
+                setItems(tempItem);
+                setJobject(tempObj);
+                setRecords(tempRecords);
+                setPages(tempPages);
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
 
-    const indexOfLastRecord = currentPage * recordsPerPage;
-    const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
-    const currentRecords = jobject.slice(indexOfFirstRecord, indexOfLastRecord);
-    const nPages = Math.ceil(jobject.length / recordsPerPage)
-
+        fetchData();
+    }, []); 
+    if(jobject != []){
+        currentRecords = jobject.slice(indexOfFirstRecord, indexOfLastRecord);
+        nPages =  Math.ceil(jobject.length / recordsPerPage);
+    }
     return (
         <>
             <div className='container-fluid position-relative'>

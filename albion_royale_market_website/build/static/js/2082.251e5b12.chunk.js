@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[2082],{2082:(e,a,t)=>{async function n(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addParticleUpdater("rotate",(async e=>{const{RotateUpdater:a}=await Promise.all([t.e(8306),t.e(3591)]).then(t.bind(t,3591));return new a(e)}),a)}t.d(a,{loadRotateUpdater:()=>n})}}]);
-//# sourceMappingURL=2082.251e5b12.chunk.js.map

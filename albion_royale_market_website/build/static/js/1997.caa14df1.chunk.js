@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[1997],{1997:(n,e,s)=>{s.d(e,{LinksPlugin:()=>t});class t{constructor(){this.id="links"}async getPlugin(n){const{LinkInstance:e}=await s.e(9291).then(s.bind(s,9291));return new e(n)}loadOptions(){}needsPlugin(){return!0}}}}]);
-//# sourceMappingURL=1997.caa14df1.chunk.js.map

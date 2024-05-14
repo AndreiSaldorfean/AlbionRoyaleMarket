@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[6727],{6727:(e,a,t)=>{async function o(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addParticleUpdater("strokeColor",(async e=>{const{StrokeColorUpdater:a}=await Promise.all([t.e(8306),t.e(3827)]).then(t.bind(t,3827));return new a(e)}),a)}t.d(a,{loadStrokeColorUpdater:()=>o})}}]);
-//# sourceMappingURL=6727.83927abd.chunk.js.map
