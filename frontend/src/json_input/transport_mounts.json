@@ -1,0 +1,56 @@
+{
+	"Expert's Transport Ox":{
+		"Move bonus":0.5,
+		"Gallop bonus":0.85,
+		"Carry capacity":1338,
+		"Gallop delay":4
+	},
+	"Master's Transport Ox":{
+		"Move bonus":0.5,
+		"Gallop bonus":0.90,
+		"Carry capacity":1574,
+		"Gallop delay":4
+	},
+	"Grandmaster's Transport Ox":{
+		"Move bonus":0.5,
+		"Gallop bonus":0.95,
+		"Carry capacity":1876,
+		"Gallop delay":4
+	},
+	"Elder's Transport Ox":{
+		"Move bonus":0.5,
+		"Gallop bonus":1.0,
+		"Carry capacity":2252,
+		"Gallop delay":4
+	},
+	"Saddled Direboar":{
+		"Move bonus":0.6,
+		"Gallop bonus":1.15,
+		"Carry capacity":1261,
+		"Gallop delay":4
+	},
+	"Elite Wild Boar":{
+		"Move bonus":0.6,
+		"Gallop bonus":1.20,
+		"Carry capacity":1582,
+		"Gallop delay":4
+	},
+	"Saddled Wild Boar":{
+		"Move bonus":0.6,
+		"Gallop bonus":1.10,
+		"Carry capacity":782,
+		"Gallop delay":4
+	},
+	"Spectral Direboar":{
+		"Move bonus":0.6,
+		"Gallop bonus":1.15,
+		"Carry capacity":1204,
+		"Gallop delay":4
+	},
+	"Elder's Transport Mammoth":{
+		"Move bonus":0.3,
+		"Gallop bonus":0.3,
+		"Carry capacity":22521,
+		"Gallop delay":4
+	}
+}

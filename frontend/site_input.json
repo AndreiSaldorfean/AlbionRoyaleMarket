@@ -1,0 +1,16 @@
+{
+	"usage_fee":{
+		"tanner"	:440,
+		"weaver"	:390,
+		"smelter"	:310,
+		"lumbermill":440,
+		"ToolMaker"	:800,
+		"warrior"	:800,
+		"hunter"	:800,
+		"mage"		:800
+    },
+	"carrying_capacity":2000,
+	"mount"			:"Expert's Transport Ox",
+	"current_city"	:"Lymhurst",
+	"investment"	: 200000
+}

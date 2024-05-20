@@ -1,0 +1,80 @@
+.input-menu-style{
+    margin-left: 0px ;
+    margin-right: 0px ;
+    margin-top:30px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 4;
+}
+.input-menu-style h2{
+    font-size: .5em;
+}
+.albion-inp-field{
+
+    width: 15rem;
+    height: 2.5rem;
+    padding-left: 1.5rem;
+    background-color: transparent;
+    background-image: url("../images/one_inp_field.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    outline: none;
+    font-size: .65em !important;
+}
+.albion-calculate-btn{
+
+    width: 8rem;
+    height: 2.5rem;
+    background-color: transparent;
+    background-image: url("../images/calculate.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+}
+.albion-calculate-btn:hover{
+    opacity: .8;
+}
+
+.transparent-button{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border:none;
+    outline: none;
+    font-size: .65em ;
+}
+.col-style{
+    position: relative !important;
+}
+.row-pos{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.transparent-inp-field{
+    top:.8vh;
+    left: 10%;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-size: .65em !important;
+}
+.transparent-inp-field:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+.inp-wrapper{
+    margin-top: 2.5rem;
+}
+
+.h2-color{
+    color:#c0977e;
+}

@@ -1,0 +1,53 @@
+.input-menu-style{
+    color:white;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+.h2-color{
+    color:#c0977e;
+}
+.input-menu-style h2{
+    font-size: .5em;
+}
+
+.input-group{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+}
+.medieval-inp-form{
+    border-radius: 0px !important;
+    background-color: #89634c !important;
+    opacity: .8 !important;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,.8) inset !important;
+    color: #edbfa4 !important;
+    border-color: transparent !important;
+    border: 3px ridge #412717 !important;
+    border-radius: 5px !important;
+}
+.medieval-inp-form::placeholder{
+    color: #271e19 !important;
+}
+.medieval-button {
+    padding: 10px 20px;
+    background-color: #452b1b; /* A dark wood-like brown */
+    color: #f4e5c3; /* A parchment-like off-white */
+    border: 2px solid #86502f; /* A lighter brown border */
+    font-family: 'Goudy Bookletter 1911', serif; /* A font with an old-style feel */
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #a67c52; /* Gives a bit of depth to the text */
+    box-shadow: 0px 3px 0px #301b0e; /* Simulates an inset look */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .medieval-button:hover {
+    background-color: #8a6e2f; /* A lighter, worn wood color for hover */
+    box-shadow: 0px 3px 0px #301b0e;
+  }
+  
+  .medieval-button:active {
+    box-shadow: inset 1px 1px 2px 0px rgba(0, 0, 0, 0.5); /* An inset shadow for a pressed effect */
+    transform: translateY(2px); /* Moves the button down to simulate a press */
+  }

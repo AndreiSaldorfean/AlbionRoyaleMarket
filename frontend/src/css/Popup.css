@@ -1,0 +1,25 @@
+.panel{
+    z-index: 5;
+    display: block;
+    background-color: white;
+    position: absolute;
+    width: 50vw;
+    height: 75vh;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    border-radius: 25px;
+}
+.panel-parent{
+    z-index: 5;
+    background-color: rgba(0, 0, 0,.8);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.close-btn{
+    position: absolute;
+    top:.6rem;
+    right:.6rem;
+}
