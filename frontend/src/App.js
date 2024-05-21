@@ -1,7 +1,7 @@
 
 import bg from './images/woodtexture.jpg';
 import Menu from './components/Menu.js';
-import Particles,{initParticlesEngine} from '@tsparticles/react';
+import Particles, { initParticlesEngine } from '@tsparticles/react';
 import './App.css';
 import pOptions from './particles.json'
 import './css/Particles.css';
@@ -27,7 +27,7 @@ function App() {
     });
   }, []);
 
-  const options = useMemo( 
+  const options = useMemo(
     () => ({
       fpsLimit: 120,
       particles: {
@@ -38,16 +38,16 @@ function App() {
           enable: true,
           random: true,
           speed: {
-            max:15,
-            min:2
+            max: 15,
+            min: 2
           },
           warp: true,
           straight: false,
-          direction:"top",
+          direction: "top",
           angle: {
             value: {
-              max:25,
-              min:5
+              max: 25,
+              min: 5
             },
             offset: 0
           },
@@ -79,58 +79,59 @@ function App() {
     [],
   );
 
-  let [active,setActivity] = useState(0);
-  let [data,setDataReceived] = useState([]);
+  let [active, setActivity] = useState(0);
+  let [data, setDataReceived] = useState([]);
 
-  const handlePopup = (state)=>{
+  const handlePopup = (state) => {
     setActivity(state);
   }
-  const handleActive = (state)=>{
+  const handleActive = (state) => {
     setActivity(state);
   };
 
-  const handleDataSentMarket = (item)=>{
+  const handleDataSentMarket = (item) => {
     setDataReceived(item);
   }
-  const handleDataSentPopup = (item)=>{
+  const handleDataSentPopup = (item) => {
     setDataReceived(item);
   }
   return (
     <>
-    <Popup inactive={handleActive} state={active} receiveData={data} sendData={handleDataSentPopup}/>
+      <Popup inactive={handleActive} state={active} receiveData={data} sendData={handleDataSentPopup} />
 
-    <div className="App" id='custom-scroll'>
+      <div className="App" id='custom-scroll'>
 
-      <header className="App-header">
-        <div className='background'>
-          <div className='background-color'/>
-          <div className='design'>
-            <div className='stripe'/>
-            <Banners/>
+        <header className="App-header">
+          <div className='background'>
+            <div className='background-color' />
+            <div className='design'>
+              <div className='stripe' />
+              <Banners />
+            </div>
+            <div className='top'>
+              <div className='bg-image-top' />
+              <mask>
+                <div className='bg-image-bottom' />
+              </mask>
+              <div className='bg-shadow' />
+              <div className='gradient' />
+            </div>
+            <Particles id="tsParticles" options={options} />
           </div>
-          <div className='top'>
-            <div className='bg-image-top'/>
-            <mask>
-              <div className='bg-image-bottom'/>
-            </mask>
-            <div className='bg-shadow'/>
-            <div className='gradient'/>
-          </div>
-          <Particles id="tsParticles" options={options}/>
-        </div>
 
-        <div className='main'>
-          <Header/>
-          <Menu/>
-          <div className='main-wrapper'>
-            <img src={logo} className="App-logo" alt="logo"/>
-            <Market openPopup={handlePopup} sendData={handleDataSentMarket} receiveData={data}/>
-          </div>
-          <Footer/>
-        </div> 
-      </header>
+          <div className='main'>
+            <Header />
+            <img src={logo} className="App-logo" alt="logo" />
+            <Menu />
+            <div className='main-wrapper'>
 
-    </div>
+              {/* <Market openPopup={handlePopup} sendData={handleDataSentMarket} receiveData={data}/> */}
+            </div>
+            <Footer />
+          </div>
+        </header>
+
+      </div>
     </>
   );
 }
