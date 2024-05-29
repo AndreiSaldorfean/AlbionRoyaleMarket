@@ -1,7 +1,12 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.0b80d205.css",
     "main.js": "/static/js/main.41840963.js",
+=======
+    "main.css": "/static/css/main.1d855f7c.css",
+    "main.js": "/static/js/main.f5c56bc6.js",
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
     "static/js/1927.c0c7afda.chunk.js": "/static/js/1927.c0c7afda.chunk.js",
     "static/js/7590.c6beacd3.chunk.js": "/static/js/7590.c6beacd3.chunk.js",
     "static/js/6725.dde1702e.chunk.js": "/static/js/6725.dde1702e.chunk.js",
@@ -71,6 +76,10 @@
     "static/js/4265.883b1b9a.chunk.js": "/static/js/4265.883b1b9a.chunk.js",
     "static/js/4494.20f292e1.chunk.js": "/static/js/4494.20f292e1.chunk.js",
     "static/js/4290.0f9e9f68.chunk.js": "/static/js/4290.0f9e9f68.chunk.js",
+<<<<<<< HEAD
+=======
+    "static/media/woodtexture.jpg": "/static/media/woodtexture.ee5f5368bcd217106b5b.jpg",
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
     "static/media/papyrus.jpg": "/static/media/papyrus.4f6dc0e7c233513d8e25.jpg",
     "static/media/Logo3.png": "/static/media/Logo3.c5f4541a33b01f05fd03.png",
     "static/media/banner.png": "/static/media/banner.fd6bff7ad9441d77fc0d.png",
@@ -84,8 +93,13 @@
     "static/media/next_previous.png": "/static/media/next_previous.e04219a8e191c9d32429.png",
     "static/media/scroll.png": "/static/media/scroll.ca0e8dd22618e6ac7b69.png",
     "index.html": "/index.html",
+<<<<<<< HEAD
     "main.0b80d205.css.map": "/static/css/main.0b80d205.css.map",
     "main.41840963.js.map": "/static/js/main.41840963.js.map",
+=======
+    "main.1d855f7c.css.map": "/static/css/main.1d855f7c.css.map",
+    "main.f5c56bc6.js.map": "/static/js/main.f5c56bc6.js.map",
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
     "1927.c0c7afda.chunk.js.map": "/static/js/1927.c0c7afda.chunk.js.map",
     "7590.c6beacd3.chunk.js.map": "/static/js/7590.c6beacd3.chunk.js.map",
     "6725.dde1702e.chunk.js.map": "/static/js/6725.dde1702e.chunk.js.map",
@@ -157,7 +171,12 @@
     "4290.0f9e9f68.chunk.js.map": "/static/js/4290.0f9e9f68.chunk.js.map"
   },
   "entrypoints": [
+<<<<<<< HEAD
     "static/css/main.0b80d205.css",
     "static/js/main.41840963.js"
+=======
+    "static/css/main.1d855f7c.css",
+    "static/js/main.f5c56bc6.js"
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
   ]
 }

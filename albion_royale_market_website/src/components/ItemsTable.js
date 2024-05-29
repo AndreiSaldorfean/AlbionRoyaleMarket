@@ -3,6 +3,7 @@ import ItemTableRow from './ItemTableRow.js';
 import '../css/ItemTable.css';
 import { useState, useEffect } from "react";
 import Pagination from './Pagination.js';
+<<<<<<< HEAD
 import {final_json,modify_item} from '../scripts/new_final_json.js';
 import axios from 'axios';
 
@@ -20,11 +21,21 @@ export default function ItemsTable(
     const [jsonData, setJsonData] = useState({});
     const [items, setItems] = useState("");
     let   [jobject, setJobject] = useState([]);
+=======
+import {isFileChange} from '../scripts/detectFileChange.js';
+
+export default function ItemsTable(){
+    const PATH = "http://192.168.0.144:3000/final.json";
+    const [jsonData, setJsonData] = useState([]);
+    const [items, setItems] = useState("");
+    let [jobject, setJobject] = useState([]);
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
     const [sortBy, setSortBy] = useState('roi');
     const [currentPage, setCurrentPage] = useState(1);
     const [recordsPerPage] = useState(10);
     const indexOfLastRecord = currentPage * recordsPerPage;
     const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
+<<<<<<< HEAD
     let [currentRecords,setRecords] = useState({});
     let [nPages, setPages] = useState(0); 
     let [siteInput, setSiteInput] = useState(""); 
@@ -93,17 +104,48 @@ export default function ItemsTable(
                     setPages(tempPages);
                     setSiteInput(site_input);
                 }
+=======
+    const handleSortChange = (e) => {
+        setSortBy(e.target.value);
+        sortJson(jobject,e.target.value);
+    };
+    let [currentRecords,setRecords] = useState([]);
+    let [nPages, setPages] = useState(0); 
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(PATH);
+                const data = await response.json();
+                const tempItem = JSON.stringify(data);
+                const tempObj = JSON.parse(tempItem);
+                const tempRecords = tempObj.slice(indexOfFirstRecord, indexOfLastRecord);
+                const tempPages = Math.ceil(tempObj.length / recordsPerPage);
+                setJsonData(tempObj);
+                setJsonData(tempRecords);
+                setJsonData(tempPages);
+                setItems(tempItem);
+                setJobject(tempObj);
+                setRecords(tempRecords);
+                setPages(tempPages);
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
+<<<<<<< HEAD
         fetchData();
     }, []); 
 
+=======
+
+        fetchData();
+    }, []); 
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
     if(jobject != []){
         currentRecords = jobject.slice(indexOfFirstRecord, indexOfLastRecord);
         nPages =  Math.ceil(jobject.length / recordsPerPage);
     }
+<<<<<<< HEAD
     const handleDataSent = (item)=>{
         sendData(item);
     }
@@ -117,6 +159,8 @@ export default function ItemsTable(
         console.log(final_json(temp,siteInput));
         setCalculate(0);
     }
+=======
+>>>>>>> d4579e882e2ab7c8dac5d9140fe0f4c8e80b05de
     return (
         <>
             <div className='container-fluid position-relative'>
