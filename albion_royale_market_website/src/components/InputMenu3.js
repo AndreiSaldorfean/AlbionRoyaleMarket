@@ -29,7 +29,7 @@ export default function InputMenu3({calculate}) {
             if (Object.keys(site_input).length === 0) {
                 console.log("site_input is empty, fetching from server");
                 try {
-                    const response1 = await fetch("http://localhost:420/site_input.json");
+                    const response1 = await fetch("http://localhost:5555/site_input.json");
                     if (!response1.ok) throw new Error(`Network response was not ok: ${response1.statusText}`);
                     const resp = await response1.text();
                     site_input = JSON.parse(resp);
