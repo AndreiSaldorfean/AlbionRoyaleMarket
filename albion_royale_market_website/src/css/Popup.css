@@ -1,7 +1,7 @@
 .panel{
     z-index: 5;
     display: block;
-    background-color: #444;
+    background-color: white;
     position: absolute;
     width: 50vw;
     height: 75vh;
@@ -22,82 +22,4 @@
     position: absolute;
     top:.6rem;
     right:.6rem;
-}
-.img-head{
-    display: block;
-    width: 10rem;
-    height: 10rem;
-    margin: auto;
-}
-.h1-head{
-    display: block;
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-size: 2rem;
-    margin:auto;
-    color: white;
-}
-.scroll-popup{
-    width: 100%;
-    height: 44vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-.mini-img{
-    width: 3.5rem;
-}
-.inp-field{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border:none;
-    background-color: rgba(0,50,100,.2);
-    color: white;
-}
-.inp-field:focus{
-    z-index: 10;
-   outline: 1px solid #aaa;
-}
-.select-field{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    border:none;
-    background-color: rgba(0,50,100,.2);
-    color: white;
-}
-.select-field:focus{
-    z-index: 10;
-   outline: 1px solid #aaa;
-   color: black;
-}
-.h2-head{
-    text-align: center;
-    font-size: 1.5rem;
-}
-.h3-head{
-    font-size: 1.2rem;
-}
-.tr-height{
-    height: 3rem;
-}
-
-#custom-scroll::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: black;
-}
-
-#custom-scroll::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
-}
-.modify-btn{
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    transform: translate(-50%);
 }

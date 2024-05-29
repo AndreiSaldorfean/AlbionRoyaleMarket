@@ -11,6 +11,8 @@
     opacity: .1;
 }
 
+.odd-row-style{
+}
 .albion-button{
     position: absolute;
     top:50%;
@@ -29,31 +31,6 @@
 }
 .albion-button:hover{
    opacity: .9;
-}
-
-.edit-button{
-    position: absolute;
-    top:50%;
-    right:5%;
-    transform: translate(-50%, -50%) !important;
-    background-image: url("../images/edit.png");
-    background-size: 100% ;
-    background-repeat: no-repeat;
-    border:none;
-    outline: none;
-    cursor: pointer;
-    background-color: transparent;
-    
-    width:  2rem;
-    height: 2rem;
-}
-.edit-button:hover{
-   opacity: .9;
-}
-.edit-btn-wrapper{
-    position: relative;
-    display: flex;
-    width:  3rem;
 }
 .row-style{
     font-size: .7em;

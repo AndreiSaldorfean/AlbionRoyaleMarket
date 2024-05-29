@@ -4,20 +4,16 @@ import '../css/ItemTable.css';
 import { useState, useEffect } from "react";
 import Pagination from './Pagination.js';
 import {final_json,modify_item} from '../scripts/new_final_json.js';
-import axios from 'axios';
 
 export default function ItemsTable(
     {
         openPopup,
         sendData,
-        receiveData,
-        calculate,
-        setCalculate
+        receiveData
     }){
-    
     const PATH_f = "http://localhost:420/final.json";
     const PATH_s = "http://localhost:420/site_input.json";
-    const [jsonData, setJsonData] = useState({});
+    const [jsonData, setJsonData] = useState([]);
     const [items, setItems] = useState("");
     let   [jobject, setJobject] = useState([]);
     const [sortBy, setSortBy] = useState('roi');
@@ -25,81 +21,39 @@ export default function ItemsTable(
     const [recordsPerPage] = useState(10);
     const indexOfLastRecord = currentPage * recordsPerPage;
     const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
-    let [currentRecords,setRecords] = useState({});
+    let [currentRecords,setRecords] = useState([]);
     let [nPages, setPages] = useState(0); 
-    let [siteInput, setSiteInput] = useState(""); 
     const handleSortChange = (e) => {
         setSortBy(e.target.value);
         jobject = sortJson(jobject,e.target.value);
-        localStorage.setItem("jObject",jobject);
     };
-    
+
+
     useEffect(() => {
         const fetchData = async () => {
             try {
-                let isFJSONSet = localStorage.getItem("fJson");
-                if(isFJSONSet != undefined){
-                    let site_input = localStorage.getItem("site_input");
-                    if(site_input === null){
-                        const response1   = await fetch(PATH_s);
-                        let resp          = await response1.text();
-                        site_input        = JSON.parse(resp);
-                        localStorage.setItem("site_input",JSON.stringify(site_input));
-                    }else{  
-                        site_input        = localStorage.getItem("site_input");
-                        site_input        = JSON.parse(site_input);
-                    }
-                    let data          = JSON.parse(isFJSONSet);
-                    const fJson       = Object.entries(data);
-                    const tempItem    = JSON.stringify(fJson);
-                    const tempObj     = JSON.parse(tempItem);
-                    const tempRecords = tempObj.slice(indexOfFirstRecord, indexOfLastRecord);
-                    const tempPages   = Math.ceil(tempObj.length / recordsPerPage);
-                    setJsonData(tempObj);
-                    setJsonData(tempRecords);
-                    setJsonData(tempPages);
-                    setItems(tempItem);
-                    setJobject(tempObj);
-                    setRecords(tempRecords);
-                    setPages(tempPages);
-                    setSiteInput(site_input);
-                }
-                else{
-                    let site_input = localStorage.getItem("site_input");
-                    if(site_input === null){
-                        const response1   = await fetch(PATH_s);
-                        let resp          = await response1.text();
-                        site_input        = JSON.parse(resp);
-                        localStorage.setItem("site_input",JSON.stringify(site_input));
-                    }else{
-                        site_input        = localStorage.getItem("site_input");
-                        site_input        = JSON.parse(site_input);
-                    }
-                    const response    = await fetch(PATH_f);
-                    let data          = await response.text();
-                    data              = JSON.parse(data);
-                    localStorage.setItem("fJson",JSON.stringify(data));
-                    const fJson       = final_json(data,site_input);
-                    const tempItem    = JSON.stringify(fJson);
-                    const tempObj     = JSON.parse(tempItem);
-                    const tempRecords = tempObj.slice(indexOfFirstRecord, indexOfLastRecord);
-                    const tempPages   = Math.ceil(tempObj.length / recordsPerPage);
-                    setJsonData(tempObj);
-                    setJsonData(tempRecords);
-                    setJsonData(tempPages);
-                    setItems(tempItem);
-                    setJobject(tempObj);
-                    setRecords(tempRecords);
-                    setPages(tempPages);
-                    setSiteInput(site_input);
-                }
+                const response    = await fetch(PATH_f);
+                const data        = await response.json();
+                const response1   = await fetch(PATH_s);
+                const site_input  = await response1.json();
+                const fJson       = final_json(data,site_input);
+                const tempItem    = JSON.stringify(fJson);
+                const tempObj     = JSON.parse(tempItem);
+                const tempRecords = tempObj.slice(indexOfFirstRecord, indexOfLastRecord);
+                const tempPages   = Math.ceil(tempObj.length / recordsPerPage);
+                setJsonData(tempObj);
+                setJsonData(tempRecords);
+                setJsonData(tempPages);
+                setItems(tempItem);
+                setJobject(tempObj);
+                setRecords(tempRecords);
+                setPages(tempPages);
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
         fetchData();
     }, []); 
-
     if(jobject != []){
         currentRecords = jobject.slice(indexOfFirstRecord, indexOfLastRecord);
         nPages =  Math.ceil(jobject.length / recordsPerPage);
@@ -110,12 +64,6 @@ export default function ItemsTable(
 
     const handleOpenPopup = ()=>{
         openPopup(1);
-    }
-    if(calculate == 1){
-        //console.log(jobject);
-        let temp = jobject;
-        console.log(final_json(temp,siteInput));
-        setCalculate(0);
     }
     return (
         <>
@@ -130,6 +78,7 @@ export default function ItemsTable(
                     <div className='row w-100'>
                         <div className='col d-flex'>
                             <h2 className='market-offers me-3'>Market Offers</h2>
+
                             <div className='d-flex'>
                                 <h3 className='me-2 sort-by-style'>Sort By:</h3>    
                                 <select class="transparent-inp-field sort-by-inp" id="sort-by" value={sortBy} onChange={handleSortChange}>
@@ -150,7 +99,7 @@ export default function ItemsTable(
                                         sendData={handleDataSent} 
                                         receiveData={receiveData}
                                         jsData={element[1]}
-                                        id={element[0]} 
+                                        id={element[1]["id"]} 
                                         ign={element[1]["ign"]}
                                         city_buy={element[1]["city_buy"]}
                                         buy_price={element[1]["buy_price"]}

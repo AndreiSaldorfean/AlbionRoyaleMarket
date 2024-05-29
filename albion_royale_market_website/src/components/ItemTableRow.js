@@ -57,15 +57,12 @@ export default function ItemTableRow(
     })
 
     const string = recipe;
-    let buy = Object.entries(recipe["buy"])[1];
-    if(buy != undefined)buy = buy[1];
-    let craft = Object.entries(recipe["craft"])[1];
-    if(craft != undefined)craft = craft[1];
-
+    const buy = Array(Array(string["buy"])[0])
+    const craft = Array(Array(string["craft"])[0])
 
     //This block produces some additional divs but they dont 
     //have any effect on the page.
-    if(buy == undefined){
+    if(buy[0] == null){
         return(<>
             <div className="collapse" id={id+"1"}/>
         </>);
@@ -117,9 +114,9 @@ export default function ItemTableRow(
                 </div>
             
             </div>
-            <div className='col-lg-1 col-style  d-flex justify-content-end'>
-                <div className='edit-btn-wrapper'>
-                    <button className="edit-button" onClick={() => handlePopup(jsData)}/>
+            <div className='col-lg col-style  d-flex justify-content-center'>
+                <div className='table-text show-btn-wrapper'>
+                    <button className="albion-button" onClick={() => handlePopup(jsData)}/>
                 </div>
             </div>
         </div>
@@ -130,31 +127,37 @@ export default function ItemTableRow(
                         Buy
                     </h3>
 
-                    <div className={`row b-b ${index==0?"b-t":""}`}>
-                        <div className='col d-flex b-r show-table-col'>
-                            <ItemImage id={buy["ign"]} ign={buy["ign"]}/>
-                            <p>
-                                {buy["ign"]}
-                            </p>
-                        </div>
-                        <div className='col b-r show-table-col'>
-                            <p>
-                                Amount
-                            </p>
-                            <p>
-                                {buy["amount"]}
-                            </p>
-                        </div>
-                        <div className='col show-table-col'>
-                            <p>
-                                City Buy
-                            </p>
-                            <p>
-                                {buy["city_buy"]}
-                            </p>
-                        </div>
-                    </div>
-                
+                    {
+                        buy[0].map((item,index)=>(
+                            <>
+                                <div className={`row b-b ${index==0?"b-t":""}`}>
+                                    <div className='col d-flex b-r show-table-col'>
+                                        <ItemImage id={item[0]} ign={item[1]}/>
+                                        <p>
+                                            {item[1]}
+                                        </p>
+                                    </div>
+                                    <div className='col b-r show-table-col'>
+                                        <p>
+                                            Amount
+                                        </p>
+                                        <p>
+                                            {item[3]}
+                                        </p>
+                                    </div>
+                                    <div className='col show-table-col'>
+                                        <p>
+                                            City Buy
+                                        </p>
+                                        <p>
+                                            {item[2]}
+                                        </p>
+                                    </div>
+                                </div>
+                            </>
+                            )
+                        )
+                    }   
                 
                 </div>
 
@@ -162,32 +165,37 @@ export default function ItemTableRow(
                     <h3 className='show-text'>
                         Craft
                     </h3>
-                 
-                    <div className={`row b-b ${index==0?"b-t":""}`}>
-                        <div className='col d-flex b-r show-table-col'>
-                            <ItemImage id={craft["ign"]} ign={craft["ign"]}/>
-                            <p>
-                                {craft["ign"]}
-                            </p>
-                        </div>
-                        <div className='col b-r show-table-col'>
-                            <p>
-                                Amount
-                            </p>
-                            <p>
-                                {parseInt(craft["amount"])}
-                            </p>
-                        </div>
-                        <div className='col b-r show-table-col'>
-                            <p>
-                                City craft
-                            </p>
-                            <p>
-                                {craft["city_craft"]}
-                            </p>
-                        </div>
-                    </div>
-                
+                    {
+                        craft[0].map((item,index)=>(
+                            <>
+                                <div className={`row b-b ${index==0?"b-t":""}`}>
+                                    <div className='col d-flex b-r show-table-col'>
+                                        <ItemImage id={item[0]} ign={item[1]}/>
+                                        <p>
+                                            {item[1]}
+                                        </p>
+                                    </div>
+                                    <div className='col b-r show-table-col'>
+                                        <p>
+                                            Amount
+                                        </p>
+                                        <p>
+                                            {item[3]}
+                                        </p>
+                                    </div>
+                                    <div className='col b-r show-table-col'>
+                                        <p>
+                                            City craft
+                                        </p>
+                                        <p>
+                                            {item[2]}
+                                        </p>
+                                    </div>
+                                </div>
+                            </>
+                            )
+                        )
+                    } 
                 </div>
             </div>
            

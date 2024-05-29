@@ -1,0 +1,7 @@
+.about-page-class{
+    margin-top: 2%;
+    text-align: left;
+}
+.about-page-class li{
+    list-style-type:url('../images/shield/shield.eps');
+}

@@ -1,20 +1,21 @@
-const site_input = require('./build/site_input.json');
-const final = require('./build/final.json');
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const app = express();
-const PORT = 420;
 
 app.use(cors());
+app.use(express.static('build'));
 
-app.get('/site_input.json', (req, res) => {
-    res.json(site_input);
+app.listen(420, () => {
+  console.log('App listening on port 420');
 });
-
-app.get('/final.json', (req, res) => {
-  res.json(final);
-});
-
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'),(err)=>
+  {
+    if(err)
+    res.status(500).send(err);
+  }
+  );
+  //Catch-all server route
+  //useful when loading different endpoint in Single Page Applications
 });

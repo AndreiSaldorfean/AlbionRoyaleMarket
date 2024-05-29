@@ -10,15 +10,8 @@ export default function Market(
         receiveData
     }
 ){
-    let [trigger,setTriger] = useState(0);
     const handleDataSent = (item)=>{
         sendData(item);
-    }
-    const handleCalculate = (item)=>{
-        setTriger(item);
-    }
-    const handleSetCalculate = (item)=>{
-        setTriger(item);
     }
 
     const handlePopup =()=>{
@@ -30,8 +23,8 @@ export default function Market(
                 <div className='tables-wrapper p-2'>    
                     <div className='wood-texture'/>
                     <h2 className='marketplace'>Marketplace</h2>
-                    <InputMenu3 calculate={handleCalculate}/>
-                    <ItemsTable openPopup={handlePopup} sendData={handleDataSent} receiveData={receiveData} calculate={trigger} setCalculate={handleSetCalculate}/>
+                    <InputMenu3/>
+                    <ItemsTable openPopup={handlePopup} sendData={handleDataSent} receiveData={receiveData}/>
                 </div>
             </div>
         </>
