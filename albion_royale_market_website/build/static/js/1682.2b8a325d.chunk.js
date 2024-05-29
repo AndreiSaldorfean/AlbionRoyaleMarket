@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[1682],{1682:(a,e,l)=>{async function n(a){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await a.addMover("parallax",(async()=>{const{ParallaxMover:a}=await Promise.all([l.e(8306),l.e(8954)]).then(l.bind(l,8954));return new a}),e)}l.d(e,{loadParallaxMover:()=>n})}}]);
-//# sourceMappingURL=1682.2b8a325d.chunk.js.map

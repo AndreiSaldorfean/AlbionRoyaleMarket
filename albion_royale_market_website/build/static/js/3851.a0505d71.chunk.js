@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[3851],{3851:(e,a,n)=>{async function t(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addInteractor("externalSlow",(async e=>{const{Slower:a}=await Promise.all([n.e(8306),n.e(8664)]).then(n.bind(n,8664));return new a(e)}),a)}n.d(a,{loadExternalSlowInteraction:()=>t})}}]);
-//# sourceMappingURL=3851.a0505d71.chunk.js.map

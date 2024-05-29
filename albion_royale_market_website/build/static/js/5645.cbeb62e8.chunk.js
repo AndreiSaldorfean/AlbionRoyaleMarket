@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[5645],{5645:(e,t,a)=>{a.d(t,{SquareDrawer:()=>s});const r=Math.sqrt(2);class s{draw(e){!function(e){const{context:t,radius:a}=e,s=a/r,n=2*s;t.rect(-s,-s,n,n)}(e)}getSidesCount(){return 4}}}}]);
-//# sourceMappingURL=5645.cbeb62e8.chunk.js.map

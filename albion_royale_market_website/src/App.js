@@ -1,25 +1,27 @@
-
-import bg from './images/woodtexture.jpg';
 import Menu from './components/Menu.js';
 import Particles,{initParticlesEngine} from '@tsparticles/react';
 import './App.css';
-import pOptions from './particles.json'
 import './css/Particles.css';
 import { useEffect, useMemo, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
-import Header from './components/Header.js';
 import './css/Design.css';
 import Market from './components/Market.js';
 import Footer from './components/Footer.js';
 import Banners from './components/Banners.js';
 import logo from './images/Logo3.png';
+import Popup from './components/Popup.js';
 
 
 function App() {
+  
   const [init, setInit] = useState(false);
 
-  // this should be run only once per application lifetime
   useEffect(() => {
+    document.title="AlbionRoyalMarket"
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = './images/icon/icon.ico'; 
+
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
     }).then(() => {
@@ -27,11 +29,7 @@ function App() {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
-
-  const options = useMemo(
+  const options = useMemo( 
     () => ({
       fpsLimit: 120,
       particles: {
@@ -83,12 +81,31 @@ function App() {
     [],
   );
 
+  let [active,setActivity] = useState(0);
+  let [data,setDataReceived] = useState([]);
+
+  const handlePopup = (state)=>{
+    setActivity(state);
+  }
+  const handleActive = (state)=>{
+    setActivity(state);
+  };
+
+  const handleDataSentMarket = (item)=>{
+    setDataReceived(item);
+  }
+  const handleDataSentPopup = (item)=>{
+    setDataReceived(item);
+  }
+  
   return (
     <>
+    <Popup inactive={handleActive} state={active} receiveData={data} sendData={handleDataSentPopup}/>
+
     <div className="App" id='custom-scroll'>
-      
+
       <header className="App-header">
-        
+
         <div className='background'>
           <div className='background-color'/>
           <div className='design'>
@@ -107,11 +124,10 @@ function App() {
         </div>
 
         <div className='main'>
-          <Header/>
           <Menu/>
           <div className='main-wrapper'>
             <img src={logo} className="App-logo" alt="logo"/>
-            <Market/>
+            <Market openPopup={handlePopup} sendData={handleDataSentMarket} receiveData={data}/>
           </div>
           <Footer/>
         </div> 

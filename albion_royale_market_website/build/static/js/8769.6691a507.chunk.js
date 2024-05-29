@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkalbion_royale_market_dev=self.webpackChunkalbion_royale_market_dev||[]).push([[8769],{8769:(t,a,e)=>{async function n(t){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await t.addInteractor("externalAttract",(async a=>{const{Attractor:n}=await Promise.all([e.e(8306),e.e(8506)]).then(e.bind(e,8506));return new n(t,a)}),a)}e.d(a,{loadExternalAttractInteraction:()=>n})}}]);
-//# sourceMappingURL=8769.6691a507.chunk.js.map

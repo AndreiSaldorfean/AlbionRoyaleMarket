@@ -1,0 +1,118 @@
+{
+	"Lymhurst":
+	{
+		"NeighbouringCities":{
+			"Fort Sterling":6,
+			"Caerleon":6,
+			"Bridgewatch":6
+		},
+		"RefiningBonus":{
+			"cloth":0.4
+		},
+		"ProductionBonuses":{
+			"Raw Goose":0.1,
+			"sword":0.15,
+			"bow":0.15,
+			"arcanestaff":0.15,
+			"leather_helmet":0.15,
+			"leather_shoes":0.15
+		}
+	},
+	"Fort Sterling":
+	{
+		"NeighbouringCities":{
+			"Thetford":5,
+			"Caerleon":4,
+			"Lymhurst":6
+		},
+		"RefiningBonus":{
+			"planks":0.4
+		},
+		"ProductionBonuses":{
+				"Raw Chicken":0.1,
+				"Raw Mutton":0.1,
+				"hammer":0.15,
+				"spear":0.15,
+				"holystaff":0.15,
+				"plate_helmet":0.15,
+				"cloth_armor":0.15
+		}
+	},
+	"Thetford":
+	{
+		"NeighbouringCities":{
+			"Fort Sterling":5,
+			"Caerleon":6,
+			"Martlock":5
+		},
+		"RefiningBonus":{
+			"metalbar":0.4
+		},
+		"ProductionBonuses":{
+			"Raw pork":0.1,
+			"mace":0.15,
+			"naturestaff":0.15,
+			"firestaff":0.15,
+			"leather_armor":0.15,
+			"cloth_helmet":0.15
+		}
+	},
+	"Martlock":
+	{
+		"NeighbouringCities":{
+			"Bridgewatch":5,
+			"Caerleon":5,
+			"Thetford":6
+		},
+		"RefiningBonus":{
+			"leather":0.4
+		},
+		"ProductionBonuses":{
+			"Raw Beef":0.1,
+			"axe":0.15,
+			"quarterstaff":0.15,
+			"froststaff":0.15,
+			"plate_shoes":0.15,
+			"offhand":0.15
+		}
+	},
+	"Bridgewatch":
+	{
+		"NeighbouringCities":{
+			"Lymhurst":6,
+			"Caerleon":4,
+			"Martlock":5
+		},
+		"RefiningBonus":{
+			"stoneblock":0.4
+		},
+		"ProductionBonuses":{
+			"Raw Goat":0.1,
+			"crossbow":0.15,
+			"dagger":0.15,
+			"cursestaff":0.15,
+			"plate_armor":0.15,
+			"cloth_shoes":0.15
+		}
+	},
+	"Caerleon":
+	{
+		"NeighbouringCities":{
+			"Lymhurst":6,
+			"Fort Sterling":4,
+			"Thetford":6,
+			"Martlock":5,
+			"Bridgewatch":4
+		},
+		"RefiningBonus":{
+			"none":0
+		},
+		"ProductionBonuses":{
+			"Gathering Gear":0.15,
+			"Tool":0.15,
+			"Food":0.15,
+			"knuckles":0.15,
+			"shapeshifter_staff":0.15	
+		}
+	}
+}
