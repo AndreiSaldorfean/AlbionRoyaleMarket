@@ -12,7 +12,12 @@ export default function ContactPage() {
             <div className='contact-container'>
                 <div className='contact-content'>
                     <div className='contact-text'>
-                        <p>Andrei Saldorfean.</p>
+                        <h2>Andrei Saldorfean</h2>
+                        <p>Passionate about hardware and software, I have began thinkering and starting
+                            different projects during highschool. Now,in my second year as a 
+                            Computer Engineering student I wanted to try something new.
+                            A gamer at heart, I wanted to give Albion Online players a tool to make their lives easier.
+                        </p>
                         <ul>
                             <li>
                                 <a href={andreiLinkedInLink} target='_blank'>
@@ -31,7 +36,12 @@ export default function ContactPage() {
             <div className='contact-container'>
                 <div className='contact-content'>
                     <div className='contact-text'>
-                        <p>Mihai Neag</p>
+                        <h2>Mihai Neag</h2>
+                        <p>Curious how things work behind, I got fascinated with hardware and software,thus 
+                             choosing Computer Engineering as my career path.
+                            Eager to try out new things I got involved in this project together with Andrei 
+                            in order to see what does a web application necessitate.
+                        </p>
                         <ul>
                             <li>
                                 <a href={mihaiLinkedInLink} target='_blank'>LinkedIn</a>

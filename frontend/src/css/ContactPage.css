@@ -32,7 +32,7 @@
 .contact-text a {
     display: inline-block;
     margin-top: 10px;
-    color: #751414;
+    color: #bb2525;
     text-decoration: none;
     font-weight: bold;
 }
@@ -42,9 +42,9 @@
 }
 
 .contact-image img {
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 8px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 12px;
 }
 .contact-text ul{
     list-style-type: none;
